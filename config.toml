@@ -1,10 +1,10 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 2
+parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+# see https://github.com/nvbangg/ReVanced-APK-Builder/blob/main/CONFIG.md for more detailed explanations
 
-# you can use rvmm-config-gen to generate a config
+# you can use https://j-hc.github.io/rvmm-config-gen to generate a config
 
 [YouTube]
 arch = "arm64-v8a"
@@ -13,7 +13,6 @@ included-patches = "'Hide ads' 'Video ads' 'Navigation buttons' 'Hide Shorts com
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Youtube-Music]
 arch = "arm64-v8a"
@@ -21,14 +20,12 @@ excluded-patches = "'Permanent repeat' 'Custom branding' 'Hide buttons' 'Hide ca
 included-patches = "'Hide music video ads' 'Enable exclusive audio playback' 'Navigation bar' 'Hide ''Get Music Premium''' 'Bypass certificate checks' 'Remove background playback restrictions' 'Sanitize sharing links'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Google-Photos]
 arch = "arm64-v8a"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 [Spotify]
 enabled = false
@@ -56,27 +53,25 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Twitch]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
+arch = "arm64-v8a"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
 [Twitter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-build-mode = "apk"
-dpi = "120-640dpi"
+arch = "arm64-v8a"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+# dpi = "120-640dpi"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [TikTok]
 arch = "arm64-v8a"
 uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 # included-patches = "'SIM spoof'"
 
 [Messenger]
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 
 [IconPackStudio]
@@ -105,3 +100,36 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-ve
 [Duolingo]
 arch = "arm64-v8a"
 uptodown-dlurl = "https://duolingo.en.uptodown.com/android"
+
+[Reddit]
+arch = "arm64-v8a"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[SoundCloud]
+arch = "arm64-v8a"
+uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
+
+[Viber]
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/viber-media-s-a-r-l/viber/"
+
+[Prime-Video]
+arch = "arm64-v8a"
+uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
+
+[Disney]
+arch = "arm64-v8a"
+uptodown-dlurl = "https://disney-disneyplus.en.uptodown.com/android"
+
+[Lightroom]
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
+# uptodown-dlurl = "https://adobe-lightroom-mobile.en.uptodown.com/android"
+
+[Tumblr]
+arch = "arm64-v8a"
+uptodown-dlurl = "https://tumblr.en.uptodown.com/android"
+
+[Photomath]
+arch = "arm64-v8a"
+uptodown-dlurl = "https://photomath.en.uptodown.com/android"

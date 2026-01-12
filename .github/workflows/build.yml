@@ -107,6 +107,28 @@ jobs:
           file_pattern: build.md *-update.json
           commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
 
+      - name: Backup build.md
+        run: cp build.md /tmp/build.md
+
+      - name: Checkout current branch for README update
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 1
+
+      - name: Restore build.md
+        run: cp /tmp/build.md build.md
+
+      - name: Update README with new versions
+        run: |
+          python update_readme.py ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+
+      - name: Commit updated README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: README.md
+          commit_message: Auto update README with release ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+
       - name: Report to Telegram
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
