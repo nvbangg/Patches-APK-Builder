@@ -30,7 +30,7 @@ REMOVE_RV_INTEGRATIONS_CHECKS=$(toml_get "$main_config_t" remove-rv-integrations
 DEF_PATCHES_VER=$(toml_get "$main_config_t" patches-version) || DEF_PATCHES_VER="latest"
 DEF_CLI_VER=$(toml_get "$main_config_t" cli-version) || DEF_CLI_VER="latest"
 DEF_PATCHES_SRC=$(toml_get "$main_config_t" patches-source) || DEF_PATCHES_SRC="ReVanced/revanced-patches"
-DEF_CLI_SRC=$(toml_get "$main_config_t" cli-source) || DEF_CLI_SRC="j-hc/revanced-cli"
+DEF_CLI_SRC=$(toml_get "$main_config_t" cli-source) || DEF_CLI_SRC="ReVanced/revanced-cli"
 DEF_RV_BRAND=$(toml_get "$main_config_t" rv-brand) || DEF_RV_BRAND="ReVanced"
 DEF_DPI_LIST=$(toml_get "$main_config_t" dpi) || DEF_DPI_LIST="nodpi anydpi"
 mkdir -p "$TEMP_DIR" "$BUILD_DIR"
@@ -38,6 +38,13 @@ mkdir -p "$TEMP_DIR" "$BUILD_DIR"
 if [ "${2-}" = "--config-update" ]; then
 	config_update
 	exit 0
+fi
+
+# Preserve patches info from build.md before resetting
+if [ -f build.md ]; then
+    EXISTING_PATCHES_INFO=$(grep "^Patches: " build.md 2>/dev/null || :)
+else
+    EXISTING_PATCHES_INFO=""
 fi
 
 : >build.md
@@ -60,8 +67,20 @@ gh_dl "${MODULE_TEMPLATE_DIR}/bin/x86/cmpr" "https://github.com/j-hc/cmpr/releas
 gh_dl "${MODULE_TEMPLATE_DIR}/bin/x64/cmpr" "https://github.com/j-hc/cmpr/releases/latest/download/cmpr-x86_64"
 
 declare -A cliriplib
+PATCHES_SOURCE_FILTER="${2-}"
+if [ "${PATCHES_SOURCE_FILTER}" == "All" ]; then
+    PATCHES_SOURCE_FILTER=""
+fi
+
 idx=0
 for table_name in $(toml_get_table_names); do
+    if [ -n "$PATCHES_SOURCE_FILTER" ]; then
+        t=$(toml_get_table "$table_name")
+        app_patches_src=$(toml_get "$t" patches-source) || app_patches_src=$DEF_PATCHES_SRC
+        if [[ "${app_patches_src,,}" != "${PATCHES_SOURCE_FILTER,,}" ]]; then
+            continue
+        fi
+    fi
 	if [ -z "$table_name" ]; then continue; fi
 	t=$(toml_get_table "$table_name")
 	enabled=$(toml_get "$t" enabled) || enabled=true
@@ -170,6 +189,19 @@ if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 # log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store"
 # log "\n[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)\n"
 log "\n$(cat "$TEMP_DIR"/*/changelog.md)"
+
+# If patches filter was used, log skipped patches sources from build.md
+if [ -n "$PATCHES_SOURCE_FILTER" ] && [ -n "$EXISTING_PATCHES_INFO" ]; then
+    log "\nSkipped:"
+    while IFS= read -r line; do
+        patches_name=$(echo "$line" | sed 's/^Patches: //' | sed 's/\/.*//')
+        filter_name="${PATCHES_SOURCE_FILTER%%/*}"
+        if [[ "${patches_name,,}" != "${filter_name,,}" ]]; then
+            log "$line"
+        fi
+    done <<< "$EXISTING_PATCHES_INFO"
+fi
+
 
 SKIPPED=$(cat "$TEMP_DIR"/skipped 2>/dev/null || :)
 if [ -n "$SKIPPED" ]; then

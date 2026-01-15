@@ -29,7 +29,7 @@ for line in build.splitlines():
         else:
             pattern = rf"\[!\[Download-{re.escape(app_name)}\].*?\.apk\)"
 
-        for match in re.finditer(pattern, readme, re.DOTALL):
+        for match in re.finditer(pattern, readme, re.DOTALL | re.IGNORECASE):
             old_badge = match.group(0)
 
             # Split into [Start+Badge] and [DownloadLink] 
@@ -45,7 +45,7 @@ for line in build.splitlines():
                 # 2. Update Download Link
                 # Matches -v...-arm or -v...-all
                 parts[-1] = re.sub(
-                    r"(-v).*?(-(?:arm|all|x86))", f"\\g<1>{link_version}\\g<2>", parts[-1]
+                    r"(-v).*?(-(?:arm|all))", f"\\g<1>{link_version}\\g<2>", parts[-1]
                 )
                 parts[-1] = re.sub(r"download/\d+/", f"download/{tag}/", parts[-1])
 

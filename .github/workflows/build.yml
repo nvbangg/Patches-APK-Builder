@@ -8,6 +8,20 @@ on:
         default: true
 
   workflow_dispatch:
+    inputs:
+      patches_source:
+        description: "Patches Source to build"
+        required: false
+        type: choice
+        options:
+          - "All"
+          - "ReVanced/revanced-patches"
+          - "MorpheApp/morphe-patches"
+          - "Aunali321/ReVancedExperiments"
+          - "anddea/revanced-patches"
+          - "scrazzz/my-revanced-patches"
+          - "indrastorms/Dropped-Patches"
+
 
 jobs:
   run:
@@ -25,14 +39,16 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Checkout build.md from update branch
+        run: |
+          git checkout origin/update build.md 2>/dev/null || echo "No existing build.md found"
+
       - name: Update config
         if: ${{ inputs.from_ci }}
         run: |
-          if git checkout origin/update build.md; then
-            UPDATE_CFG=$(./build.sh config.toml --config-update)
-            if [ "$UPDATE_CFG" ]; then
-              echo "$UPDATE_CFG" > config.json
-            fi
+          UPDATE_CFG=$(./build.sh config.toml --config-update)
+          if [ "$UPDATE_CFG" ]; then
+            echo "$UPDATE_CFG" > config.json
           fi
 
       - name: Get next version code
@@ -45,7 +61,7 @@ jobs:
           echo "NEXT_VER_CODE=$((TAG + 1))" >> $GITHUB_OUTPUT
 
       - name: Build modules/APKs
-        run: if [ -f "config.json" ]; then ./build.sh config.json; else ./build.sh config.toml; fi
+        run: if [ -f "config.json" ]; then ./build.sh config.json "${{ inputs.patches_source }}"; else ./build.sh config.toml "${{ inputs.patches_source }}"; fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: $GITHUB_REPOSITORY

@@ -22,7 +22,7 @@ remove-rv-integrations-checks = true # remove checks from the revanced integrati
 dpi = "nodpi anydpi 120-640dpi"      # dpi packages to be searched in order. default: "nodpi anydpi"
 
 patches-source = "revanced/revanced-patches" # where to fetch patches bundle from. default: "revanced/revanced-patches"
-cli-source = "j-hc/revanced-cli"             # where to fetch cli from. default: "j-hc/revanced-cli"
+cli-source = "j-hc/revanced-cli"             # where to fetch cli from. default: "ReVanced/revanced-cli"
 # options like cli-source can also set per app
 rv-brand = "ReVanced Extended" # rebrand from 'ReVanced' to something different. default: "ReVanced"
 
