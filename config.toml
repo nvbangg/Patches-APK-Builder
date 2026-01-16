@@ -24,6 +24,7 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Spotify]
 patches-source = "anddea/revanced-patches"
+rv-brand = "anddea"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [TikTok]
@@ -43,11 +44,13 @@ uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 
 [Telegram]
 patches-source = "Aunali321/ReVancedExperiments"
+rv-brand = "revanced-experiments-aunali321"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 
 [Telegram-Web]
 patches-source = "Aunali321/ReVancedExperiments"
+rv-brand = "revanced-experiments-aunali321"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/"
 
 [Twitter]
@@ -101,10 +104,12 @@ uptodown-dlurl = "https://rar-for-android.en.uptodown.com/android"
 [AZ-Screen-Recorder]
 patches-source = "scrazzz/my-revanced-patches"
 patches-version = "dev"
+rv-brand = "scrazzz"
 uptodown-dlurl = "https://az-screen-recorder.en.uptodown.com/android"
 
 [Nova-Launcher]
 patches-source = "indrastorms/Dropped-Patches"
+rv-brand = "dropped-indrastorms"
 uptodown-dlurl = "https://nova-launcher.en.uptodown.com/android"
 
 [Proton-Mail]
@@ -122,6 +127,8 @@ uptodown-dlurl = "https://meme-generator-free.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
 excluded-patches = "'Custom branding'"
 cli-source = "MorpheApp/morphe-cli"
+app-name = "youtube"
+rv-brand = "morphe"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
@@ -129,6 +136,28 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
 excluded-patches = "'Custom branding'"
 cli-source = "MorpheApp/morphe-cli"
+app-name = "youtube-music"
+rv-brand = "morphe"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
+[Instagram-ReVanced-Experiments]
+patches-source = "Aunali321/ReVancedExperiments"
+rv-brand = "aunali321"
+uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+
+[Twitter-Piko]
+patches-source = "crimera/piko"
+rv-brand = "crimera"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+
+[Reddit-RVX-Morphed]
+patches-source = "wchill/rvx-morphed"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "wchill"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[Reddit-Privacy-Patches]
+patches-source = "jkennethcarino/privacy-revanced-patches"
+rv-brand = "jkennethcarino"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
