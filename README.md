@@ -6,12 +6,12 @@
 
 <div align="center">
   
-[![Followers](https://img.shields.io/github/followers/nvbangg?label=Follow%20my%20GitHub&logo=github)](https://github.com/nvbangg) &nbsp; [![Stars](https://img.shields.io/github/stars/nvbangg/ReVanced-APK-Builder?label=Star%20this%20repo&logo=github)](https://github.com/nvbangg/ReVanced-APK-Builder) &nbsp; ![Visitors](https://api.visitorbadge.io/api/visitors?path=ReVanced-APK-Builder&countColor=blue&style=flat&labelStyle=none)
+[![Stars](https://img.shields.io/github/stars/nvbangg/ReVanced-APK-Builder?label=Like%20this%20project%3F%20Star%20it%20⭐&logo=github)](https://github.com/nvbangg/ReVanced-APK-Builder) &nbsp; [![Followers](https://img.shields.io/github/followers/nvbangg?label=Follow%20me&logo=github)](https://github.com/nvbangg) &nbsp; [![Sponsor](https://img.shields.io/badge/Sponsor%20this%20project-pink?style=social&logo=github-sponsors)](https://nvbangg.github.io/#donate)
 
 </div> 
 
 > [!IMPORTANT]
-> **You need to install MicroG and sign in to your Google account to use YouTube, YouTube Music, and Google Photos.**
+> You need to install **MicroG** and sign in to your Google account to use YouTube, YouTube Music, and Google Photos.
 
 <details>
   <summary><h3><a href="https://github.com/MorpheApp">MorpheApp</a> and Other Alternative Apps
@@ -590,7 +590,7 @@ Privacy Patches
 
 [![Anddea Patches](https://img.shields.io/badge/Anddea_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/anddea/revanced-patches)
 
-[![Scrazzz Patches](https://img.shields.io/badge/Scrazzz_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/scrazzz/my-revanced-patches)
+[![Scrazzz Patches](https://img.shields.io/badge/Scrazzz_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/scrazzz/revanced-patches-scruz)
 
 [![Dropped Patches](https://img.shields.io/badge/Dropped_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/indrastorms/Dropped-Patches)
 

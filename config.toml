@@ -104,7 +104,7 @@ uptodown-dlurl = "https://cricbuzz-cricket-scores-and-news.en.uptodown.com/andro
 uptodown-dlurl = "https://rar-for-android.en.uptodown.com/android"
 
 [AZ-Screen-Recorder]
-patches-source = "scrazzz/my-revanced-patches"
+patches-source = "scrazzz/revanced-patches-scruz"
 patches-version = "dev"
 rv-brand = "scrazzz"
 uptodown-dlurl = "https://az-screen-recorder.en.uptodown.com/android"
