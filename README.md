@@ -47,7 +47,7 @@
 
 #### [Reddit (RVX Morphed):](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
-[![Download-Reddit-RVX-Morphed](https://img.shields.io/badge/Download_Reddit_RVX_Morphed-v2025.52.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/2/reddit-rvx-morphed-wchill-v2025.52.0-arm64-v8a.apk)
+[![Download-Reddit-RVX-Morphed](https://img.shields.io/badge/Download_Reddit_RVX_Morphed-v2025.52.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/4/reddit-rvx-morphed-wchill-v2025.52.0-arm64-v8a.apk)
 
 RVX Morphed Patches
 
@@ -69,7 +69,7 @@ Privacy Patches
 
 ### [YouTube:](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 
-[![Download-YouTube](https://img.shields.io/badge/Download_YouTube-v20.14.43-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/2/youtube-revanced-v20.14.43-arm64-v8a.apk)
+[![Download-YouTube](https://img.shields.io/badge/Download_YouTube-v20.14.43-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/4/youtube-revanced-v20.14.43-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -93,7 +93,7 @@ Privacy Patches
 
 ### [YouTube Music:](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 
-[![Download-YouTube-Music](https://img.shields.io/badge/Download_YouTube_Music-v8.10.52-gray?labelColor=FF0000&style=for-the-badge&logo=youtube-music&logoColor=white)](../../releases/download/2/youtube-music-revanced-v8.10.52-arm64-v8a.apk)
+[![Download-YouTube-Music](https://img.shields.io/badge/Download_YouTube_Music-v8.10.52-gray?labelColor=FF0000&style=for-the-badge&logo=youtube-music&logoColor=white)](../../releases/download/4/youtube-music-revanced-v8.10.52-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -148,7 +148,7 @@ Privacy Patches
 
 ### [TikTok:](https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill)
 
-[![Download-TikTok](https://img.shields.io/badge/Download_TikTok-v36.5.4-gray?labelColor=000000&style=for-the-badge&logo=TikTok&logoColor=white)](../../releases/download/2/tiktok-revanced-v36.5.4-arm64-v8a.apk)
+[![Download-TikTok](https://img.shields.io/badge/Download_TikTok-v36.5.4-gray?labelColor=000000&style=for-the-badge&logo=TikTok&logoColor=white)](../../releases/download/4/tiktok-revanced-v36.5.4-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -170,7 +170,7 @@ Privacy Patches
 
 ### [Instagram:](https://play.google.com/store/apps/details?id=com.instagram.android)
 
-[![Download-Instagram](https://img.shields.io/badge/Download_Instagram-v412.0.0.35.87-gray?labelColor=E4405F&style=for-the-badge&logo=Instagram&logoColor=white)](../../releases/download/2/instagram-revanced-v412.0.0.35.87-arm64-v8a.apk)
+[![Download-Instagram](https://img.shields.io/badge/Download_Instagram-v412.0.0.35.87-gray?labelColor=E4405F&style=for-the-badge&logo=Instagram&logoColor=white)](../../releases/download/4/instagram-revanced-v412.0.0.35.87-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -186,7 +186,7 @@ Privacy Patches
 
 ### [Duolingo:](https://play.google.com/store/apps/details?id=com.duolingo)
 
-[![Download-Duolingo](https://img.shields.io/badge/Download_Duolingo-v6.54.5-gray?labelColor=4DC730&style=for-the-badge&logo=Duolingo&logoColor=white)](../../releases/download/2/duolingo-revanced-v6.54.5-arm64-v8a.apk)
+[![Download-Duolingo](https://img.shields.io/badge/Download_Duolingo-v6.54.5-gray?labelColor=4DC730&style=for-the-badge&logo=Duolingo&logoColor=white)](../../releases/download/4/duolingo-revanced-v6.54.5-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -203,7 +203,7 @@ Privacy Patches
 
 **You have to remove the Messenger app before you install the Facebook ReVanced**
 
-[![Download-Facebook](https://img.shields.io/badge/Download_Facebook-v490.0.0.63.82-gray?labelColor=1877F2&style=for-the-badge&logo=Facebook&logoColor=white)](../../releases/download/2/facebook-revanced-v490.0.0.63.82-arm64-v8a.apk)
+[![Download-Facebook](https://img.shields.io/badge/Download_Facebook-v490.0.0.63.82-gray?labelColor=1877F2&style=for-the-badge&logo=Facebook&logoColor=white)](../../releases/download/4/facebook-revanced-v490.0.0.63.82-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -218,7 +218,7 @@ Privacy Patches
 
 ### [Messenger:](https://play.google.com/store/apps/details?id=com.facebook.orca)
 
-[![Download-Messenger](https://img.shields.io/badge/Download_Messenger-v545.0.0.0.1-gray?labelColor=00B2FF&style=for-the-badge&logo=messenger&logoColor=white)](../../releases/download/2/messenger-revanced-v545.0.0.0.1-arm64-v8a.apk)
+[![Download-Messenger](https://img.shields.io/badge/Download_Messenger-v545.0.0.0.1-gray?labelColor=00B2FF&style=for-the-badge&logo=messenger&logoColor=white)](../../releases/download/4/messenger-revanced-v545.0.0.0.1-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -261,7 +261,7 @@ Privacy Patches
 
 ### [X (Twitter):](https://play.google.com/store/apps/details?id=com.twitter.android)
 
-[![Download-Twitter](https://img.shields.io/badge/Download_Twitter-v10.86.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/2/twitter-revanced-v10.86.0-release.0-arm64-v8a.apk)
+[![Download-Twitter](https://img.shields.io/badge/Download_Twitter-v10.86.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/4/twitter-revanced-v10.86.0-release.0-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -279,7 +279,7 @@ Privacy Patches
 
 ### [Twitch:](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
 
-[![Download-Twitch](https://img.shields.io/badge/Download_Twitch-v16.9.1-gray?labelColor=9146FF&style=for-the-badge&logo=Twitch&logoColor=white)](../../releases/download/2/twitch-revanced-v16.9.1-arm64-v8a.apk)
+[![Download-Twitch](https://img.shields.io/badge/Download_Twitch-v16.9.1-gray?labelColor=9146FF&style=for-the-badge&logo=Twitch&logoColor=white)](../../releases/download/4/twitch-revanced-v16.9.1-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -298,7 +298,7 @@ Privacy Patches
 
 ### [Reddit:](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
-[![Download-Reddit](https://img.shields.io/badge/Download_Reddit-v2026.02.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/2/reddit-revanced-v2026.02.0-arm64-v8a.apk)
+[![Download-Reddit](https://img.shields.io/badge/Download_Reddit-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/4/reddit-revanced-v2026.03.0-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -315,7 +315,7 @@ Privacy Patches
 
 ### [SoundCloud:](https://play.google.com/store/apps/details?id=com.soundcloud.android)
 
-[![Download-SoundCloud](https://img.shields.io/badge/Download_SoundCloud-v2025.05.27.release-gray?labelColor=FF5500&style=for-the-badge&logo=SoundCloud&logoColor=white)](../../releases/download/2/soundcloud-revanced-v2025.05.27-release-arm64-v8a.apk)
+[![Download-SoundCloud](https://img.shields.io/badge/Download_SoundCloud-v2025.05.27.release-gray?labelColor=FF5500&style=for-the-badge&logo=SoundCloud&logoColor=white)](../../releases/download/4/soundcloud-revanced-v2025.05.27-release-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -331,7 +331,7 @@ Privacy Patches
 
 ### [Viber:](https://play.google.com/store/apps/details?id=com.viber.voip)
 
-[![Download-Viber](https://img.shields.io/badge/Download_Viber-v26.1.2.0-gray?labelColor=7360F2&style=for-the-badge&logo=Viber&logoColor=white)](../../releases/download/2/viber-revanced-v26.1.2.0-arm64-v8a.apk)
+[![Download-Viber](https://img.shields.io/badge/Download_Viber-v26.1.2.0-gray?labelColor=7360F2&style=for-the-badge&logo=Viber&logoColor=white)](../../releases/download/4/viber-revanced-v26.1.2.0-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -345,7 +345,7 @@ Privacy Patches
 
 ### [Prime Video:](https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient)
 
-[![Download-Prime-Video](https://img.shields.io/badge/Download_Prime_Video-v3.0.412.2947-gray?labelColor=00A8E1&style=for-the-badge&logo=Prime-Video&logoColor=white)](../../releases/download/2/prime-v3.0.412.2947-arm64-v8a.apk)
+[![Download-Prime-Video](https://img.shields.io/badge/Download_Prime_Video-v3.0.412.2947-gray?labelColor=00A8E1&style=for-the-badge&logo=Prime-Video&logoColor=white)](../../releases/download/4/prime-v3.0.412.2947-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -360,7 +360,7 @@ Privacy Patches
 
 ### [Disney+:](https://play.google.com/store/apps/details?id=com.disney.disneyplus)
 
-[![Download-Disney](https://img.shields.io/badge/Download_Disney+-v4.20.2+rc1.2025.12.09-gray?labelColor=113CCF&style=for-the-badge&logo=Disney%2B&logoColor=white)](../../releases/download/2/disney-revanced-v4.20.2+rc1-2025.12.09-arm64-v8a.apk)
+[![Download-Disney](https://img.shields.io/badge/Download_Disney+-v4.20.2+rc1.2025.12.09-gray?labelColor=113CCF&style=for-the-badge&logo=Disney%2B&logoColor=white)](../../releases/download/4/disney-revanced-v4.20.2+rc1-2025.12.09-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -374,7 +374,7 @@ Privacy Patches
 
 ### [Tumblr:](https://play.google.com/store/apps/details?id=com.tumblr)
 
-[![Download-Tumblr](https://img.shields.io/badge/Download_Tumblr-v42.8.0.117-gray?labelColor=36465D&style=for-the-badge&logo=Tumblr&logoColor=white)](../../releases/download/2/tumblr-revanced-v42.8.0.117-arm64-v8a.apk)
+[![Download-Tumblr](https://img.shields.io/badge/Download_Tumblr-v42.8.0.117-gray?labelColor=36465D&style=for-the-badge&logo=Tumblr&logoColor=white)](../../releases/download/4/tumblr-revanced-v42.8.0.117-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -393,7 +393,7 @@ Privacy Patches
 
 ### [Photomath:](https://play.google.com/store/apps/details?id=com.microblink.photomath)
 
-[![Download-Photomath](https://img.shields.io/badge/Download_Photomath-v8.46.0-gray?labelColor=DA2323&style=for-the-badge&logo=Photomath&logoColor=white)](../../releases/download/2/photomath-revanced-v8.46.0-arm64-v8a.apk)
+[![Download-Photomath](https://img.shields.io/badge/Download_Photomath-v8.46.0-gray?labelColor=DA2323&style=for-the-badge&logo=Photomath&logoColor=white)](../../releases/download/4/photomath-revanced-v8.46.0-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -409,7 +409,7 @@ Privacy Patches
 
 ### [Google Recorder:](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder)
 
-[![Download-Google-Recorder](https://img.shields.io/badge/Download_Google_Recorder-v4.2.20251118.834471379-gray?labelColor=F44336&style=for-the-badge&logo=Google&logoColor=white)](../../releases/download/2/google-recorder-revanced-v4.2.20251118.834471379-arm64-v8a.apk)
+[![Download-Google-Recorder](https://img.shields.io/badge/Download_Google_Recorder-v4.2.20251118.834471379-gray?labelColor=F44336&style=for-the-badge&logo=Google&logoColor=white)](../../releases/download/4/google-recorder-revanced-v4.2.20251118.834471379-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -423,7 +423,7 @@ Privacy Patches
 
 ### [Strava:](https://play.google.com/store/apps/details?id=com.strava)
 
-[![Download-Strava](https://img.shields.io/badge/Download_Strava-v446.9-gray?labelColor=FC4C02&style=for-the-badge&logo=Strava&logoColor=white)](../../releases/download/2/strava-revanced-v446.9-arm64-v8a.apk)
+[![Download-Strava](https://img.shields.io/badge/Download_Strava-v446.9-gray?labelColor=FC4C02&style=for-the-badge&logo=Strava&logoColor=white)](../../releases/download/4/strava-revanced-v446.9-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -438,7 +438,7 @@ Privacy Patches
 
 ### [MyFitnessPal:](https://play.google.com/store/apps/details?id=com.myfitnesspal.android)
 
-[![Download-MyFitnessPal](https://img.shields.io/badge/Download_MyFitnessPal-v24.14.2-gray?labelColor=0066EE&style=for-the-badge&logo=MyFitnessPal&logoColor=white)](../../releases/download/2/myfitnesspal-revanced-v24.14.2-arm64-v8a.apk)
+[![Download-MyFitnessPal](https://img.shields.io/badge/Download_MyFitnessPal-v24.14.2-gray?labelColor=0066EE&style=for-the-badge&logo=MyFitnessPal&logoColor=white)](../../releases/download/4/myfitnesspal-revanced-v24.14.2-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -452,7 +452,7 @@ Privacy Patches
 
 ### [Crunchyroll:](https://play.google.com/store/apps/details?id=com.crunchyroll.crunchyroid)
 
-[![Download-Crunchyroll](https://img.shields.io/badge/Download_Crunchyroll-v3.97.3-gray?labelColor=F47521&style=for-the-badge&logo=Crunchyroll&logoColor=white)](../../releases/download/2/crunchyroll-revanced-v3.97.3-arm64-v8a.apk)
+[![Download-Crunchyroll](https://img.shields.io/badge/Download_Crunchyroll-v3.98.0-gray?labelColor=F47521&style=for-the-badge&logo=Crunchyroll&logoColor=white)](../../releases/download/4/crunchyroll-revanced-v3.98.0-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -466,7 +466,7 @@ Privacy Patches
 
 ### [Peacock TV:](https://play.google.com/store/apps/details?id=com.peacocktv.peacockandroid)
 
-[![Download-Peacock-TV](https://img.shields.io/badge/Download_Peacock_TV-v7.1.11-gray?labelColor=000000&style=for-the-badge&logo=Peacock&logoColor=white)](../../releases/download/2/peacock-tv-revanced-v7.1.11-arm64-v8a.apk)
+[![Download-Peacock-TV](https://img.shields.io/badge/Download_Peacock_TV-v7.1.11-gray?labelColor=000000&style=for-the-badge&logo=Peacock&logoColor=white)](../../releases/download/4/peacock-tv-revanced-v7.1.11-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -480,7 +480,7 @@ Privacy Patches
 
 ### [Cricbuzz:](https://play.google.com/store/apps/details?id=com.cricbuzz.android)
 
-[![Download-Cricbuzz](https://img.shields.io/badge/Download_Cricbuzz-v6.24.01-gray?labelColor=009270&style=for-the-badge&logo=Cricbuzz&logoColor=white)](../../releases/download/2/cricbuzz-revanced-v6.24.01-arm64-v8a.apk)
+[![Download-Cricbuzz](https://img.shields.io/badge/Download_Cricbuzz-v6.24.01-gray?labelColor=009270&style=for-the-badge&logo=Cricbuzz&logoColor=white)](../../releases/download/4/cricbuzz-revanced-v6.24.01-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -494,7 +494,7 @@ Privacy Patches
 
 ### [RAR:](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 
-[![Download-RAR](https://img.shields.io/badge/Download_RAR-v7.20.build131-gray?labelColor=000000&style=for-the-badge&logo=WinRAR&logoColor=white)](../../releases/download/2/rar-revanced-v7.20.build131-arm64-v8a.apk)
+[![Download-RAR](https://img.shields.io/badge/Download_RAR-v7.20.build131-gray?labelColor=000000&style=for-the-badge&logo=WinRAR&logoColor=white)](../../releases/download/4/rar-revanced-v7.20.build131-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -508,7 +508,7 @@ Privacy Patches
 
 ### [AZ Screen Recorder:](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free)
 
-[![Download-AZ-Screen-Recorder](https://img.shields.io/badge/Download_AZ_Screen_Recorder-v6.4.3-gray?labelColor=FF5000&style=for-the-badge&logo=Android&logoColor=white)](../../releases/download/2/az-screen-recorder-scrazzz-v6.4.3-arm64-v8a.apk)
+[![Download-AZ-Screen-Recorder](https://img.shields.io/badge/Download_AZ_Screen_Recorder-v6.4.3-gray?labelColor=FF5000&style=for-the-badge&logo=Android&logoColor=white)](../../releases/download/4/az-screen-recorder-scrazzz-v6.4.3-arm64-v8a.apk)
 
 <details>
   <summary>Scrazzz Patches</summary>
@@ -536,7 +536,7 @@ Privacy Patches
 
 ### [Proton Mail:](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 
-[![Download-Proton-Mail](https://img.shields.io/badge/Download_Proton_Mail-v4.15.0-gray?labelColor=6D4AFF&style=for-the-badge&logo=ProtonMail&logoColor=white)](../../releases/download/2/proton-mail-revanced-v4.15.0-arm64-v8a.apk)
+[![Download-Proton-Mail](https://img.shields.io/badge/Download_Proton_Mail-v4.15.0-gray?labelColor=6D4AFF&style=for-the-badge&logo=ProtonMail&logoColor=white)](../../releases/download/4/proton-mail-revanced-v4.15.0-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -551,7 +551,7 @@ Privacy Patches
 
 ### [Proton VPN:](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 
-[![Download-Proton-VPN](https://img.shields.io/badge/Download_Proton_VPN-v5.14.87.0-gray?labelColor=6D4AFF&style=for-the-badge&logo=ProtonVPN&logoColor=white)](../../releases/download/2/proton-v5.14.87.0-arm64-v8a.apk)
+[![Download-Proton-VPN](https://img.shields.io/badge/Download_Proton_VPN-v5.15.5.0-gray?labelColor=6D4AFF&style=for-the-badge&logo=ProtonVPN&logoColor=white)](../../releases/download/4/proton-v5.15.5.0-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
@@ -566,7 +566,7 @@ Privacy Patches
 
 ### [Meme Generator:](https://play.google.com/store/apps/details?id=com.zombodroid.MemeGenerator)
 
-[![Download-Meme-Generator](https://img.shields.io/badge/Download_Meme_Generator-v4.6377-gray?labelColor=000000&style=for-the-badge&logo=Android&logoColor=white)](../../releases/download/2/meme-generator-revanced-v4.6377-arm64-v8a.apk)
+[![Download-Meme-Generator](https://img.shields.io/badge/Download_Meme_Generator-v4.6377-gray?labelColor=000000&style=for-the-badge&logo=Android&logoColor=white)](../../releases/download/4/meme-generator-revanced-v4.6377-arm64-v8a.apk)
 
 <details>
   <summary>ReVanced Patches</summary>
