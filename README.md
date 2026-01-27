@@ -238,11 +238,11 @@ Privacy Patches
 
 - [CH play version:](https://play.google.com/store/apps/details?id=org.telegram.messenger)
 
-[![Download-Telegram](https://img.shields.io/badge/Download_Telegram-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/2/telegram-revanced-experiments-aunali321-v12.3.1-arm64-v8a.apk)
+[![Download-Telegram](https://img.shields.io/badge/Download_Telegram-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/7/telegram-revanced-experiments-aunali321-v12.3.1-arm64-v8a.apk)
 
 - [Web version:](https://telegram.org/android) This version has fewer restrictions
 
-[![Download-Telegram-Web](https://img.shields.io/badge/Download_Telegram_Web-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/2/telegram-web-revanced-experiments-aunali321-v12.3.1-arm64-v8a.apk)  
+[![Download-Telegram-Web](https://img.shields.io/badge/Download_Telegram_Web-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/7/telegram-web-revanced-experiments-aunali321-v12.3.1-arm64-v8a.apk)  
 
 <details>
   <summary>ReVanced Experiments Patches</summary>
