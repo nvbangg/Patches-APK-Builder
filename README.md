@@ -43,7 +43,7 @@
 
 </details>
 
-[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.14.43-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/8/youtube-nvbangg-v20.14.43-arm64-v8a.apk)
+[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/10/youtube-nvbangg-v20.40.45-arm64-v8a.apk)
 
 <details>
   <summary><b>Alternative Versions</b></summary>
@@ -245,7 +245,7 @@
 
 - Piko Patches
 
-[![Download-Twitter-Piko](https://img.shields.io/badge/X_(Twitter)_Piko-v11.60.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/8/twitter-piko-crimera-v11.60.0-release.0-arm64-v8a.apk)
+[![Download-Twitter-Piko](https://img.shields.io/badge/X_(Twitter)_Piko-v11.61.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/10/twitter-piko-crimera-v11.61.0-release.0-arm64-v8a.apk)
 
 </details>
 
