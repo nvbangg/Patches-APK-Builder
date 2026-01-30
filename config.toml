@@ -1,19 +1,45 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
-
-# add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/nvbangg/ReVanced-APK-Builder/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-excluded-patches = "'Alternative thumbnails' 'Announcements' 'Bypass image region restrictions' 'Change form factor' 'Change header' 'Change start page' 'Check watch history domain name resolution' 'Copy video URL' 'Custom branding' 'Custom player overlay opacity' 'Disable auto captions' 'Disable double tap actions' 'Disable fullscreen ambient mode' 'Disable haptic feedback' 'Disable player popup panels' 'Disable rolling number animations' 'Disable sign in to TV popup' 'Disable video codecs' 'Downloads' 'Enable debugging' 'Exit fullscreen mode' 'Force original audio' 'Hide end screen cards' 'Hide end screen suggested video' 'Hide info cards' 'Hide layout components' 'Hide player flyout menu items' 'Hide player overlay buttons' 'Hide related video overlay' 'Hide timestamp' 'Hide video action buttons' 'Loop video' 'Miniplayer' 'Open Shorts in regular player' 'Open videos fullscreen' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Seekbar' 'Shorts autoplay' 'Spoof app version' 'Spoof device dimensions' 'Spoof video streams' 'Swipe controls' 'Theme' 'Wide search bar'"
-included-patches = "'Hide ads' 'Video ads' 'Navigation buttons' 'Hide Shorts components' 'SponsorBlock' 'Disable resuming Shorts on startup' 'Remove background playback restrictions' 'Open links externally' 'Sanitize sharing links' 'Video quality' 'Playback speed' 'Bypass URL redirects'"
-version = "auto"
+patches-source = "nvbangg/nvbangg-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "nvbangg"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+[YouTube-ReVanced]
+excluded-patches = "'Custom branding'"
+app-name = "youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+[YouTube-Morphe]
+patches-source = "MorpheApp/morphe-patches"
+excluded-patches = "'Custom branding'"
+cli-source = "MorpheApp/morphe-cli"
+app-name = "youtube"
+rv-brand = "morphe"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Music]
 excluded-patches = "'Permanent repeat' 'Custom branding' 'Hide buttons' 'Hide category bar' 'Change miniplayer color' 'Theme' 'Enable debugging' 'Check watch history domain name resolution' 'Spoof video streams' 'Force original audio'"
-included-patches = "'Hide music video ads' 'Enable exclusive audio playback' 'Navigation bar' 'Hide ''Get Music Premium''' 'Bypass certificate checks' 'Remove background playback restrictions' 'Sanitize sharing links'"
+rv-brand = "nvbangg"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
+[YouTube-Music-ReVanced]
+excluded-patches = "'Custom branding'"
+app-name = "youtube-music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
+[YouTube-Music-Morphe]
+patches-source = "MorpheApp/morphe-patches"
+excluded-patches = "'Custom branding'"
+cli-source = "MorpheApp/morphe-cli"
+app-name = "youtube-music"
+rv-brand = "morphe"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
@@ -58,10 +84,27 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-ve
 [Twitter]
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
+[Twitter-Piko]
+patches-source = "crimera/piko"
+patches-version = "dev"
+rv-brand = "crimera"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+
 [Twitch]
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
 [Reddit]
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[Reddit-RVX-Morphed]
+patches-source = "wchill/rvx-morphed"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "wchill"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[Reddit-Privacy-Patches]
+patches-source = "jkennethcarino/privacy-revanced-patches"
+rv-brand = "jkennethcarino"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [SoundCloud]
@@ -123,34 +166,3 @@ uptodown-dlurl = "https://protonvpn.en.uptodown.com/android"
 
 [Meme-Generator]
 uptodown-dlurl = "https://meme-generator-free.en.uptodown.com/android"
-
-# === MorpheApp and Other Alternative Apps ===
-
-[YouTube-Morphe]
-patches-source = "MorpheApp/morphe-patches"
-excluded-patches = "'Custom branding'"
-cli-source = "MorpheApp/morphe-cli"
-app-name = "youtube"
-rv-brand = "morphe"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-
-[YouTube-Music-Morphe]
-patches-source = "MorpheApp/morphe-patches"
-excluded-patches = "'Custom branding'"
-cli-source = "MorpheApp/morphe-cli"
-app-name = "youtube-music"
-rv-brand = "morphe"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-
-[Reddit-RVX-Morphed]
-patches-source = "wchill/rvx-morphed"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "wchill"
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-
-[Reddit-Privacy-Patches]
-patches-source = "jkennethcarino/privacy-revanced-patches"
-rv-brand = "jkennethcarino"
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"

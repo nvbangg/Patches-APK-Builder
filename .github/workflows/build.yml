@@ -15,14 +15,16 @@ on:
         type: choice
         options:
           - "All"
+          - "nvbangg/nvbangg-patches"
           - "ReVanced/revanced-patches"
           - "MorpheApp/morphe-patches"
-          - "Aunali321/ReVancedExperiments"
+          - "wchill/rvx-morphed"
           - "anddea/revanced-patches"
+          - "Aunali321/ReVancedExperiments"
+          - "crimera/piko"
+          - "jkennethcarino/privacy-revanced-patches"
           - "scrazzz/revanced-patches-scruz"
           - "indrastorms/Dropped-Patches"
-          - "wchill/rvx-morphed"
-          - "jkennethcarino/privacy-revanced-patches"
 
 
 jobs:
