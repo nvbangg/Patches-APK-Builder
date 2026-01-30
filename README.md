@@ -1,12 +1,13 @@
-# ReVanced APK Builder
+# Patches APK Builder
 
 > [!NOTE]
-> This repository automatically builds Morphe and ReVanced APK apps after each patch release.    
-> Download and install the apps you want to use below.
+> This repository automatically builds APK apps with Morphe, ReVanced, and many other patches after each patch release.    
+> ⬇️ Download and install the apps you want to use below.  
+> 📱 Easily install and update apps with Obtainium: [See Guide](GUIDE.md)
 
 <div align="center">
   
-[![Stars](https://img.shields.io/github/stars/nvbangg/ReVanced-APK-Builder?label=Like%20this%20project%3F%20Star%20it%20⭐&logo=github)](https://github.com/nvbangg/ReVanced-APK-Builder) &nbsp; [![Followers](https://img.shields.io/github/followers/nvbangg?label=Follow%20me&logo=github)](https://github.com/nvbangg) &nbsp; [![Sponsor](https://img.shields.io/badge/Sponsor%20this%20project-pink?style=social&logo=github-sponsors)](https://nvbangg.github.io/#donate)
+[![Stars](https://img.shields.io/github/stars/nvbangg/Patches-APK-Builder?label=Like%20this%20project%3F%20Star%20it%20⭐&logo=github)](https://github.com/nvbangg/Patches-APK-Builder) &nbsp; [![Followers](https://img.shields.io/github/followers/nvbangg?label=Follow%20me&logo=github)](https://github.com/nvbangg) &nbsp; [![Sponsor](https://img.shields.io/badge/Sponsor%20this%20project-pink?style=social&logo=github-sponsors)](https://nvbangg.github.io/#donate)
 
 </div> 
 
@@ -14,11 +15,11 @@
 ### MicroG
 
 > [!IMPORTANT]
-> You need to install [MicroG](https://github.com/ReVanced/GmsCore/releases) or [MicroG-RE](https://github.com/MorpheApp/MicroG-RE/releases) and sign in to your Google account to use **YouTube**, **YouTube Music**, and **Google Photos**.
+> You need to install **MicroG** or **MicroG-RE** and sign in to your Google account to use **YouTube**, **YouTube Music**, and **Google Photos**.
 
-[![MicroG ReVanced](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=MicroG&style=for-the-badge)](https://github.com/ReVanced/GmsCore/releases) 
+[![MicroG](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=MicroG&style=for-the-badge)](https://github.com/ReVanced/GmsCore/releases) 
 
-[![MicroG Morphe](https://img.shields.io/github/v/release/MorpheApp/MicroG-RE?label=MicroG-RE&style=for-the-badge)](https://github.com/MorpheApp/MicroG-RE/releases) 
+[![MicroG-RE](https://img.shields.io/github/v/release/MorpheApp/MicroG-RE?label=MicroG-RE&style=for-the-badge)](https://github.com/MorpheApp/MicroG-RE/releases) 
 
 ---
 ### [YouTube:](https://play.google.com/store/apps/details?id=com.google.android.youtube)
@@ -43,7 +44,7 @@
 
 </details>
 
-[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/10/youtube-nvbangg-v20.40.45-arm64-v8a.apk)
+[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/11/youtube-nvbangg-v20.40.45-arm64-v8a.apk)
 
 <details>
   <summary><b>Alternative Versions</b></summary>
@@ -217,11 +218,11 @@
 
 - [CH play version:](https://play.google.com/store/apps/details?id=org.telegram.messenger)
 
-[![Download-Telegram](https://img.shields.io/badge/Telegram-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/8/telegram-revanced-experiments-aunali321-v12.3.1-arm64-v8a.apk)
+[![Download-Telegram](https://img.shields.io/badge/Telegram-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/8/telegram-revanced-experiments-v12.3.1-arm64-v8a.apk)
 
 - [Web version:](https://telegram.org/android) This version has fewer restrictions
 
-[![Download-Telegram-Web](https://img.shields.io/badge/Telegram_Web-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/8/telegram-web-revanced-experiments-aunali321-v12.3.1-arm64-v8a.apk)  
+[![Download-Telegram-Web](https://img.shields.io/badge/Telegram_Web-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/8/telegram-web-revanced-experiments-v12.3.1-arm64-v8a.apk)  
 
 ---
 ### [X (Twitter):](https://play.google.com/store/apps/details?id=com.twitter.android)
@@ -245,7 +246,7 @@
 
 - Piko Patches
 
-[![Download-Twitter-Piko](https://img.shields.io/badge/X_(Twitter)_Piko-v11.61.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/10/twitter-piko-crimera-v11.61.0-release.0-arm64-v8a.apk)
+[![Download-Twitter-Piko](https://img.shields.io/badge/X_(Twitter)_Piko-v11.61.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/10/twitter-piko-v11.61.0-release.0-arm64-v8a.apk)
 
 </details>
 
@@ -287,11 +288,11 @@
 
 - RVX Morphed Patches 
 
-[![Download-Reddit-RVX-Morphed](https://img.shields.io/badge/Reddit_RVX_Morphed-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/8/reddit-rvx-morphed-wchill-v2026.03.0-arm64-v8a.apk)
+[![Download-Reddit-RVX-Morphed](https://img.shields.io/badge/Reddit_RVX_Morphed-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/8/reddit-rvx-morphed-v2026.03.0-arm64-v8a.apk)
 
 - Privacy Patches
 
-[![Download-Reddit-Privacy-Patches](https://img.shields.io/badge/Reddit_Privacy_Patches-v2026.04.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/8/reddit-privacy-patches-jkennethcarino-v2026.04.0-arm64-v8a.apk)
+[![Download-Reddit-Privacy-Patches](https://img.shields.io/badge/Reddit_Privacy_Patches-v2026.04.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/8/reddit-privacy-patches-v2026.04.0-arm64-v8a.apk)
 
 </details>
 
@@ -332,7 +333,7 @@
 
 </details>
 
-[![Download-Prime-Video](https://img.shields.io/badge/Prime_Video-v3.0.412.2947-gray?labelColor=00A8E1&style=for-the-badge&logo=Prime-Video&logoColor=white)](../../releases/download/8/prime-v3.0.412.2947-arm64-v8a.apk)
+[![Download-Prime-Video](https://img.shields.io/badge/Prime_Video-v3.0.412.2947-gray?labelColor=00A8E1&style=for-the-badge&logo=Prime-Video&logoColor=white)](../../releases/download/8/prime-video-revanced-v3.0.412.2947-arm64-v8a.apk)
 
 ---
 ### [Disney+:](https://play.google.com/store/apps/details?id=com.disney.disneyplus)
@@ -484,7 +485,7 @@
 
 </details>
 
-[![Download-Nova-Launcher](https://img.shields.io/badge/Nova_Launcher-v81018(8.2.8)-gray?labelColor=222222&style=for-the-badge&logo=Nova-Launcher&logoColor=white)](../../releases/download/8/nova-launcher-dropped-indrastorms-v81018.8.2.8.-arm64-v8a.apk)
+[![Download-Nova-Launcher](https://img.shields.io/badge/Nova_Launcher-v81018(8.2.8)-gray?labelColor=222222&style=for-the-badge&logo=Nova-Launcher&logoColor=white)](../../releases/download/8/nova-launcher-dropped-patches-v81018.8.2.8.-arm64-v8a.apk)
 
 ---
 ### [Proton Mail:](https://play.google.com/store/apps/details?id=ch.protonmail.android)
@@ -510,7 +511,7 @@
 
 </details>
 
-[![Download-Proton-VPN](https://img.shields.io/badge/Proton_VPN-v5.15.5.2-gray?labelColor=6D4AFF&style=for-the-badge&logo=ProtonVPN&logoColor=white)](../../releases/download/8/proton-v5.15.5.2-arm64-v8a.apk)
+[![Download-Proton-VPN](https://img.shields.io/badge/Proton_VPN-v5.15.5.2-gray?labelColor=6D4AFF&style=for-the-badge&logo=ProtonVPN&logoColor=white)](../../releases/download/8/proton-vpn-revanced-v5.15.5.2-arm64-v8a.apk)
 
 ---
 ### [Meme Generator:](https://play.google.com/store/apps/details?id=com.zombodroid.MemeGenerator)

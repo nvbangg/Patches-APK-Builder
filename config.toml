@@ -1,4 +1,5 @@
-# see https://github.com/nvbangg/ReVanced-APK-Builder/blob/main/CONFIG.md for more detailed explanations
+parallel-jobs = 1
+# see https://github.com/nvbangg/Patches-APK-Builder/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
 patches-source = "nvbangg/nvbangg-patches"
@@ -70,15 +71,13 @@ uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 
 [Telegram]
 patches-source = "Aunali321/ReVancedExperiments"
-app-name = "telegram-revanced-experiments"
-rv-brand = "aunali321"
+rv-brand = "revanced-experiments"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 
 [Telegram-Web]
 patches-source = "Aunali321/ReVancedExperiments"
-app-name = "telegram-web-revanced-experiments"
-rv-brand = "aunali321"
+rv-brand = "revanced-experiments"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/"
 
 [Twitter]
@@ -87,7 +86,6 @@ uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 [Twitter-Piko]
 patches-source = "crimera/piko"
 patches-version = "dev"
-rv-brand = "crimera"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [Twitch]
@@ -99,12 +97,10 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 [Reddit-RVX-Morphed]
 patches-source = "wchill/rvx-morphed"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "wchill"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [Reddit-Privacy-Patches]
 patches-source = "jkennethcarino/privacy-revanced-patches"
-rv-brand = "jkennethcarino"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [SoundCloud]
@@ -154,8 +150,7 @@ uptodown-dlurl = "https://az-screen-recorder.en.uptodown.com/android"
 
 [Nova-Launcher]
 patches-source = "indrastorms/Dropped-Patches"
-app-name = "nova-launcher-dropped"
-rv-brand = "indrastorms"
+rv-brand = "dropped-patches"
 uptodown-dlurl = "https://nova-launcher.en.uptodown.com/android"
 
 [Proton-Mail]
