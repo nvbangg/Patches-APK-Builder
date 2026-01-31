@@ -44,14 +44,14 @@
 
 </details>
 
-[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/12/youtube-nvbangg-v20.40.45-arm64-v8a.apk)
+[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/13/youtube-nvbangg-v20.40.45-arm64-v8a.apk)
 
 <details>
   <summary><h3>Alternative Versions</h3></summary>
 
 - MorpheApp/morphe-patches
 
-[![Download-YouTube-Morphe](https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/12/youtube-morphe-v20.40.45-arm64-v8a.apk)
+[![Download-YouTube-Morphe](https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/13/youtube-morphe-v20.40.45-arm64-v8a.apk)
 
 - ReVanced/revanced-patches
 
@@ -86,7 +86,7 @@
 
 - MorpheApp/morphe-patches
 
-[![Download-YouTube-Music-Morphe](https://img.shields.io/badge/YouTube_Music_Morphe-v8.40.54-gray?labelColor=FF0000&style=for-the-badge&logo=youtube-music&logoColor=white)](../../releases/download/12/youtube-music-morphe-v8.40.54-arm64-v8a.apk)
+[![Download-YouTube-Music-Morphe](https://img.shields.io/badge/YouTube_Music_Morphe-v8.40.54-gray?labelColor=FF0000&style=for-the-badge&logo=youtube-music&logoColor=white)](../../releases/download/13/youtube-music-morphe-v8.40.54-arm64-v8a.apk)
 
 </details>
 
@@ -216,11 +216,11 @@
 
 - [CH play version:](https://play.google.com/store/apps/details?id=org.telegram.messenger)
 
-[![Download-Telegram](https://img.shields.io/badge/Telegram-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/12/telegram-aunali321-v12.3.1-arm64-v8a.apk)
+[![Download-Telegram](https://img.shields.io/badge/Telegram-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/13/telegram-aunali321-v12.3.1-arm64-v8a.apk)
 
 - [Web version:](https://telegram.org/android) This version has fewer restrictions
 
-[![Download-Telegram-Web](https://img.shields.io/badge/Telegram_Web-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/12/telegram-web-aunali321-v12.3.1-arm64-v8a.apk)  
+[![Download-Telegram-Web](https://img.shields.io/badge/Telegram_Web-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/13/telegram-web-aunali321-v12.3.1-arm64-v8a.apk)  
 
 ---
 ### [X (Twitter):](https://play.google.com/store/apps/details?id=com.twitter.android)
@@ -243,7 +243,7 @@
 
 - crimera/piko
 
-[![Download-Twitter-Piko](https://img.shields.io/badge/X_(Twitter)_Piko-v11.61.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/12/twitter-crimera-v11.61.0-release.0-arm64-v8a.apk)
+[![Download-Twitter-Piko](https://img.shields.io/badge/X_(Twitter)_Piko-v11.61.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/13/twitter-crimera-v11.61.0-release.0-arm64-v8a.apk)
 
 </details>
 
@@ -284,15 +284,15 @@
 
 - MorpheApp/morphe-patches
 
-[![Download-Reddit-Morphe](https://img.shields.io/badge/Reddit_Morphe-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/12/reddit-morphe-v2026.03.0-arm64-v8a.apk)
+[![Download-Reddit-Morphe](https://img.shields.io/badge/Reddit_Morphe-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/13/reddit-morphe-v2026.03.0-arm64-v8a.apk)
 
 - wchill/rvx-morphed
 
-[![Download-Reddit-RVX-Morphed](https://img.shields.io/badge/Reddit_RVX_Morphed-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/12/reddit-wchill-v2026.03.0-arm64-v8a.apk)
+[![Download-Reddit-RVX-Morphed](https://img.shields.io/badge/Reddit_RVX_Morphed-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/13/reddit-wchill-v2026.03.0-arm64-v8a.apk)
 
 - jkennethcarino/privacy-revanced-patches
 
-[![Download-Reddit-Privacy-Patches](https://img.shields.io/badge/Reddit_Privacy_Patches-v2026.04.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/12/reddit-jkennethcarino-v2026.04.0-arm64-v8a.apk)
+[![Download-Reddit-Privacy-Patches](https://img.shields.io/badge/Reddit_Privacy_Patches-v2026.04.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/13/reddit-jkennethcarino-v2026.04.0-arm64-v8a.apk)
 
 </details>
 
@@ -485,7 +485,7 @@
 
 </details>
 
-[![Download-Nova-Launcher](https://img.shields.io/badge/Nova_Launcher-v81023(8.3.1)-gray?labelColor=222222&style=for-the-badge&logo=Nova-Launcher&logoColor=white)](../../releases/download/12/nova-launcher-indrastorms-v81023.8.3.1.-arm64-v8a.apk)
+[![Download-Nova-Launcher](https://img.shields.io/badge/Nova_Launcher-v81023(8.3.1)-gray?labelColor=222222&style=for-the-badge&logo=Nova-Launcher&logoColor=white)](../../releases/download/13/nova-launcher-indrastorms-v81023.8.3.1.-arm64-v8a.apk)
 
 ---
 ### [Proton Mail:](https://play.google.com/store/apps/details?id=ch.protonmail.android)
