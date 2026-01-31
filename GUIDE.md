@@ -5,9 +5,9 @@
 ## How to add the app to Obtainium
 
 ![image1](images/image1.jpg)
-![image2](images/image2.jpg)
 
 ### In step 2, Enter `https://github.com/nvbangg/Patches-APK-Builder`
+
 ### In step 3, Enter the expression for the app you want below:
 
 - YouTube: `youtube-nvbangg`
@@ -18,36 +18,37 @@
 - YouTube Music ReVanced: `youtube-music-revanced`
 - YouTube Music Morphe: `youtube-music-morphe`
 
-- Google Photos: `google-photos-revanced`
-- Spotify: `spotify-anddea`
-- TikTok: `tiktok-revanced`
-- Instagram: `instagram-revanced`
-- Duolingo: `duolingo-revanced`
-- Facebook: `facebook-revanced`
-- Messenger: `messenger-revanced`
-- Telegram (CH Play): `telegram-revanced-experiments`
-- Telegram Web: `telegram-web-revanced-experiments`
+- Google Photos: `google-photos`
+- Spotify: `spotify`
+- TikTok: `tiktok`
+- Instagram: `instagram`
+- Duolingo: `duolingo`
+- Facebook: `facebook`
+- Messenger: `messenger`
+- Telegram (CH Play): `telegram-aunali321`
+- Telegram Web: `telegram-web-aunali321`
 - X (Twitter): `twitter-revanced`
-- X (Twitter) Piko: `twitter-piko`
-- Twitch: `twitch-revanced`
+- X (Twitter) Piko: `twitter-crimera`
+- Twitch: `twitch`
 - Reddit: `reddit-revanced`
-- Reddit RVX Morphed: `reddit-rvx-morphed`
-- Reddit Privacy Patches: `reddit-privacy-patches`
-- SoundCloud: `soundcloud-revanced`
-- Viber: `viber-revanced`
-- Prime Video: `prime-video-revanced`
-- Disney+: `disney-revanced`
-- Tumblr: `tumblr-revanced`
-- Photomath: `photomath-revanced`
-- Google Recorder: `google-recorder-revanced`
-- Strava: `strava-revanced`
-- MyFitnessPal: `myfitnesspal-revanced`
-- Crunchyroll: `crunchyroll-revanced`
-- Peacock TV: `peacock-tv-revanced`
-- Cricbuzz: `cricbuzz-revanced`
-- RAR: `rar-revanced`
-- AZ Screen Recorder: `az-screen-recorder-scrazzz`
-- Nova Launcher: `nova-launcher-dropped-patches`
-- Proton Mail: `proton-mail-revanced`
-- Proton VPN: `proton-vpn-revanced`
-- Meme Generator: `meme-generator-revanced`
+- Reddit Morphe: `reddit-morphe`
+- Reddit RVX Morphed: `reddit-wchill`
+- Reddit Privacy Patches: `reddit-jkennethcarino`
+- SoundCloud: `soundcloud`
+- Viber: `viber`
+- Prime Video: `prime-video`
+- Disney+: `disney`
+- Tumblr: `tumblr`
+- Photomath: `photomath`
+- Google Recorder: `google-recorder`
+- Strava: `strava`
+- MyFitnessPal: `myfitnesspal`
+- Crunchyroll: `crunchyroll`
+- Peacock TV: `peacock-tv`
+- Cricbuzz: `cricbuzz`
+- RAR: `rar`
+- AZ Screen Recorder: `az-screen-recorder`
+- Nova Launcher: `nova-launcher`
+- Proton Mail: `proton-mail`
+- Proton VPN: `proton-vpn`
+- Meme Generator: `meme-generator`

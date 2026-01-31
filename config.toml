@@ -45,7 +45,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [Google-Photos]
-version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
@@ -71,13 +70,13 @@ uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 
 [Telegram]
 patches-source = "Aunali321/ReVancedExperiments"
-rv-brand = "revanced-experiments"
+rv-brand = "aunali321"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 
 [Telegram-Web]
 patches-source = "Aunali321/ReVancedExperiments"
-rv-brand = "revanced-experiments"
+rv-brand = "aunali321"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/"
 
 [Twitter]
@@ -86,6 +85,8 @@ uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 [Twitter-Piko]
 patches-source = "crimera/piko"
 patches-version = "dev"
+app-name = "twitter"
+rv-brand = "crimera"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [Twitch]
@@ -94,13 +95,24 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 [Reddit]
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
+[Reddit-Morphe]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+app-name = "reddit"
+rv-brand = "morphe"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
 [Reddit-RVX-Morphed]
 patches-source = "wchill/rvx-morphed"
 cli-source = "MorpheApp/morphe-cli"
+app-name = "reddit"
+rv-brand = "wchill"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [Reddit-Privacy-Patches]
 patches-source = "jkennethcarino/privacy-revanced-patches"
+app-name = "reddit"
+rv-brand = "jkennethcarino"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [SoundCloud]
@@ -150,7 +162,7 @@ uptodown-dlurl = "https://az-screen-recorder.en.uptodown.com/android"
 
 [Nova-Launcher]
 patches-source = "indrastorms/Dropped-Patches"
-rv-brand = "dropped-patches"
+rv-brand = "indrastorms"
 uptodown-dlurl = "https://nova-launcher.en.uptodown.com/android"
 
 [Proton-Mail]

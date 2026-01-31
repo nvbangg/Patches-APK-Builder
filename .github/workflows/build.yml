@@ -10,21 +10,10 @@ on:
   workflow_dispatch:
     inputs:
       patches_source:
-        description: "Patches Source to build"
+        description: "Enter patches sources separated by spaces. Leave empty to build all."
         required: false
-        type: choice
-        options:
-          - "All"
-          - "nvbangg/nvbangg-patches"
-          - "ReVanced/revanced-patches"
-          - "MorpheApp/morphe-patches"
-          - "wchill/rvx-morphed"
-          - "anddea/revanced-patches"
-          - "Aunali321/ReVancedExperiments"
-          - "crimera/piko"
-          - "jkennethcarino/privacy-revanced-patches"
-          - "scrazzz/revanced-patches-scruz"
-          - "indrastorms/Dropped-Patches"
+        type: string
+        default: ""
 
 
 jobs:

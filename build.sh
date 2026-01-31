@@ -68,19 +68,21 @@ gh_dl "${MODULE_TEMPLATE_DIR}/bin/x64/cmpr" "https://github.com/j-hc/cmpr/releas
 
 declare -A cliriplib
 PATCHES_SOURCE_FILTER="${2-}"
-if [ "${PATCHES_SOURCE_FILTER}" == "All" ]; then
-    PATCHES_SOURCE_FILTER=""
-fi
+
+# Check if source matches any in the filter (space-separated, empty=all)
+matches_filter() {
+    local src="$1" filter="$2"
+    [ -z "$filter" ] && return 0
+    for f in $filter; do [[ "${src,,}" == "${f,,}" ]] && return 0; done
+    return 1
+}
 
 idx=0
 for table_name in $(toml_get_table_names); do
-    if [ -n "$PATCHES_SOURCE_FILTER" ]; then
-        t=$(toml_get_table "$table_name")
-        app_patches_src=$(toml_get "$t" patches-source) || app_patches_src=$DEF_PATCHES_SRC
-        if [[ "${app_patches_src,,}" != "${PATCHES_SOURCE_FILTER,,}" ]]; then
-            continue
-        fi
-    fi
+    # Filter by patches source if specified
+    t=$(toml_get_table "$table_name")
+    app_patches_src=$(toml_get "$t" patches-source) || app_patches_src=$DEF_PATCHES_SRC
+    if ! matches_filter "$app_patches_src" "$PATCHES_SOURCE_FILTER"; then continue; fi
 	if [ -z "$table_name" ]; then continue; fi
 	t=$(toml_get_table "$table_name")
 	enabled=$(toml_get "$t" enabled) || enabled=true
