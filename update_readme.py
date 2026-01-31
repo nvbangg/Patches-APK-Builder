@@ -37,15 +37,15 @@ for line in build.splitlines():
 
             if len(parts) >= 2:
                 # 1. Update Badge URL
-                # Matches -v...-gray
+                # Matches -v + starts with digit + ... -gray
                 parts[-2] = re.sub(
-                    r"(-v).*?(-gray)", f"\\g<1>{badge_version}\\g<2>", parts[-2]
+                    r"(-v)\d+.*?(-gray)", f"\\g<1>{badge_version}\\g<2>", parts[-2]
                 )
 
                 # 2. Update Download Link
-                # Matches -v...-arm or -v...-all
+                # Matches -v + starts with digit + ... -arm|all
                 parts[-1] = re.sub(
-                    r"(-v).*?(-(?:arm|all))", f"\\g<1>{link_version}\\g<2>", parts[-1]
+                    r"(-v)\d+.*?(-(?:arm|all))", f"\\g<1>{link_version}\\g<2>", parts[-1]
                 )
                 parts[-1] = re.sub(r"download/\d+/", f"download/{tag}/", parts[-1])
 

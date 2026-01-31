@@ -68,19 +68,25 @@ gh_dl "${MODULE_TEMPLATE_DIR}/bin/x64/cmpr" "https://github.com/j-hc/cmpr/releas
 
 declare -A cliriplib
 PATCHES_SOURCE_FILTER="${2-}"
-if [ "${PATCHES_SOURCE_FILTER}" == "All" ]; then
-    PATCHES_SOURCE_FILTER=""
-fi
+
+# Check if source matches any in the filter (space-separated, empty=all)
+matches_filter() {
+    local src="$1" filter="$2"
+    [ -z "$filter" ] && return 0
+    local src_owner="${src%%/*}"
+    for f in $filter; do
+        local f_owner="${f%%/*}"
+        [[ "${src_owner,,}" == "${f_owner,,}" ]] && return 0
+    done
+    return 1
+}
 
 idx=0
 for table_name in $(toml_get_table_names); do
-    if [ -n "$PATCHES_SOURCE_FILTER" ]; then
-        t=$(toml_get_table "$table_name")
-        app_patches_src=$(toml_get "$t" patches-source) || app_patches_src=$DEF_PATCHES_SRC
-        if [[ "${app_patches_src,,}" != "${PATCHES_SOURCE_FILTER,,}" ]]; then
-            continue
-        fi
-    fi
+    # Filter by patches source if specified
+    t=$(toml_get_table "$table_name")
+    app_patches_src=$(toml_get "$t" patches-source) || app_patches_src=$DEF_PATCHES_SRC
+    if ! matches_filter "$app_patches_src" "$PATCHES_SOURCE_FILTER"; then continue; fi
 	if [ -z "$table_name" ]; then continue; fi
 	t=$(toml_get_table "$table_name")
 	enabled=$(toml_get "$t" enabled) || enabled=true
@@ -194,9 +200,8 @@ log "\n$(cat "$TEMP_DIR"/*/changelog.md)"
 if [ -n "$PATCHES_SOURCE_FILTER" ] && [ -n "$EXISTING_PATCHES_INFO" ]; then
     log "\nSkipped:"
     while IFS= read -r line; do
-        patches_name=$(echo "$line" | sed 's/^Patches: //' | sed 's/\/.*//')
-        filter_name="${PATCHES_SOURCE_FILTER%%/*}"
-        if [[ "${patches_name,,}" != "${filter_name,,}" ]]; then
+        patches_src=$(echo "$line" | sed 's/^Patches: //' | sed 's/-[0-9].*//')
+        if ! matches_filter "$patches_src" "$PATCHES_SOURCE_FILTER"; then
             log "$line"
         fi
     done <<< "$EXISTING_PATCHES_INFO"
