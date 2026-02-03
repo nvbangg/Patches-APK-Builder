@@ -8,6 +8,13 @@ on:
         default: true
 
   workflow_dispatch:
+    inputs:
+      patches_source:
+        description: "Enter Patch sources or Owners separated by spaces. Leave empty to build all"
+        required: false
+        type: string
+        default: ""
+
 
 jobs:
   run:
@@ -25,14 +32,16 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - name: Update config
-        if: ${{ inputs.from_ci }}
+      - name: Checkout build.md from update branch
         run: |
-          if git checkout origin/update build.md; then
-            UPDATE_CFG=$(./build.sh config.toml --config-update)
-            if [ "$UPDATE_CFG" ]; then
-              echo "$UPDATE_CFG" > config.json
-            fi
+          git show origin/update:build.md > build.md || echo "No existing build.md found"
+
+      - name: Update config
+        if: ${{ inputs.from_ci || inputs.patches_source != '' }}
+        run: |
+          UPDATE_CFG=$(./build.sh config.toml --config-update "${{ inputs.patches_source }}")
+          if [ "$UPDATE_CFG" ]; then
+            echo "$UPDATE_CFG" > config.json
           fi
 
       - name: Get next version code
@@ -60,13 +69,23 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
 
+      - name: Update README with new versions
+        run: |
+          python update_readme.py ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+
+      - name: Commit updated README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: README.md
+          commit_message: Automated README update for Release No.${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+
       - name: Upload modules to release
         uses: svenstaro/upload-release-action@v2
         with:
           body: ${{ steps.get_output.outputs.BUILD_LOG }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./build/*
-          release_name: ReVanced
+          release_name: Release No.${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           file_glob: true
           overwrite: true

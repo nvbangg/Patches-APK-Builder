@@ -91,15 +91,20 @@ get_prebuilts() {
 			resp=$(gh_req "$rv_rel" -) || return 1
 			tag_name=$(jq -r '.tag_name' <<<"$resp")
 			matches=$(jq -e ".assets | map(select(.name | endswith(\"$ext\")))" <<<"$resp")
-			if [ "$(jq 'length' <<<"$matches")" -ne 1 ]; then
-				epr "More than 1 asset was found for this cli release. Fallbacking to the first one found..."
-			fi
+			# if [ "$(jq 'length' <<<"$matches")" -ne 1 ]; then
+			# 	epr "More than 1 asset was found for this cli release. Fallbacking to the first one found..."
+			# fi
 			asset=$(jq -r ".[0]" <<<"$matches")
 			url=$(jq -r .url <<<"$asset")
 			name=$(jq -r .name <<<"$asset")
 			file="${dir}/${name}"
 			gh_dl "$file" "$url" >&2 || return 1
-			echo "$tag: $(cut -d/ -f1 <<<"$src")/${name}  " >>"${cl_dir}/changelog.md"
+			if [ "$tag" = "Patches" ]; then
+				local log_entry="$tag: $(cut -d/ -f1 <<<"$src")/${name}  "
+				if ! grep -qF "$log_entry" "${cl_dir}/patches_log.md" 2>/dev/null; then
+					echo "$log_entry" >>"${cl_dir}/patches_log.md"
+				fi
+			fi
 		else
 			grab_cl=false
 			local for_err=$file
@@ -110,13 +115,19 @@ get_prebuilts() {
 			name=$(basename "$file")
 			tag_name=$(cut -d'-' -f3- <<<"$name")
 			tag_name=v${tag_name%.*}
+			if [ "$tag" = "Patches" ]; then
+				local log_entry="$tag: $(cut -d/ -f1 <<<"$src")/${name}  "
+				if ! grep -qF "$log_entry" "${cl_dir}/patches_log.md" 2>/dev/null; then
+					echo "$log_entry" >>"${cl_dir}/patches_log.md"
+				fi
+			fi
 		fi
 
 		if [ "$tag" = "CLI" ]; then
 			PATCH_EXT=$(java -jar "$file" -h | grep -oP -m1 '\w+(?= files)' | tr '[:upper:]' '[:lower:]')
 			if [ -z "$PATCH_EXT" ]; then abort "Unable to detect patch extension from CLI help output."; fi
 		elif [ "$tag" = "Patches" ]; then
-			if [ $grab_cl = true ]; then echo -e "[Changelog](https://github.com/${src}/releases/tag/${tag_name})\n" >>"${cl_dir}/changelog.md"; fi
+			if [ $grab_cl = true ]; then echo -e "[Changelog](https://github.com/${src}/releases/tag/${tag_name})\n" >>"${cl_dir}/patches_log.md"; fi
 			if [ "$REMOVE_RV_INTEGRATIONS_CHECKS" = true ]; then
 				# Dynamically calculate inner extension (rvp->rve, mpp->mpe)
 				local inner_ext="${ext%p}e"
@@ -150,11 +161,24 @@ set_prebuilts() {
 }
 
 config_update() {
+	local filter="${1-}"
 	if [ ! -f build.md ]; then abort "build.md not available"; fi
 	declare -A sources
 	: >"$TEMP_DIR"/skipped
 	local upped=()
 	local prcfg=false
+	
+	matches_filter() {
+		local src="$1" filter="$2"
+		[ -z "$filter" ] && return 0
+		local src_owner="${src%%/*}"
+		for f in $filter; do
+			local f_owner="${f%%/*}"
+			[[ "${src_owner,,}" == "${f_owner,,}" ]] && return 0
+		done
+		return 1
+	}
+	
 	for table_name in $(toml_get_table_names); do
 		if [ -z "$table_name" ]; then continue; fi
 		t=$(toml_get_table "$table_name")
@@ -162,10 +186,28 @@ config_update() {
 		if [ "$enabled" = false ]; then continue; fi
 		PATCHES_SRC=$(toml_get "$t" patches-source) || PATCHES_SRC=$DEF_PATCHES_SRC
 		PATCHES_VER=$(toml_get "$t" patches-version) || PATCHES_VER=$DEF_PATCHES_VER
+		
+		if [ -n "$filter" ] && ! matches_filter "$PATCHES_SRC" "$filter"; then
+			# Not matched → add old patches to skipped
+			patches_owner="${PATCHES_SRC%%/*}"
+			old_patches=$(grep -i "^Patches: ${patches_owner}/" build.md | head -1 || :)
+			if [ -n "$old_patches" ] && ! grep -qF "$old_patches" "$TEMP_DIR"/skipped 2>/dev/null; then
+				echo "$old_patches" >>"$TEMP_DIR"/skipped
+			fi
+			continue
+		fi
+		
+		# Check if this patches source has been processed
 		if [[ -v sources["$PATCHES_SRC/$PATCHES_VER"] ]]; then
 			if [ "${sources["$PATCHES_SRC/$PATCHES_VER"]}" = 1 ]; then upped+=("$table_name"); fi
 		else
 			sources["$PATCHES_SRC/$PATCHES_VER"]=0
+			
+			if [ -n "$filter" ]; then
+				sources["$PATCHES_SRC/$PATCHES_VER"]=1
+				prcfg=true
+				upped+=("$table_name")
+			else
 			local rv_rel="https://api.github.com/repos/${PATCHES_SRC}/releases"
 			if [ "$PATCHES_VER" = "dev" ]; then
 				last_patches=$(gh_req "$rv_rel" - | jq -e -r '.[0]')
@@ -185,6 +227,7 @@ config_update() {
 				else
 					echo "$OP" >>"$TEMP_DIR"/skipped
 				fi
+			fi
 			fi
 		fi
 	done
@@ -459,8 +502,8 @@ get_archive_pkg_name() { echo "$__ARCHIVE_PKG_NAME__"; }
 
 patch_apk() {
 	local stock_input=$1 patched_apk=$2 patcher_args=$3 cli_jar=$4 patches_jar=$5
-	local cmd="env -u GITHUB_REPOSITORY java -jar $cli_jar patch $stock_input --purge -o $patched_apk -p $patches_jar --keystore=ks.keystore \
---keystore-entry-password=123456789 --keystore-password=123456789 --signer=jhc --keystore-entry-alias=jhc $patcher_args"
+	local cmd="env -u GITHUB_REPOSITORY java -jar \"$cli_jar\" patch \"$stock_input\" --purge -o \"$patched_apk\" -p \"$patches_jar\" --keystore=ks.keystore \
+--keystore-entry-password=ReVanced --keystore-password=ReVanced --signer=ReVanced --keystore-entry-alias=ReVanced $patcher_args"
 	if [ "$OS" = Android ]; then cmd+=" --custom-aapt2-binary=${AAPT2}"; fi
 	pr "$cmd"
 	if eval "$cmd"; then [ -f "$patched_apk" ]; else
@@ -625,9 +668,20 @@ build_rv() {
 			fi
 		fi
 		if [ "$build_mode" = apk ]; then
-			local apk_output="${BUILD_DIR}/${app_name_l}-${rv_brand_f}-v${version_f}-${arch_f}.apk"
+			local apk_output
+			if [ "${args[arch_both]}" = "true" ]; then
+				apk_output="${BUILD_DIR}/${app_name_l}-${rv_brand_f}-v${version_f}-${arch_f}.apk"
+			else
+				apk_output="${BUILD_DIR}/${app_name_l}-${rv_brand_f}-v${version_f}.apk"
+			fi
 			mv -f "$patched_apk" "$apk_output"
 			pr "Built ${table} (non-root): '${apk_output}'"
+			# Copy patches_log to changelog when build success
+			local patches_dir
+			patches_dir=$(dirname "${args[ptjar]}")
+			if [ -f "${patches_dir}/patches_log.md" ] && ! grep -qF "$(cat "${patches_dir}/patches_log.md")" "${patches_dir}/changelog.md" 2>/dev/null; then
+				cat "${patches_dir}/patches_log.md" >> "${patches_dir}/changelog.md"
+			fi
 			continue
 		fi
 		local base_template
@@ -654,6 +708,12 @@ build_rv() {
 		zip -"$COMPRESSION_LEVEL" -FSqr "${CWD}/${BUILD_DIR}/${module_output}" .
 		popd >/dev/null || :
 		pr "Built ${table} (root): '${BUILD_DIR}/${module_output}'"
+		# Copy patches_log to changelog when build success
+		local patches_dir
+		patches_dir=$(dirname "${args[ptjar]}")
+		if [ -f "${patches_dir}/patches_log.md" ] && ! grep -qF "$(cat "${patches_dir}/patches_log.md")" "${patches_dir}/changelog.md" 2>/dev/null; then
+			cat "${patches_dir}/patches_log.md" >> "${patches_dir}/changelog.md"
+		fi
 	done
 }
 

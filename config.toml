@@ -1,83 +1,250 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
-
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
+# see https://github.com/nvbangg/Patches-APK-Builder/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
+patches-source = "nvbangg/nvbangg-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "nvbangg"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Music]
-build-mode = "both"
-arch = "both"
+[YouTube-ReVanced]
+excluded-patches = "'Custom branding'"
+app-name = "youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+[YouTube-Morphe]
+patches-source = "MorpheApp/morphe-patches"
+excluded-patches = "'Custom branding'"
+cli-source = "MorpheApp/morphe-cli"
+app-name = "youtube"
+rv-brand = "morphe"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+[YouTube-Music]
+excluded-patches = "'Permanent repeat' 'Custom branding' 'Hide buttons' 'Hide category bar' 'Change miniplayer color' 'Theme' 'Enable debugging' 'Check watch history domain name resolution' 'Spoof video streams' 'Force original audio'"
+rv-brand = "nvbangg"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-[GooglePhotos]
-build-mode = "both"
-arch = "both"
-version = "auto"
+[YouTube-Music-ReVanced]
+excluded-patches = "'Custom branding'"
+app-name = "youtube-music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
+[YouTube-Music-Morphe]
+patches-source = "MorpheApp/morphe-patches"
+excluded-patches = "'Custom branding'"
+cli-source = "MorpheApp/morphe-cli"
+app-name = "youtube-music"
+rv-brand = "morphe"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
+[Google-Photos]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 [Spotify]
-enabled = false
+patches-source = "anddea/revanced-patches"
+rv-brand = "anddea"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
-
-# https://github.com/j-hc/revanced-magisk-module/issues/554
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
-[Twitch]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
-
-[Twitter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-build-mode = "apk"
-dpi = "120-640dpi"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [TikTok]
-enabled = false
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
+uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+
+[Instagram]
+uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+
+[Instagram-ReVancedExperiments]
+patches-source = "Aunali321/ReVancedExperiments"
+app-name = "instagram"
+rv-brand = "aunali321"
+uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+version = "414.0.0.40.83"
+
+[Duolingo]
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "hoo-dles"
+uptodown-dlurl = "https://duolingo.en.uptodown.com/android"
+
+[Duolingo-ReVanced]
+app-name = "duolingo"
+uptodown-dlurl = "https://duolingo.en.uptodown.com/android"
+
+[Facebook]
+uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 
 [Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-arch = "arm64-v8a"
+uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+[Telegram]
+patches-source = "Aunali321/ReVancedExperiments"
+rv-brand = "aunali321"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
+uptodown-dlurl = "https://telegram.en.uptodown.com/android"
+
+[Telegram-Web]
+patches-source = "Aunali321/ReVancedExperiments"
+rv-brand = "aunali321"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/"
+
+[Twitter]
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+
+[Twitter-Piko]
+patches-source = "crimera/piko"
+patches-version = "dev"
+app-name = "twitter"
+rv-brand = "crimera"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+
+[Twitch]
+uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+
+[Reddit]
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[Reddit-Morphe]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+app-name = "reddit"
+rv-brand = "morphe"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[Reddit-Privacy-Patches]
+patches-source = "jkennethcarino/privacy-revanced-patches"
+app-name = "reddit"
+rv-brand = "jkennethcarino"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[SoundCloud]
+uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
+
+[Viber]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/viber-media-s-a-r-l/viber/"
+
+[Threads]
+patches-source = "Aunali321/ReVancedExperiments"
+rv-brand = "aunali321"
+uptodown-dlurl = "https://threads.en.uptodown.com/android"
+
+[Threads-ReVanced]
+app-name = "threads"
+uptodown-dlurl = "https://threads.en.uptodown.com/android"
+version = "415.0.0.26.77"
+
+[Gboard]
+patches-source = "jkennethcarino/privacy-revanced-patches"
+rv-brand = "jkennethcarino"
+uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
+version = "16.6.3.855170483-release-arm64-v8a"
+
+[Google-Recorder]
+uptodown-dlurl = "https://opnemer.en.uptodown.com/android"
+
+[Prime-Video]
+uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
+
+[Disney]
+uptodown-dlurl = "https://disney-disneyplus.en.uptodown.com/android"
+
+[Tumblr]
+uptodown-dlurl = "https://tumblr.en.uptodown.com/android"
+
+[Photomath]
+uptodown-dlurl = "https://photomath.en.uptodown.com/android"
+
+[Strava]
+uptodown-dlurl = "https://strava.en.uptodown.com/android"
+
+[MyFitnessPal]
+uptodown-dlurl = "https://calorie-counter-myfitnesspal.en.uptodown.com/android"
+
+[Crunchyroll]
+uptodown-dlurl = "https://crunchyroll.en.uptodown.com/android"
+
+[Pandora]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/pandora/pandora-music-podcasts/"
+
+[MEGA]
+patches-source = "Tosox/revanced-patches"
+rv-brand = "tosox"
+uptodown-dlurl = "https://mega.en.uptodown.com/android"
+
+[Cake]
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "hoo-dles"
+uptodown-dlurl = "https://me-mycake.en.uptodown.com/android"
+
+[Merriam-Webster-Dictionary]
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "hoo-dles"
+uptodown-dlurl = "https://merriam-webster-dictionary.en.uptodown.com/android"
+version = "5.5.5"
+
+[Peacock-TV]
+uptodown-dlurl = "https://peacock-tv.en.uptodown.com/android"
+
+[Cricbuzz]
+uptodown-dlurl = "https://cricbuzz-cricket-scores-and-news.en.uptodown.com/android"
+
+[Pixiv]
+uptodown-dlurl = "https://pixiv.en.uptodown.com/android"
+
+[RAR]
+uptodown-dlurl = "https://rar-for-android.en.uptodown.com/android"
+
+[Proton-Mail]
+uptodown-dlurl = "https://protonmail.en.uptodown.com/android"
+
+[Proton-VPN]
+uptodown-dlurl = "https://protonvpn.en.uptodown.com/android"
+
+[AZ-Screen-Recorder]
+patches-source = "scrazzz/revanced-patches-scruz"
+patches-version = "dev"
+rv-brand = "scrazzz"
+uptodown-dlurl = "https://az-screen-recorder.en.uptodown.com/android"
+
+[Nova-Launcher]
+patches-source = "indrastorms/Dropped-Patches"
+rv-brand = "indrastorms"
+uptodown-dlurl = "https://nova-launcher.en.uptodown.com/android"
+
+[Tasker]
+patches-source = "indrastorms/Dropped-Patches"
+rv-brand = "indrastorms"
+uptodown-dlurl = "https://tasker.en.uptodown.com/android"
+
+[FX-File-Explorer]
+patches-source = "indrastorms/Dropped-Patches"
+rv-brand = "indrastorms"
+uptodown-dlurl = "https://fx-file-explorer.en.uptodown.com/android"
+version = "9.1.0.0"
+
+[Solid-Explorer]
+uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
+
+[Smart-Launcher-6]
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "hoo-dles"
+uptodown-dlurl = "https://smart-launcher.en.uptodown.com/android"
+
+[TickTick]
+patches-source = "Tosox/revanced-patches"
+rv-brand = "tosox"
+uptodown-dlurl = "https://ticktick.en.uptodown.com/android"
+
+[Meme-Generator]
+uptodown-dlurl = "https://meme-generator-free.en.uptodown.com/android"
+
+[Icon-Pack-Studio]
+uptodown-dlurl = "https://icon-pack-studio.en.uptodown.com/android"
