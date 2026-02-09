@@ -44,14 +44,14 @@
 
 </details>
 
-[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/1/youtube-nvbangg-v20.40.45.apk)
+[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/3/youtube-nvbangg-v20.40.45.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
 
 - MorpheApp/morphe-patches
 
-[![Download-YouTube-Morphe](https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/1/youtube-morphe-v20.40.45.apk)
+[![Download-YouTube-Morphe](https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/3/youtube-morphe-v20.40.45.apk)
 
 - ReVanced/revanced-patches
 
@@ -174,7 +174,7 @@
 
 </details>
 
-[![Download-Duolingo](https://img.shields.io/badge/Duolingo-v6.65.3-gray?labelColor=4DC730&style=for-the-badge&logo=Duolingo&logoColor=white)](../../releases/download/2/duolingo-hoo-dles-v6.65.3.apk)
+[![Download-Duolingo](https://img.shields.io/badge/Duolingo-v6.65.3-gray?labelColor=4DC730&style=for-the-badge&logo=Duolingo&logoColor=white)](../../releases/download/3/duolingo-hoo-dles-v6.65.3.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
@@ -305,7 +305,7 @@
 
 - MorpheApp/morphe-patches
 
-[![Download-Reddit-Morphe](https://img.shields.io/badge/Reddit_Morphe-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/1/reddit-morphe-v2026.03.0.apk)
+[![Download-Reddit-Morphe](https://img.shields.io/badge/Reddit_Morphe-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/3/reddit-morphe-v2026.03.0.apk)
 
 - jkennethcarino/privacy-revanced-patches
 
@@ -514,7 +514,7 @@
 
 </details>
 
-[![Download-Cake](https://img.shields.io/badge/Cake-v6.4.0-gray?labelColor=FF6B35&style=for-the-badge&logo=cake&logoColor=white)](../../releases/download/2/cake-hoo-dles-v6.4.0.apk)
+[![Download-Cake](https://img.shields.io/badge/Cake-v6.4.0-gray?labelColor=FF6B35&style=for-the-badge&logo=cake&logoColor=white)](../../releases/download/3/cake-hoo-dles-v6.4.0.apk)
 
 ---
 ### [Merriam-Webster Dictionary:](https://play.google.com/store/apps/details?id=com.merriamwebster)
@@ -526,7 +526,7 @@
 
 </details>
 
-[![Download-Merriam-Webster-Dictionary](https://img.shields.io/badge/Merriam_Webster_Dictionary-v5.5.5-gray?labelColor=007AFF&style=for-the-badge&logo=book&logoColor=white)](../../releases/download/2/merriam-webster-dictionary-hoo-dles-v5.5.5.apk)
+[![Download-Merriam-Webster-Dictionary](https://img.shields.io/badge/Merriam_Webster_Dictionary-v5.5.5-gray?labelColor=007AFF&style=for-the-badge&logo=book&logoColor=white)](../../releases/download/3/merriam-webster-dictionary-hoo-dles-v5.5.5.apk)
 
 ---
 ### [Peacock TV:](https://play.google.com/store/apps/details?id=com.peacocktv.peacockandroid)
@@ -672,7 +672,7 @@
 
 </details>
 
-[![Download-Smart-Launcher-6](https://img.shields.io/badge/Smart_Launcher_6-v6.6build002patch1-gray?labelColor=2D2D2D&style=for-the-badge&logo=launcher&logoColor=white)](../../releases/download/2/smart-launcher-6-hoo-dles-v6.6build002patch1.apk)
+[![Download-Smart-Launcher-6](https://img.shields.io/badge/Smart_Launcher_6-v6.6build002patch1-gray?labelColor=2D2D2D&style=for-the-badge&logo=launcher&logoColor=white)](../../releases/download/3/smart-launcher-6-hoo-dles-v6.6build002patch1.apk)
 
 ---
 ### [TickTick:](https://play.google.com/store/apps/details?id=com.ticktick.task)
