@@ -44,7 +44,7 @@
 
 </details>
 
-[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/3/youtube-nvbangg-v20.40.45.apk)
+[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/4/youtube-nvbangg-v20.40.45.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
