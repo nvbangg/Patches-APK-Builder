@@ -20,9 +20,6 @@ Patches: Aunali321/patches-1.9.0.rvp 
 Patches: crimera/patches-2.0.0-dev.23.rvp  
 [Changelog](https://github.com/crimera/piko/releases/tag/v2.0.0-dev.23)
 
-Patches: hoo-dles/patches-1.5.0.mpp  
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.5.0)
-
 Patches: jkennethcarino/patches-4.5.0.rvp  
 [Changelog](https://github.com/jkennethcarino/privacy-revanced-patches/releases/tag/v4.5.0)
 
@@ -34,3 +31,18 @@ Patches: ReVanced/patches-5.48.0.rvp 
 
 Patches: Tosox/patches-1.5.1.rvp  
 [Changelog](https://github.com/Tosox/revanced-patches/releases/tag/v1.5.1)  
+
+Patches: anddea/patches-3.16.0.rvp  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.16.0)
+
+Patches: hoo-dles/patches-1.5.0.mpp  
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.5.0)
+
+Patches: indrastorms/patches-1.5.1.rvp  
+[Changelog](https://github.com/indrastorms/Dropped-Patches/releases/tag/v1.5.1)
+
+Patches: MorpheApp/patches-1.12.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.12.0)
+
+Patches: scrazzz/patches-1.1.0-dev.1.rvp  
+[Changelog](https://github.com/scrazzz/revanced-patches-scruz/releases/tag/v1.1.0-dev.1)
