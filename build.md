@@ -5,7 +5,7 @@ Crunchyroll: 3.99.2
 Disney: 4.20.2+rc1-2025.12.09  
 Duolingo: 6.66.5  
 Duolingo-ReVanced: 6.54.5  
-Facebook: 490.0.0.63.82  
+FX-File-Explorer: 9.1.0.0  
 Gboard: 16.7.4.861137547-release-arm64-v8a  
 Google-Photos: 7.63.0.869312946  
 Google-Recorder: 4.2.20260118.867906508  
@@ -17,6 +17,7 @@ Merriam-Webster-Dictionary: 5.5.0
 Messenger: 548.0.0.37.65  
 MyFitnessPal: 24.14.2  
 Nova-Launcher: 81029 (8.3.5)  
+Pandora: 2601.1  
 Peacock-TV: 7.1.25  
 Photomath: 8.46.0  
 Pixiv: 6.141.1  
@@ -35,7 +36,6 @@ Strava: 450.9
 Tasker: 6.6.19  
 Telegram: 12.4.1  
 Telegram-Web: 12.4.1  
-Threads: 417.0.0.29.76  
 TickTick: 8.0.2.0  
 TikTok: 36.5.4  
 Tumblr: 43.2.0.110  
@@ -44,6 +44,8 @@ Twitter: 10.86.0-release.0
 Twitter-Piko: 11.65.0-release.5  
 YouTube: 20.40.45  
 YouTube-Morphe: 20.40.45  
+YouTube-Music: 8.10.52  
+YouTube-Music-ReVanced: 8.10.52  
 YouTube-ReVanced: 20.14.43  
 
 Patches: anddea/patches-3.16.0.rvp  
