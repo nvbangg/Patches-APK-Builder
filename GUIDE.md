@@ -13,32 +13,26 @@
 - YouTube: `youtube-nvbangg`
 - YouTube ReVanced: `youtube-revanced`
 - YouTube Morphe: `youtube-morphe`
-
 - YouTube Music: `youtube-music-nvbangg`
 - YouTube Music ReVanced: `youtube-music-revanced`
-- YouTube Music Morphe: `youtube-music-morphe`
-
+<!-- - YouTube Music Morphe: `youtube-music-morphe` -->
 - Google Photos: `google-photos`
+
 - Spotify: `spotify`
 - TikTok: `tiktok`
-- Instagram: `instagram-revanced`
-- Instagram ReVancedExperiments: `instagram-aunali321`
+- Instagram: `instagram`
 - Duolingo: `duolingo-hoo-dles`
-- Duolingo ReVanced: `duolingo-hoo-dles`
-- Facebook: `facebook`
+- Duolingo ReVanced: `duolingo-revanced`
 - Messenger: `messenger`
-- Telegram (CH Play): `telegram-aunali321`
+- Telegram: `telegram-aunali321`
 - Telegram Web: `telegram-web-aunali321`
 - X (Twitter): `twitter-revanced`
 - X (Twitter) Piko: `twitter-crimera`
 - Twitch: `twitch`
 - Reddit: `reddit-revanced`
 - Reddit Morphe: `reddit-morphe`
-- Reddit Privacy Patches: `reddit-jkennethcarino`
+- Reddit jkennethcarino: `reddit-jkennethcarino`
 - SoundCloud: `soundcloud`
-- Viber: `viber`
-- Threads: `threads-aunali321`
-- Threads ReVanced: `threads-revanced`
 - Gboard: `gboard`
 - Google Recorder: `google-recorder`
 - Prime Video: `prime-video`
@@ -51,7 +45,7 @@
 - Pandora: `pandora`
 - Mega: `mega`
 - Cake: `cake`
-- Merriam Webster Dictionary: `merriam-webster-dictionary`
+- Merriam-Webster Dictionary: `merriam-webster-dictionary`
 - Peacock TV: `peacock-tv`
 - Cricbuzz: `cricbuzz`
 - Pixiv: `pixiv`
@@ -66,4 +60,4 @@
 - Smart Launcher 6: `smart-launcher`
 - TickTick: `ticktick`
 - Meme Generator: `meme-generator`
-- Icon-Pack-Studio: `icon-pack-studio`
+- Icon Pack Studio: `icon-pack-studio`

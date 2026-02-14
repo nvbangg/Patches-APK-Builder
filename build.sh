@@ -10,6 +10,7 @@ if [ "${1-}" = "clean" ]; then
 fi
 
 source utils.sh
+echo '{}' > "$BUILD_JSON_FILE"
 
 jq --version >/dev/null || abort "\`jq\` is not installed. install it with 'apt install jq' or equivalent"
 java --version >/dev/null || abort "\`openjdk 17\` is not installed. install it with 'apt install openjdk-17-jre' or equivalent"
@@ -36,11 +37,8 @@ DEF_DPI_LIST=$(toml_get "$main_config_t" dpi) || DEF_DPI_LIST="nodpi anydpi"
 mkdir -p "$TEMP_DIR" "$BUILD_DIR"
 
 if [ "${2-}" = "--config-update" ]; then
-	config_update "${3-patches}" "${4-}"
+	config_update
 	exit 0
-elif [ -n "${2-}" ]; then
-	config_update "${2-patches}" "${3-}" > config.json
-	exec ./build.sh config.json
 fi
 
 : >build.md
@@ -88,6 +86,7 @@ for table_name in $(toml_get_table_names); do
 	read -r cli_jar patches_jar <<<"$PREBUILTS"
 	app_args[cli]=$cli_jar
 	app_args[ptjar]=$patches_jar
+	app_args[patches_src]=$patches_src
 	if [[ -v cliriplib[${app_args[cli]}] ]]; then app_args[riplib]=${cliriplib[${app_args[cli]}]}; else
 		if [[ $(java -jar "${app_args[cli]}" patch 2>&1) == *rip-lib* ]]; then
 			cliriplib[${app_args[cli]}]=true
@@ -141,7 +140,6 @@ for table_name in $(toml_get_table_names); do
 	app_args[module_prop_name]=$(toml_get "$t" module-prop-name) || app_args[module_prop_name]="${table_name_f}-jhc"
 
 	if [ "${app_args[arch]}" = both ]; then
-		app_args[arch_both]=true
 		app_args[table]="$table_name (arm64-v8a)"
 		app_args[arch]="arm64-v8a"
 		module_prop_name_b=${app_args[module_prop_name]}
@@ -158,7 +156,6 @@ for table_name in $(toml_get_table_names); do
 		idx=$((idx + 1))
 		build_rv "$(declare -p app_args)" &
 	else
-		app_args[arch_both]=false
 		if [ "${app_args[arch]}" = "arm64-v8a" ]; then
 			app_args[module_prop_name]="${app_args[module_prop_name]}-arm64"
 		elif [ "${app_args[arch]}" = "arm-v7a" ]; then
@@ -177,8 +174,7 @@ if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 # log "\n[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)\n"
 log "\n$(cat "$TEMP_DIR"/*/changelog.md)"
 
-CHANGELOGS=$(cat "$TEMP_DIR"/*/changelog.md 2>/dev/null || :)
-SKIPPED=$(grep -vFf <(echo "$CHANGELOGS" | grep .) "$TEMP_DIR"/skipped 2>/dev/null || :)
+SKIPPED=$(cat "$TEMP_DIR"/skipped 2>/dev/null || :)
 if [ -n "$SKIPPED" ]; then
 	log "\nSkipped:"
 	log "$SKIPPED"

@@ -17,725 +17,1052 @@
 > [!IMPORTANT]
 > You need to install **MicroG** or **MicroG-RE** and sign in to your Google account to use **YouTube**, **YouTube Music**, and **Google Photos**.
 
-[![MicroG](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=MicroG&style=for-the-badge)](https://github.com/ReVanced/GmsCore/releases) 
-
-[![MicroG-RE](https://img.shields.io/github/v/release/MorpheApp/MicroG-RE?label=MicroG-RE&style=for-the-badge)](https://github.com/MorpheApp/MicroG-RE/releases) 
+[![MicroG](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=MicroG)](https://github.com/ReVanced/GmsCore/releases) &ensp; [![MicroG-RE](https://img.shields.io/github/v/release/MorpheApp/MicroG-RE?label=MicroG-RE)](https://github.com/MorpheApp/MicroG-RE/releases) 
 
 ---
 ### [YouTube:](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 
 <details>
-  <summary>nvbangg/nvbangg-patches</summary>
+<summary id="YouTube">&ensp;<a href="../../releases/download/1/youtube-nvbangg-v20.40.45-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&logo=YouTube&logoColor=white"></a></summary>
+<blockquote>
 
-- Hide ads, Video ads
-- Change header (such as "Premium")
-- Hide navigation buttons (such as the Shorts button).
-- Hide Shorts components
-- Adds options to automatically play the next Short
-- SponsorBlock (which can skip undesired video segments such as sponsored content)
-- Change start page
-- Disable resuming Shorts on startup
-- Remove background playback restrictions
+Patch date: 2026-02-14<br>
+Patches: nvbangg/patches-1.13.0.mpp
+[Changelog](https://github.com/nvbangg/nvbangg-patches/releases/tag/v1.13.0)
 - Bypass URL redirects
-- Adds an option to always open links in your browser instead of the in-app browser.
-- Removes the tracking query parameters from shared links.
-- Spoof video streams
-- Adds options to set default video qualities and playback speed, customize playback speeds
-
+- Change header
+- Change start page
+- Disable layout updates
+- Disable resuming Shorts on startup
+- GmsCore support
+- Hide Shorts components
+- Hide ads
+- Navigation bar
+- Open links externally
+- Playback speed
+- Remove background playback restrictions
+- Sanitize sharing links
+- Shorts autoplay
+- SponsorBlock
+- Video ads
+- Video quality
+</blockquote>
 </details>
-
-[![Download-YouTube](https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/4/youtube-nvbangg-v20.40.45.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
+<blockquote><br>
 
-- MorpheApp/morphe-patches
+<details>
+<summary id="YouTube-Morphe">&ensp;<a href="../../releases/download/1/youtube-morphe-v20.40.45-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&logo=YouTube&logoColor=white"></a></summary>
+<blockquote>
 
-[![Download-YouTube-Morphe](https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/3/youtube-morphe-v20.40.45.apk)
+Patch date: 2026-02-12<br>
+Patches: MorpheApp/patches-1.12.0.mpp
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.12.0)
+- Alternative thumbnails
+- Ambient mode
+- Bypass URL redirects
+- Bypass image region restrictions
+- Captions
+- Change form factor
+- Change header
+- Change start page
+- Check watch history domain name resolution
+- Copy video URL
+- Custom player overlay opacity
+- Disable double tap actions
+- Disable haptic feedback
+- Disable player popup panels
+- Disable resuming Shorts on startup
+- Disable rolling number animations
+- Disable sign in to TV popup
+- Disable video codecs
+- Double tap to seek
+- Downloads
+- Enable debugging
+- Exit fullscreen mode
+- Force original audio
+- GmsCore support
+- Hide Shorts components
+- Hide ads
+- Hide autoplay preview
+- Hide end screen cards
+- Hide end screen suggested video
+- Hide info cards
+- Hide layout components
+- Hide player flyout menu items
+- Hide player overlay buttons
+- Hide related video overlay
+- Hide timestamp
+- Hide video action buttons
+- Loop video
+- Miniplayer
+- Navigation bar
+- Open Shorts in regular player
+- Open links externally
+- Open videos fullscreen
+- Playback speed
+- Remove background playback restrictions
+- Remove viewer discretion dialog
+- Restore old search filters
+- Return YouTube Dislike
+- Sanitize sharing links
+- Seekbar
+- Shorts autoplay
+- SponsorBlock
+- Spoof app version
+- Spoof device dimensions
+- Spoof video streams
+- Swipe controls
+- Theme
+- Video ads
+- Video quality
+</blockquote>
+</details>
 
-- ReVanced/revanced-patches
+<details>
+<summary id="YouTube-ReVanced">&ensp;<a href="../../releases/download/1/youtube-revanced-v20.14.43-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_ReVanced-v20.14.43-gray?labelColor=FF0000&logo=YouTube&logoColor=white"></a></summary>
+<blockquote>
 
-[![Download-YouTube-ReVanced](https://img.shields.io/badge/YouTube_ReVanced-v20.14.43-gray?labelColor=FF0000&style=for-the-badge&logo=YouTube&logoColor=white)](../../releases/download/1/youtube-revanced-v20.14.43.apk)
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Alternative thumbnails
+- Announcements
+- Bypass URL redirects
+- Bypass image region restrictions
+- Change form factor
+- Change start page
+- Check watch history domain name resolution
+- Copy video URL
+- Custom player overlay opacity
+- Disable auto captions
+- Disable double tap actions
+- Disable fullscreen ambient mode
+- Disable haptic feedback
+- Disable player popup panels
+- Disable resuming Shorts on startup
+- Disable rolling number animations
+- Disable sign in to TV popup
+- Disable video codecs
+- Downloads
+- Enable debugging
+- Exit fullscreen mode
+- Force original audio
+- GmsCore support
+- Hide Shorts components
+- Hide ads
+- Hide end screen cards
+- Hide end screen suggested video
+- Hide info cards
+- Hide layout components
+- Hide player flyout menu items
+- Hide player overlay buttons
+- Hide related video overlay
+- Hide timestamp
+- Hide video action buttons
+- Loop video
+- Miniplayer
+- Navigation buttons
+- Open Shorts in regular player
+- Open links externally
+- Open videos fullscreen
+- Pause on audio interrupt
+- Playback speed
+- Prevent screenshot detection
+- Remove background playback restrictions
+- Remove viewer discretion dialog
+- Return YouTube Dislike
+- Sanitize sharing links
+- Seekbar
+- Shorts autoplay
+- SponsorBlock
+- Spoof app version
+- Spoof device dimensions
+- Spoof video streams
+- Swipe controls
+- Theme
+- Video ads
+- Video quality
+- Wide search bar
+</blockquote>
+</details>
 
+</blockquote>
 </details>
 
 ---
 ### [YouTube Music:](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="YouTube-Music">&ensp;<a href="../../releases/download/1/youtube-music-nvbangg-v8.10.52-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music-v8.10.52-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
+<blockquote>
 
-- Hide music video ads
-- Enables the option to play audio without video.
-- Adds options to hide navigation bar, labels and buttons.
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Bypass certificate checks
+- Enable exclusive audio playback
+- GmsCore support
 - Hide 'Get Music Premium'
-- Bypasses certificate checks which prevent YouTube Music from working on Android Auto.
+- Hide music video ads
+- Navigation bar
+- Prevent screenshot detection
 - Remove background playback restrictions
-- Removes the tracking query parameters from shared links.
-
+- Sanitize sharing links
+</blockquote>
 </details>
-
-[![Download-YouTube-Music](https://img.shields.io/badge/YouTube_Music-v8.10.52-gray?labelColor=FF0000&style=for-the-badge&logo=youtube-music&logoColor=white)](../../releases/download/1/youtube-music-nvbangg-v8.10.52.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
+<blockquote><br>
 
-- ReVanced/revanced-patches (full patch)
+<details>
+<summary id="YouTube-Music-ReVanced">&ensp;<a href="../../releases/download/1/youtube-music-revanced-v8.10.52-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music_ReVanced-v8.10.52-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
+<blockquote>
 
-[![Download-YouTube-Music-ReVanced](https://img.shields.io/badge/YouTube_Music_ReVanced-v8.10.52-gray?labelColor=FF0000&style=for-the-badge&logo=youtube-music&logoColor=white)](../../releases/download/1/youtube-music-revanced-v8.10.52.apk)
-
-- MorpheApp/morphe-patches
-
-[![Download-YouTube-Music-Morphe](https://img.shields.io/badge/YouTube_Music_Morphe-v8.40.54-gray?labelColor=FF0000&style=for-the-badge&logo=youtube-music&logoColor=white)](../../releases/download/1/youtube-music-morphe-v8.40.54.apk)
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Bypass certificate checks
+- Change miniplayer color
+- Check watch history domain name resolution
+- Enable debugging
+- Enable exclusive audio playback
+- Force original audio
+- GmsCore support
+- Hide 'Get Music Premium'
+- Hide buttons
+- Hide category bar
+- Hide music video ads
+- Navigation bar
+- Permanent repeat
+- Prevent screenshot detection
+- Remove background playback restrictions
+- Sanitize sharing links
+- Spoof video streams
+- Theme
+</blockquote>
 </details>
+<!-- 
+<details>
+<summary id="YouTube-Music-Morphe">&ensp;<a href="../../releases/download/1/youtube-music-morphe-v8.40.54-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music_Morphe-v8.40.54-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
+<blockquote>
+
+Patch date: 2026-02-11<br>
+Patches: MorpheApp/patches-1.12.0.mpp
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.12.0)
+
+</blockquote>
+</details> -->
+
+</blockquote>
+</details> 
 
 ---
 ### [Google Photos:](https://play.google.com/store/apps/details?id=com.google.android.apps.photos)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Google-Photos">&ensp;<a href="../../releases/download/1/google-photos-revanced-v7.63.0.869312946-arm64-v8a.apk"><img src="https://img.shields.io/badge/Google_Photos-v7.63.0.869312946-gray?labelColor=FBBC04&logo=google-photos&logoColor=white"></a></summary>
+<blockquote>
 
-- Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- GmsCore support
+- Prevent screenshot detection
+- Spoof features
+</blockquote>
 </details>
-
-[![Download-Google-Photos](https://img.shields.io/badge/Google_Photos-v7.61.0.860908034-gray?labelColor=FBBC04&style=for-the-badge&logo=google-photos&logoColor=white)](../../releases/download/1/google-photos-revanced-v7.61.0.860908034.apk)
 
 ---
 ### [Spotify:](https://play.google.com/store/apps/details?id=com.spotify.music)
 
-- **This app may not work in some regions until the patch issue is fixed**
-
 <details>
-  <summary>anddea/revanced-patches</summary>
+<summary id="Spotify">&ensp;<a href="../../releases/download/1/spotify-anddea-v9.0.90.1229-arm64-v8a.apk"><img src="https://img.shields.io/badge/Spotify-v9.0.90.1229-gray?labelColor=1DB954&logo=Spotify&logoColor=white"></a></summary>
+<blockquote>
 
-- Unlock Premium: Unlocks Spotify Premium features. Server-sided features like downloading songs are still locked.
-- Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.
-- Fixes Spotify widgets not working in third party launchers, like Nova Launcher.
+Patch date: 2026-02-14<br>
+Patches: anddea/patches-3.16.0.rvp
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.16.0)
+- Fix Facebook login
+- Fix third party launchers widgets
 - Hide Create button
 - Lyrics search
-- Removes the tracking query parameters from links before they are shared.
-
+- Sanitize sharing links
+- Unlock Premium
+</blockquote>
 </details>
-
-[![Download-Spotify](https://img.shields.io/badge/Spotify-v9.0.90.1229-gray?labelColor=1DB954&style=for-the-badge&logo=Spotify&logoColor=white)](../../releases/download/1/spotify-anddea-v9.0.90.1229.apk)
 
 ---
 ### [TikTok:](https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="TikTok">&ensp;<a href="../../releases/download/1/tiktok-revanced-v36.5.4-arm64-v8a.apk"><img src="https://img.shields.io/badge/TikTok-v36.5.4-gray?labelColor=252525&logo=TikTok&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
 - Disable login requirement
-- Removes download restrictions and changes the default path to download to.
-- Feed filter: Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed.
+- Downloads
+- Feed filter
 - Fix Google login
-- Playback speed: Enables the playback speed option for all videos and retains the speed configurations in between videos.
-- Remembers the clear display configurations in between videos.
-- Removes the tracking query parameters from shared links.
-- Adds ReVanced settings to TikTok.
-- Shows progress bar for all video.
-
+- Playback speed
+- Prevent screenshot detection
+- Remember clear display
+- Sanitize sharing links
+- Settings
+- Show seekbar
+</blockquote>
 </details>
-
-[![Download-TikTok](https://img.shields.io/badge/TikTok-v36.5.4-gray?labelColor=000000&style=for-the-badge&logo=TikTok&logoColor=white)](../../releases/download/1/tiktok-revanced-v36.5.4.apk)
 
 ---
 ### [Instagram:](https://play.google.com/store/apps/details?id=com.instagram.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Instagram">&ensp;<a href="../../releases/download/1/instagram-revanced-v416.0.0.47.66-arm64-v8a.apk"><img src="https://img.shields.io/badge/Instagram-v416.0.0.47.66-gray?labelColor=E4405F&logo=Instagram&logoColor=white"></a></summary>
+<blockquote>
 
-- Disable Reels scrolling: Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
 - Hide ads
-- Removes the tracking query parameters from shared links.
-
-</details>
-
-[![Download-Instagram](https://img.shields.io/badge/Instagram-v414.0.0.40.83-gray?labelColor=E4405F&style=for-the-badge&logo=Instagram&logoColor=white)](../../releases/download/1/instagram-revanced-v414.0.0.40.83.apk)
-
-<details>
-  <summary><b><i>Alternative Versions</i></b></summary>
-
-- Aunali321/ReVancedExperiments
-
-[![Download-Instagram-ReVancedExperiments](https://img.shields.io/badge/Instagram_ReVancedExperiments-v414.0.0.40.83-gray?labelColor=E4405F&style=for-the-badge&logo=Instagram&logoColor=white)](../../releases/download/1/instagram-aunali321-v414.0.0.40.83.apk)
-
+- Prevent screenshot detection
+- Remove build expired popup
+</blockquote>
 </details>
 
 ---
 ### [Duolingo:](https://play.google.com/store/apps/details?id=com.duolingo)
 
 <details>
-  <summary>hoo-dles/morphe-patches</summary>
+<summary id="Duolingo">&ensp;<a href="../../releases/download/1/duolingo-hoo-dles-v6.66.5-arm64-v8a.apk"><img src="https://img.shields.io/badge/Duolingo-v6.66.5-gray?labelColor=4DC730&logo=Duolingo&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: hoo-dles/patches-1.6.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.6.0)
+- Disable Login Integrity
 - Enable Premium
-
+</blockquote>
 </details>
-
-[![Download-Duolingo](https://img.shields.io/badge/Duolingo-v6.65.3-gray?labelColor=4DC730&style=for-the-badge&logo=Duolingo&logoColor=white)](../../releases/download/3/duolingo-hoo-dles-v6.65.3.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
-
-- ReVanced/revanced-patches
-
-[![Download-Duolingo-ReVanced](https://img.shields.io/badge/Duolingo_ReVanced-v6.54.5-gray?labelColor=4DC730&style=for-the-badge&logo=Duolingo&logoColor=white)](../../releases/download/1/duolingo-revanced-v6.54.5.apk)
-
-</details>
-
----
-### [Facebook:](https://play.google.com/store/apps/details?id=com.facebook.katana&hl)
-
-**You have to remove the Messenger app before you install the Facebook ReVanced**
+<blockquote><br>
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Duolingo-ReVanced">&ensp;<a href="../../releases/download/1/duolingo-revanced-v6.54.5-arm64-v8a.apk"><img src="https://img.shields.io/badge/Duolingo_ReVanced-v6.54.5-gray?labelColor=4DC730&logo=Duolingo&logoColor=white"></a></summary>
+<blockquote>
 
-- Hide 'Sponsored Stories'
-- Hide story ads
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Disable ads
+- Prevent screenshot detection
+- Skip energy recharge ads
+</blockquote>
 </details>
 
-[![Download-Facebook](https://img.shields.io/badge/Facebook-v490.0.0.63.82-gray?labelColor=1877F2&style=for-the-badge&logo=Facebook&logoColor=white)](../../releases/download/1/facebook-revanced-v490.0.0.63.82.apk)
+</blockquote>
+</details>
 
 ---
 ### [Messenger:](https://play.google.com/store/apps/details?id=com.facebook.orca)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Messenger">&ensp;<a href="../../releases/download/1/messenger-revanced-v548.0.0.37.65-arm64-v8a.apk"><img src="https://img.shields.io/badge/Messenger-v548.0.0.37.65-gray?labelColor=00B2FF&logo=messenger&logoColor=white"></a></summary>
+<blockquote>
 
-- Disables the indicator while typing a message.
-- Hides the Facebook button in the top toolbar.
-- Hides ads in inbox.
-- Hides Home and Channels tabs between active now tray and chats.
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Disable typing indicator
+- Hide Facebook button
+- Hide inbox ads
+- Hide inbox subtabs
+- Prevent screenshot detection
 - Remove Meta AI
-
+</blockquote>
 </details>
-
-[![Download-Messenger](https://img.shields.io/badge/Messenger-v546.0.0.35.70-gray?labelColor=00B2FF&style=for-the-badge&logo=messenger&logoColor=white)](../../releases/download/1/messenger-revanced-v546.0.0.35.70.apk)
 
 ---
 ### [Telegram:](https://play.google.com/store/apps/details?id=org.telegram.messenger)
 
 <details>
-  <summary>Aunali321/ReVancedExperiments</summary>
+<summary id="Telegram">&ensp;<a href="../../releases/download/1/telegram-aunali321-v12.4.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Telegram-v12.4.1-gray?labelColor=2CA5E0&logo=telegram&logoColor=white"></a></summary>
+<blockquote>
 
-- Unlock Pro: Unlock client-side Pro features
-- Bypass integrity check to allow login
+Patch date: 2026-02-14<br>
+Patches: Aunali321/patches-1.9.0.rvp
+[Changelog](https://github.com/Aunali321/ReVancedExperiments/releases/tag/v1.9.0)
+- Bypass Integrity
 - Disable Auto Update
-- Boosts download speed
+- Download Speed Boost
 - Hide sponsored ads
-- Hides your typing indicator from other users
-
+- Hide typing indicator
+- Unlock Pro
+</blockquote>
 </details>
-
-[![Download-Telegram](https://img.shields.io/badge/Telegram-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/1/telegram-aunali321-v12.3.1.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
+<blockquote><br>
 
-- [Telegram Web](https://telegram.org/android) (fewer restrictions):
-- Aunali321/ReVancedExperiments
+<details>
+<summary id="Telegram-Web">&ensp;<a href="../../releases/download/1/telegram-web-aunali321-v12.4.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Telegram_Web-v12.4.1-gray?labelColor=2CA5E0&logo=telegram&logoColor=white"></a></summary>
+<blockquote>
 
-[![Download-Telegram-Web](https://img.shields.io/badge/Telegram_Web-v12.3.1-gray?labelColor=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](../../releases/download/1/telegram-web-aunali321-v12.3.1.apk)
+Patch date: 2026-02-14<br>
+Patches: Aunali321/patches-1.9.0.rvp
+[Changelog](https://github.com/Aunali321/ReVancedExperiments/releases/tag/v1.9.0)
+- Bypass Integrity
+- Disable Auto Update
+- Download Speed Boost
+- Hide sponsored ads
+- Hide typing indicator
+- Unlock Pro
+</blockquote>
+</details>
 
+</blockquote>
 </details>  
 
 ---
 ### [X (Twitter):](https://play.google.com/store/apps/details?id=com.twitter.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
-  
-- Dynamic color: Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.
+<summary id="Twitter">&ensp;<a href="../../releases/download/1/twitter-revanced-v10.86.0-release.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Twitter-v10.86.0.release.0-gray?labelColor=0F1419&logo=X&logoColor=white"></a></summary>
+<blockquote>
+
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Dynamic color
 - Hide ads
 - Hide recommended users
-- Removes the tracking query parameters from shared links.
-- Unlock downloads: Unlocks the ability to download any video. GIFs can be downloaded via the menu on long press.
-
+- Prevent screenshot detection
+- Sanitize sharing links
+- Unlock downloads
+</blockquote>
 </details>
-
-[![Download-Twitter](https://img.shields.io/badge/X_(Twitter)-v10.86.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/1/twitter-revanced-v10.86.0-release.0.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
+<blockquote><br>
 
-- crimera/piko
+<details>
+<summary id="Twitter-Piko">&ensp;<a href="../../releases/download/1/twitter-crimera-v11.65.0-release.5-arm64-v8a.apk"><img src="https://img.shields.io/badge/X_(Twitter)_Piko-v11.65.0.release.5-gray?labelColor=0F1419&logo=X&logoColor=white"></a></summary>
+<blockquote>
 
-[![Download-Twitter-Piko](https://img.shields.io/badge/X_(Twitter)_Piko-v11.62.0.release.0-gray?labelColor=000000&style=for-the-badge&logo=X&logoColor=white)](../../releases/download/1/twitter-crimera-v11.62.0-release.0.apk)
+Patch date: 2026-02-14<br>
+Patches: crimera/patches-2.0.0.rvp
+[Changelog](https://github.com/crimera/piko/releases/tag/v2.0.0)
+- Add ability to copy media link
+- Change app icon
+- Change version code
+- Clear tracking params
+- Control video auto scroll
+- Custom download folder
+- Custom emoji font
+- Custom font
+- Custom sharing domain
+- Custom translator
+- Customise post font size
+- Customize Inline action Bar items
+- Customize Navigation Bar items
+- Customize default reply sorting
+- Customize explore tabs
+- Customize notification tabs
+- Customize profile tabs
+- Customize search suggestions
+- Customize search tab items
+- Customize side bar items
+- Customize timeline top bar
+- Delete from database
+- Disable auto timeline scroll on launch
+- Disable chirp font
+- Disunify xchat system
+- Download patch
+- Enable PiP mode automatically
+- Enable Undo Posts
+- Enable debug menu for posts
+- Enable force HD videos
+- Force enable translate
+- Handle custom twitter links
+- Hide Banner
+- Hide Community Notes
+- Hide FAB
+- Hide FAB Menu Buttons
+- Hide Live Threads
+- Hide Recommended Users
+- Hide badges from navigation bar icons
+- Hide bookmark icon in timeline
+- Hide community badges
+- Hide followed by context
+- Hide hidden replies
+- Hide immersive player
+- Hide nudge button
+- Hide post metrics
+- Hide promote button
+- Hide timeline posts by category
+- Hook feature flag
+- Log server response
+- Native downloader
+- Native reader mode
+- No shortened URL
+- Pause search suggestions
+- Remove Ads
+- Remove premium upsell
+- Remove search suggestions
+- Remove view count
+- Round off numbers
+- Selectable Text
+- Show changelogs
+- Show poll results
+- Show post source label
+- Show sensitive media
+</blockquote>
+</details>
 
+</blockquote>
 </details>
 
 ---
 ### [Twitch:](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Twitch">&ensp;<a href="../../releases/download/1/twitch-revanced-v16.9.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Twitch-v16.9.1-gray?labelColor=9146FF&logo=Twitch&logoColor=white"></a></summary>
+<blockquote>
 
-- Automatically claim Channel Points.
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Auto claim channel points
 - Block audio ads
 - Block embedded ads
 - Block video ads
-- Adds settings menu to Twitch.
-- Shows deleted chat messages behind a clickable spoiler.
-
+- Prevent screenshot detection
+- Show deleted messages
+- Settings
+</blockquote>
 </details>
-
-[![Download-Twitch](https://img.shields.io/badge/Twitch-v16.9.1-gray?labelColor=9146FF&style=for-the-badge&logo=Twitch&logoColor=white)](../../releases/download/1/twitch-revanced-v16.9.1.apk)
 
 ---
 ### [Reddit:](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Reddit">&ensp;<a href="../../releases/download/1/reddit-revanced-v2026.06.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit-v2026.06.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
+<blockquote>
 
-- Disable screenshot popup
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
 - Hide ads
-- Removes the tracking query parameters from shared links.
-- Unlocks the Reddit Premium icons.
-
+- Prevent screenshot detection
+- Unlock Premium icons
+</blockquote>
 </details>
-
-[![Download-Reddit](https://img.shields.io/badge/Reddit-v2026.05.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/1/reddit-revanced-v2026.05.0.apk)
 
 <details>
   <summary><b><i>Alternative Versions</i></b></summary>
+<blockquote><br>
 
-- MorpheApp/morphe-patches
+<details>
+<summary id="Reddit-Morphe">&ensp;<a href="../../releases/download/1/reddit-morphe-v2026.03.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit_Morphe-v2026.03.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
+<blockquote>
 
-[![Download-Reddit-Morphe](https://img.shields.io/badge/Reddit_Morphe-v2026.03.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/3/reddit-morphe-v2026.03.0.apk)
+Patch date: 2026-02-14<br>
+Patches: MorpheApp/patches-1.13.0.mpp
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.13.0)
+- Disable screenshot popup
+- Hide Trending Today shelf
+- Hide ads
+- Hide navigation buttons
+- Hide recommended communities shelf
+- Hide sidebar components
+- Open links directly
+- Open links externally
+- Remove subreddit dialog
+- Sanitize sharing links
+- Settings for Reddit
+- Spoof signature
+</blockquote>
+</details>
 
-- jkennethcarino/privacy-revanced-patches
+<details>
+<summary id="Reddit-jkennethcarino">&ensp;<a href="../../releases/download/1/reddit-jkennethcarino-v2026.06.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit_jkennethcarino-v2026.06.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
+<blockquote>
 
-[![Download-Reddit-Privacy-Patches](https://img.shields.io/badge/Reddit_Privacy_Patches-v2026.05.0-gray?labelColor=FF4500&style=for-the-badge&logo=Reddit&logoColor=white)](../../releases/download/1/reddit-jkennethcarino-v2026.05.0.apk)
+Patch date: 2026-02-14<br>
+Patches: jkennethcarino/patches-4.5.0.rvp
+[Changelog](https://github.com/jkennethcarino/privacy-revanced-patches/releases/tag/v4.5.0)
+- Disable screenshot banner
+- Open external links directly
+- Remove ads and telemetry
+- Sanitize share links
+</blockquote>
+</details>
 
+</blockquote>
 </details>
 
 ---
 ### [SoundCloud:](https://play.google.com/store/apps/details?id=com.soundcloud.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="SoundCloud">&ensp;<a href="../../releases/download/1/soundcloud-revanced-v2025.05.27-release-arm64-v8a.apk"><img src="https://img.shields.io/badge/SoundCloud-v2025.05.27.release-gray?labelColor=FF5500&logo=SoundCloud&logoColor=white"></a></summary>
+<blockquote>
 
-- Disable telemetry: Disables SoundCloud's telemetry system.
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Disable telemetry
 - Enable offline sync
 - Hide ads
-
-</details>
-
-[![Download-SoundCloud](https://img.shields.io/badge/SoundCloud-v2025.05.27.release-gray?labelColor=FF5500&style=for-the-badge&logo=SoundCloud&logoColor=white)](../../releases/download/1/soundcloud-revanced-v2025.05.27-release.apk)
-
----
-### [Viber:](https://play.google.com/store/apps/details?id=com.viber.voip)
-
-<details>
-  <summary>ReVanced/revanced-patches</summary>
-
-- Hide Ads: Hides ad banners between chats.
-
-</details>
-
-[![Download-Viber](https://img.shields.io/badge/Viber-v26.1.2.0-gray?labelColor=7360F2&style=for-the-badge&logo=Viber&logoColor=white)](../../releases/download/1/viber-revanced-v26.1.2.0.apk)
-
----
-### [Threads:](https://play.google.com/store/apps/details?id=com.instagram.barcelona)
-
-<details>
-  <summary>Aunali321/ReVancedExperiments</summary>
-
-- Hide ads
-
-</details>
-
-[![Download-Threads](https://img.shields.io/badge/Threads-v416.0.0.0.53-gray?labelColor=000000&style=for-the-badge&logo=Threads&logoColor=white)](../../releases/download/1/threads-aunali321-v416.0.0.0.53.apk)
-
-<details>
-  <summary><b><i>Alternative Versions</i></b></summary>
-
-- ReVanced/revanced-patches
-
-[![Download-Threads-ReVanced](https://img.shields.io/badge/Threads_ReVanced-v415.0.0.26.77-gray?labelColor=000000&style=for-the-badge&logo=Threads&logoColor=white)](../../releases/download/1/threads-revanced-v415.0.0.26.77.apk)
-
+- Prevent screenshot detection
+</blockquote>
 </details>
 
 ---
 ### [Gboard:](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
 
 <details>
-  <summary>jkennethcarino/privacy-revanced-patches</summary>
+<summary id="Gboard">&ensp;<a href="../../releases/download/1/gboard-jkennethcarino-v16.7.4.861137547-release-arm64-v8a-arm64-v8a.apk"><img src="https://img.shields.io/badge/Gboard-v16.7.4.861137547.release.arm64.v8a-gray?labelColor=4285F4&logo=Google&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-11<br>
+Patches: jkennethcarino/patches-4.5.0.rvp
+[Changelog](https://github.com/jkennethcarino/privacy-revanced-patches/releases/tag/v4.5.0)
 - Always-incognito mode for Gboard
 - Enable OCR feature for Gboard
 - Enable clipboard in incognito
 
+</blockquote>
 </details>
-
-[![Download-Gboard](https://img.shields.io/badge/Gboard-v16.6.3.855170483.release.arm64.v8a-gray?labelColor=4285F4&style=for-the-badge&logo=Google&logoColor=white)](../../releases/download/1/gboard-jkennethcarino-v16.6.3.855170483-release-arm64-v8a.apk)
 
 ---
 ### [Google Recorder:](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Google-Recorder">&ensp;<a href="../../releases/download/1/google-recorder-revanced-v4.2.20260118.867906508-arm64-v8a.apk"><img src="https://img.shields.io/badge/Google_Recorder-v4.2.20260118.867906508-gray?labelColor=F44336&logo=recorder&logoColor=white"></a></summary>
+<blockquote>
 
-- Remove device restrictions: Removes restrictions from using the app on any device. Requires mounting patched app over original.
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Prevent screenshot detection
+- Remove device restrictions
+</blockquote>
 </details>
-
-[![Download-Google-Recorder](https://img.shields.io/badge/Google_Recorder-v4.2.20251118.834471379-gray?labelColor=F44336&style=for-the-badge&logo=Google&logoColor=white)](../../releases/download/1/google-recorder-revanced-v4.2.20251118.834471379.apk)
 
 ---
 ### [Prime Video:](https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Prime-Video">&ensp;<a href="../../releases/download/1/prime-video-revanced-v3.0.412.2947-arm64-v8a.apk"><img src="https://img.shields.io/badge/Prime_Video-v3.0.412.2947-gray?labelColor=00A8E1&logo=Prime-Video&logoColor=white"></a></summary>
+<blockquote>
 
-- Adds playback speed controls to the video player.
-- Skip ads: Automatically skips video stream ads.
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Playback speed
+- Prevent screenshot detection
+- Skip ads
+</blockquote>
 </details>
-
-[![Download-Prime-Video](https://img.shields.io/badge/Prime_Video-v3.0.412.2947-gray?labelColor=00A8E1&style=for-the-badge&logo=Prime-Video&logoColor=white)](../../releases/download/1/prime-video-revanced-v3.0.412.2947.apk)
 
 ---
 ### [Disney+:](https://play.google.com/store/apps/details?id=com.disney.disneyplus)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Disney">&ensp;<a href="../../releases/download/1/disney-revanced-v4.20.2+rc1-2025.12.09-arm64-v8a.apk"><img src="https://img.shields.io/badge/Disney+-v4.20.2+rc1.2025.12.09-gray?labelColor=113CCF&logo=Disney%2B&logoColor=white"></a></summary>
+<blockquote>
 
-- Skip ads: Automatically skips ads.
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Prevent screenshot detection
+- Skip ads
+</blockquote>
 </details>
-
-[![Download-Disney](https://img.shields.io/badge/Disney+-v4.20.2+rc1.2025.12.09-gray?labelColor=113CCF&style=for-the-badge&logo=Disney%2B&logoColor=white)](../../releases/download/1/disney-revanced-v4.20.2+rc1-2025.12.09.apk)
 
 ---
 ### [Tumblr:](https://play.google.com/store/apps/details?id=com.tumblr)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Tumblr">&ensp;<a href="../../releases/download/1/tumblr-revanced-v43.2.0.110-arm64-v8a.apk"><img src="https://img.shields.io/badge/Tumblr-v43.2.0.110-gray?labelColor=36465D&logo=Tumblr&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
 - Disable Ad-Free Banner
-- Disables the reminder to enable notifications for blogs you visit.
+- Disable Tumblr TV
+- Disable blog notification reminder
 - Disable dashboard ads
 - Disable gift message popup
 - Disable in-app update
-- Disable Tumblr TV
-
+- Prevent screenshot detection
+</blockquote>
 </details>
-
-[![Download-Tumblr](https://img.shields.io/badge/Tumblr-v43.1.0.109-gray?labelColor=36465D&style=for-the-badge&logo=Tumblr&logoColor=white)](../../releases/download/1/tumblr-revanced-v43.1.0.109.apk)
 
 ---
 ### [Photomath:](https://play.google.com/store/apps/details?id=com.microblink.photomath)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Photomath">&ensp;<a href="../../releases/download/1/photomath-revanced-v8.46.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Photomath-v8.46.0-gray?labelColor=DA2323&logo=Photomath&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Hide update popup
+- Prevent screenshot detection
+- Spoof device ID
 - Unlock plus
-- Hide update popup:.
-- Spoofs device ID to mitigate manual bans by developers.
-
+</blockquote>
 </details>
-
-[![Download-Photomath](https://img.shields.io/badge/Photomath-v8.46.0-gray?labelColor=DA2323&style=for-the-badge&logo=Photomath&logoColor=white)](../../releases/download/1/photomath-revanced-v8.46.0.apk)
 
 ---
 ### [Strava:](https://play.google.com/store/apps/details?id=com.strava)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Strava">&ensp;<a href="../../releases/download/1/strava-revanced-v450.9-arm64-v8a.apk"><img src="https://img.shields.io/badge/Strava-v450.9-gray?labelColor=FC4C02&logo=Strava&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Add 'Give Kudos' button to 'Group Activity'
+- Add media download
+- Block Snowplow tracking
+- Disable Quick Edit
 - Disable subscription suggestions
-- Unlock subscription features: Unlocks "Routes", "Matched Runs" and "Segment Efforts".
-
+- Enable password login
+- Overwrite media upload parameters
+- Prevent screenshot detection
+- Unlock subscription features
+</blockquote>
 </details>
-
-[![Download-Strava](https://img.shields.io/badge/Strava-v448.10-gray?labelColor=FC4C02&style=for-the-badge&logo=Strava&logoColor=white)](../../releases/download/1/strava-revanced-v448.10.apk)
 
 ---
 ### [MyFitnessPal:](https://play.google.com/store/apps/details?id=com.myfitnesspal.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="MyFitnessPal">&ensp;<a href="../../releases/download/1/myfitnesspal-revanced-v24.14.2-arm64-v8a.apk"><img src="https://img.shields.io/badge/MyFitnessPal-v24.14.2-gray?labelColor=0066EE&logo=MyFitnessPal&logoColor=white"></a></summary>
+<blockquote>
 
-- Hide ads: Hides most of the ads across the app.
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Hide ads
+- Prevent screenshot detection
+</blockquote>
 </details>
-
-[![Download-MyFitnessPal](https://img.shields.io/badge/MyFitnessPal-v24.14.2-gray?labelColor=0066EE&style=for-the-badge&logo=MyFitnessPal&logoColor=white)](../../releases/download/1/myfitnesspal-revanced-v24.14.2.apk)
 
 ---
 ### [Crunchyroll:](https://play.google.com/store/apps/details?id=com.crunchyroll.crunchyroid)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Crunchyroll">&ensp;<a href="../../releases/download/1/crunchyroll-revanced-v3.99.2-arm64-v8a.apk"><img src="https://img.shields.io/badge/Crunchyroll-v3.99.2-gray?labelColor=F47521&logo=Crunchyroll&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
 - Hide ads
-
+- Prevent screenshot detection
+</blockquote>
 </details>
-
-[![Download-Crunchyroll](https://img.shields.io/badge/Crunchyroll-v3.99.1-gray?labelColor=F47521&style=for-the-badge&logo=Crunchyroll&logoColor=white)](../../releases/download/1/crunchyroll-revanced-v3.99.1.apk)
 
 ---
 ### [Pandora:](https://play.google.com/store/apps/details?id=com.pandora.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Pandora">&ensp;<a href="../../releases/download/1/pandora-revanced-v2601.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Pandora-v2601.1-gray?labelColor=3668FF&logo=Pandora&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
 - Disable audio ads
 - Enable unlimited skips
-
+- Prevent screenshot detection
+</blockquote>
 </details>
-
-[![Download-Pandora](https://img.shields.io/badge/Pandora-v2510.1.1-gray?labelColor=3668FF&style=for-the-badge&logo=Pandora&logoColor=white)](../../releases/download/1/pandora-revanced-v2510.1.1.apk)
 
 ---
 ### [MEGA:](https://play.google.com/store/apps/details?id=mega.privacy.android.app)
 
 <details>
-  <summary>Tosox/revanced-patches</summary>
+<summary id="MEGA">&ensp;<a href="../../releases/download/1/mega-tosox-v15.26.1.260361404.4b5f69fab9.-arm64-v8a.apk"><img src="https://img.shields.io/badge/MEGA-v15.26.1(260361404)(4b5f69fab9)-gray?labelColor=D90007&logo=MEGA&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: Tosox/patches-1.5.1.rvp
+[Changelog](https://github.com/Tosox/revanced-patches/releases/tag/v1.5.1)
 - Hide Ads
-
+</blockquote>
 </details>
-
-[![Download-MEGA](https://img.shields.io/badge/MEGA-v15.26(260290254)(a9e03e1174)-gray?labelColor=D90007&style=for-the-badge&logo=MEGA&logoColor=white)](../../releases/download/1/mega-tosox-v15.26.260290254.a9e03e1174.apk)
 
 ---
 ### [Cake:](https://play.google.com/store/apps/details?id=me.mycake)
 
 <details>
-  <summary>hoo-dles/morphe-patches</summary>
+<summary id="Cake">&ensp;<a href="../../releases/download/1/cake-hoo-dles-v6.4.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Cake-v6.4.0-gray?labelColor=FF6B35&logo=cake&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: hoo-dles/patches-1.6.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.6.0)
 - Enable Plus
-
+</blockquote>
 </details>
-
-[![Download-Cake](https://img.shields.io/badge/Cake-v6.4.0-gray?labelColor=FF6B35&style=for-the-badge&logo=cake&logoColor=white)](../../releases/download/3/cake-hoo-dles-v6.4.0.apk)
 
 ---
 ### [Merriam-Webster Dictionary:](https://play.google.com/store/apps/details?id=com.merriamwebster)
 
 <details>
-  <summary>hoo-dles/morphe-patches</summary>
+<summary id="Merriam-Webster-Dictionary">&ensp;<a href="../../releases/download/1/merriam-webster-dictionary-hoo-dles-v5.5.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Merriam_Webster_Dictionary-v5.5.0-gray?labelColor=007AFF&logo=book&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: hoo-dles/patches-1.6.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.6.0)
 - Enable Premium
-
+</blockquote>
 </details>
-
-[![Download-Merriam-Webster-Dictionary](https://img.shields.io/badge/Merriam_Webster_Dictionary-v5.5.5-gray?labelColor=007AFF&style=for-the-badge&logo=book&logoColor=white)](../../releases/download/3/merriam-webster-dictionary-hoo-dles-v5.5.5.apk)
 
 ---
 ### [Peacock TV:](https://play.google.com/store/apps/details?id=com.peacocktv.peacockandroid)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Peacock-TV">&ensp;<a href="../../releases/download/1/peacock-tv-revanced-v7.1.25-arm64-v8a.apk"><img src="https://img.shields.io/badge/Peacock_TV-v7.1.25-gray?labelColor=00A1DF&logo=peacock&logoColor=white"></a></summary>
+<blockquote>
 
-- Hide ads: Hides all video ads.
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Hide ads
+- Prevent screenshot detection
+</blockquote>
 </details>
-
-[![Download-Peacock-TV](https://img.shields.io/badge/Peacock_TV-v7.1.20-gray?labelColor=000000&style=for-the-badge&logo=Peacock&logoColor=white)](../../releases/download/1/peacock-tv-revanced-v7.1.20.apk)
 
 ---
 ### [Cricbuzz:](https://play.google.com/store/apps/details?id=com.cricbuzz.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Cricbuzz">&ensp;<a href="../../releases/download/1/cricbuzz-revanced-v6.24.01-arm64-v8a.apk"><img src="https://img.shields.io/badge/Cricbuzz-v6.24.01-gray?labelColor=009270&logo=Cricbuzz&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
 - Hide ads
-
+- Prevent screenshot detection
+</blockquote>
 </details>
-
-[![Download-Cricbuzz](https://img.shields.io/badge/Cricbuzz-v6.24.01-gray?labelColor=009270&style=for-the-badge&logo=Cricbuzz&logoColor=white)](../../releases/download/1/cricbuzz-revanced-v6.24.01.apk)
 
 ---
 ### [Pixiv:](https://play.google.com/store/apps/details?id=jp.pxv.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Pixiv">&ensp;<a href="../../releases/download/1/pixiv-revanced-v6.141.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Pixiv-v6.141.1-gray?labelColor=0096FA&logo=Pixiv&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
 - Hide ads
-
+- Prevent screenshot detection
+</blockquote>
 </details>
-
-[![Download-Pixiv](https://img.shields.io/badge/Pixiv-v6.141.1-gray?labelColor=0096FA&style=for-the-badge&logo=Pixiv&logoColor=white)](../../releases/download/1/pixiv-revanced-v6.141.1.apk)
 
 ---
 ### [RAR:](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="RAR">&ensp;<a href="../../releases/download/1/rar-revanced-v7.20.build131-arm64-v8a.apk"><img src="https://img.shields.io/badge/RAR-v7.20.build131-gray?labelColor=005B96&logo=RAR&logoColor=white"></a></summary>
+<blockquote>
 
-- Hides the popup that reminds you to purchase the app.
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Hide purchase reminder
+- Prevent screenshot detection
+</blockquote>
 </details>
-
-[![Download-RAR](https://img.shields.io/badge/RAR-v7.20.build131-gray?labelColor=000000&style=for-the-badge&logo=RAR&logoColor=white)](../../releases/download/1/rar-revanced-v7.20.build131.apk)
 
 ---
 ### [Proton Mail:](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Proton-Mail">&ensp;<a href="../../releases/download/1/proton-mail-revanced-v4.15.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Proton_Mail-v4.15.0-gray?labelColor=6D4AFF&logo=ProtonMail&logoColor=white"></a></summary>
+<blockquote>
 
-- Removes the 'Sent from Proton Mail mobile' signature from emails.
-- Removes the limit for maximum free accounts logged in.
-
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Prevent screenshot detection
+- Remove 'Sent from' signature
+- Remove free accounts limit
+</blockquote>
 </details>
-
-[![Download-Proton-Mail](https://img.shields.io/badge/Proton_Mail-v4.15.0-gray?labelColor=6D4AFF&style=for-the-badge&logo=ProtonMail&logoColor=white)](../../releases/download/1/proton-mail-revanced-v4.15.0.apk)
 
 ---
 ### [Proton VPN:](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Proton-VPN">&ensp;<a href="../../releases/download/1/proton-vpn-revanced-v5.15.70.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Proton_VPN-v5.15.70.0-gray?labelColor=6D4AFF&logo=ProtonVPN&logoColor=white"></a></summary>
+<blockquote>
 
-- Removes the delay when changing servers
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Prevent screenshot detection
+- Remove delay
 - Unlock split tunneling
-
+</blockquote>
 </details>
-
-[![Download-Proton-VPN](https://img.shields.io/badge/Proton_VPN-v5.15.51.0-gray?labelColor=6D4AFF&style=for-the-badge&logo=ProtonVPN&logoColor=white)](../../releases/download/1/proton-vpn-revanced-v5.15.51.0.apk)
 
 ---
 ### [AZ Screen Recorder:](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free)
 
 <details>
-  <summary>scrazzz/revanced-patches-scruz</summary>
+<summary id="AZ-Screen-Recorder">&ensp;<a href="../../releases/download/1/az-screen-recorder-scrazzz-v6.4.3-arm64-v8a.apk"><img src="https://img.shields.io/badge/AZ_Screen_Recorder-v6.4.3-gray?labelColor=FF5000&logo=AZ-Screen-Recorder&logoColor=white"></a></summary>
+<blockquote>
 
-- Unlock AZ Screen Recorder VIP patch
-
+Patch date: 2026-02-14<br>
+Patches: scrazzz/patches-1.1.0-dev.1.rvp
+[Changelog](https://github.com/scrazzz/revanced-patches-scruz/releases/tag/v1.1.0-dev.1)
+- Unlock Pro
+</blockquote>
 </details>
-
-[![Download-AZ-Screen-Recorder](https://img.shields.io/badge/AZ_Screen_Recorder-v6.4.3-gray?labelColor=FF5000&style=for-the-badge&logo=recorder&logoColor=white)](../../releases/download/1/az-screen-recorder-scrazzz-v6.4.3.apk)
 
 ---
 ### [Nova Launcher:](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher)
 
 <details>
-  <summary>indrastorms/Dropped-Patches</summary>
+<summary id="Nova-Launcher">&ensp;<a href="../../releases/download/1/nova-launcher-indrastorms-v81029.8.3.5.-arm64-v8a.apk"><img src="https://img.shields.io/badge/Nova_Launcher-v81029(8.3.5)-gray?labelColor=F05E1C&logo=Nova-Launcher&logoColor=white"></a></summary>
+<blockquote>
 
-- Unlocks Nova Prime and all functions of the app
-
+Patch date: 2026-02-14<br>
+Patches: indrastorms/patches-1.5.1.rvp
+[Changelog](https://github.com/indrastorms/Dropped-Patches/releases/tag/v1.5.1)
+- Unlock prime
+</blockquote>
 </details>
-
-[![Download-Nova-Launcher](https://img.shields.io/badge/Nova_Launcher-v81023(8.3.1)-gray?labelColor=222222&style=for-the-badge&logo=Nova-Launcher&logoColor=white)](../../releases/download/1/nova-launcher-indrastorms-v81023.8.3.1.apk)
 
 ---
 ### [Tasker:](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 
 <details>
-  <summary>indrastorms/Dropped-Patches</summary>
+<summary id="Tasker">&ensp;<a href="../../releases/download/1/tasker-indrastorms-v6.6.19-arm64-v8a.apk"><img src="https://img.shields.io/badge/Tasker-v6.6.19-gray?labelColor=FFA500&logo=tasker&logoColor=white"></a></summary>
+<blockquote>
 
-- Unlocks Tasker Pro
-
+Patch date: 2026-02-14<br>
+Patches: indrastorms/patches-1.5.1.rvp
+[Changelog](https://github.com/indrastorms/Dropped-Patches/releases/tag/v1.5.1)
+- Unlock trial
+</blockquote>
 </details>
-
-[![Download-Tasker](https://img.shields.io/badge/Tasker-v6.6.17.rc-gray?labelColor=000000&style=for-the-badge&logo=tasker&logoColor=white)](../../releases/download/1/tasker-indrastorms-v6.6.17-rc.apk)
 
 ---
 ### [FX File Explorer:](https://play.google.com/store/apps/details?id=nextapp.fx)
 
 <details>
-  <summary>indrastorms/Dropped-Patches</summary>
+<summary id="FX-File-Explorer">&ensp;<a href="../../releases/download/1/fx-file-explorer-indrastorms-v9.1.0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/FX_File_Explorer-v9.1.0.0-gray?labelColor=1976D2&logo=FX-File-Explorer&logoColor=white"></a></summary>
+<blockquote>
 
-- Unlocks FX File Explorer Plus
-
+Patch date: 2026-02-14<br>
+Patches: indrastorms/patches-1.5.1.rvp
+[Changelog](https://github.com/indrastorms/Dropped-Patches/releases/tag/v1.5.1)
+- Unlock FX Plus
+</blockquote>
 </details>
-
-[![Download-FX-File-Explorer](https://img.shields.io/badge/FX_File_Explorer-v9.1.0.0-gray?labelColor=1976D2&style=for-the-badge&logo=Files&logoColor=white)](../../releases/download/1/fx-file-explorer-indrastorms-v9.1.0.0.apk)
 
 ---
 ### [Solid Explorer:](https://play.google.com/store/apps/details?id=pl.solidexplorer2)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Solid-Explorer">&ensp;<a href="../../releases/download/1/solid-explorer-revanced-v3.3.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Solid_Explorer-v3.3.1-gray?labelColor=1976D2&logo=Solid-Explorer&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Prevent screenshot detection
 - Remove file size limit
-
+</blockquote>
 </details>
-
-[![Download-Solid-Explorer](https://img.shields.io/badge/Solid_Explorer-v3.3.1-gray?labelColor=1976D2&style=for-the-badge&logo=folder&logoColor=white)](../../releases/download/1/solid-explorer-revanced-v3.3.1.apk)
 
 ---
 ### [Smart Launcher 6:](https://play.google.com/store/apps/details?id=ginlemon.flowerfree)
 
 <details>
-  <summary>hoo-dles/morphe-patches</summary>
+<summary id="Smart-Launcher-6">&ensp;<a href="../../releases/download/1/smart-launcher-6-hoo-dles-v6.6build003-arm64-v8a.apk"><img src="https://img.shields.io/badge/Smart_Launcher_6-v6.6build003-gray?labelColor=448AFF&logo=Smart-Launcher&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: hoo-dles/patches-1.6.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.6.0)
+- Disable signature check
 - Enable Pro
-
+</blockquote>
 </details>
-
-[![Download-Smart-Launcher-6](https://img.shields.io/badge/Smart_Launcher_6-v6.6build002patch1-gray?labelColor=2D2D2D&style=for-the-badge&logo=launcher&logoColor=white)](../../releases/download/3/smart-launcher-6-hoo-dles-v6.6build002patch1.apk)
 
 ---
 ### [TickTick:](https://play.google.com/store/apps/details?id=com.ticktick.task)
 
 <details>
-  <summary>Tosox/revanced-patches</summary>
+<summary id="TickTick">&ensp;<a href="../../releases/download/1/ticktick-tosox-v8.0.2.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/TickTick-v8.0.2.0-gray?labelColor=FF6B6B&logo=ticktick&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: Tosox/patches-1.5.1.rvp
+[Changelog](https://github.com/Tosox/revanced-patches/releases/tag/v1.5.1)
+- No Integrity Check
 - Unlock Pro
-
+</blockquote>
 </details>
-
-[![Download-TickTick](https://img.shields.io/badge/TickTick-v8.0.2.0-gray?labelColor=FF6B6B&style=for-the-badge&logo=ticktick&logoColor=white)](../../releases/download/1/ticktick-tosox-v8.0.2.0.apk)
 
 ---
 ### [Meme Generator:](https://play.google.com/store/apps/details?id=com.zombodroid.MemeGenerator)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Meme-Generator">&ensp;<a href="../../releases/download/1/meme-generator-revanced-v4.6377-arm64-v8a.apk"><img src="https://img.shields.io/badge/Meme_Generator-v4.6377-gray?labelColor=607D8B&logo=Meme-Generator&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Prevent screenshot detection
 - Unlock pro
-
+</blockquote>
 </details>
-
-[![Download-Meme-Generator](https://img.shields.io/badge/Meme_Generator-v4.6377-gray?labelColor=000000&style=for-the-badge&logo=meme&logoColor=white)](../../releases/download/1/meme-generator-revanced-v4.6377.apk)
 
 ---
 ### [Icon Pack Studio:](https://play.google.com/store/apps/details?id=ginlemon.iconpackstudio)
 
 <details>
-  <summary>ReVanced/revanced-patches</summary>
+<summary id="Icon-Pack-Studio">&ensp;<a href="../../releases/download/1/icon-pack-studio-revanced-v2.2build016-arm64-v8a.apk"><img src="https://img.shields.io/badge/Icon_Pack_Studio-v2.2build016-gray?labelColor=9C27B0&logo=Icon-Pack-Studio&logoColor=white"></a></summary>
+<blockquote>
 
+Patch date: 2026-02-14<br>
+Patches: ReVanced/patches-5.48.0.rvp
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)
+- Prevent screenshot detection
 - Unlock pro
-
+</blockquote>
 </details>
-
-[![Download-Icon-Pack-Studio](https://img.shields.io/badge/Icon_Pack_Studio-v2.2build016-gray?labelColor=9C27B0&style=for-the-badge&logo=palette&logoColor=white)](../../releases/download/1/icon-pack-studio-revanced-v2.2build016.apk)
 
 ---
 
-<details>
-  <summary><h2>Patches used in this repo:</h2></summary>
-<br>
+## Patches used in this repository:
 
-[![nvbangg/nvbangg-patches](https://img.shields.io/badge/nvbangg_patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/nvbangg/nvbangg-patches)
-
-[![ReVanced/revanced-patches](https://img.shields.io/badge/revanced_patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/ReVanced/revanced-patches)
-
-[![MorpheApp/morphe-patches](https://img.shields.io/badge/morphe_patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/MorpheApp/morphe-patches)
-
-[![anddea/revanced-patches](https://img.shields.io/badge/Anddea_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/anddea/revanced-patches)
-
-[![Aunali321/ReVancedExperiments](https://img.shields.io/badge/ReVanced_Experiments_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/Aunali321/ReVancedExperiments)
-
-[![hoo-dles/morphe-patches](https://img.shields.io/badge/Hoo_Dles_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/hoo-dles/morphe-patches)
-
-[![crimera/piko](https://img.shields.io/badge/Piko_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/crimera/piko)
-
-[![jkennethcarino/privacy-revanced-patches](https://img.shields.io/badge/privacy_revanced_patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/jkennethcarino/privacy-revanced-patches)
-
-[![Tosox/revanced-patches](https://img.shields.io/badge/Tosox_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/Tosox/revanced-patches)
-
-[![scrazzz/revanced-patches-scruz](https://img.shields.io/badge/Scrazzz_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/scrazzz/revanced-patches-scruz)
-
-[![indrastorms/Dropped-Patches](https://img.shields.io/badge/Dropped_Patches-GPL--3.0-blue?style=for-the-badge&logo=github)](https://github.com/indrastorms/Dropped-Patches)
+[![nvbangg](https://img.shields.io/github/license/nvbangg/nvbangg-patches?label=nvbangg)](https://github.com/nvbangg/nvbangg-patches) [![ReVanced](https://img.shields.io/github/license/ReVanced/revanced-patches?label=ReVanced)](https://github.com/ReVanced/revanced-patches) [![MorpheApp](https://img.shields.io/github/license/MorpheApp/morphe-patches?label=MorpheApp)](https://github.com/MorpheApp/morphe-patches) [![anddea](https://img.shields.io/github/license/anddea/revanced-patches?label=anddea)](https://github.com/anddea/revanced-patches) [![Aunali321](https://img.shields.io/github/license/Aunali321/ReVancedExperiments?label=Aunali321)](https://github.com/Aunali321/ReVancedExperiments) [![hoo-dles](https://img.shields.io/github/license/hoo-dles/morphe-patches?label=hoo-dles)](https://github.com/hoo-dles/morphe-patches) [![crimera](https://img.shields.io/github/license/crimera/piko?label=crimera)](https://github.com/crimera/piko) [![jkennethcarino](https://img.shields.io/github/license/jkennethcarino/privacy-revanced-patches?label=jkennethcarino)](https://github.com/jkennethcarino/privacy-revanced-patches) [![Tosox](https://img.shields.io/github/license/Tosox/revanced-patches?label=Tosox)](https://github.com/Tosox/revanced-patches) [![scrazzz](https://img.shields.io/github/license/scrazzz/revanced-patches-scruz?label=scrazzz)](https://github.com/scrazzz/revanced-patches-scruz) [![indrastorms](https://img.shields.io/github/license/indrastorms/Dropped-Patches?label=indrastorms)](https://github.com/indrastorms/Dropped-Patches)
 
 </details>

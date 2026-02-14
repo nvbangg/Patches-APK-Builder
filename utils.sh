@@ -5,7 +5,9 @@ CWD=$(pwd)
 TEMP_DIR="temp"
 BIN_DIR="bin"
 BUILD_DIR="build"
+BUILD_JSON_FILE="build.json"
 PATCH_EXT=""
+PATCH_OUTPUT=""
 
 if [ "${GITHUB_TOKEN-}" ]; then GH_HEADER="Authorization: token ${GITHUB_TOKEN}"; else GH_HEADER=; fi
 NEXT_VER_CODE=${NEXT_VER_CODE:-$(date +'%Y%m%d')}
@@ -152,24 +154,11 @@ set_prebuilts() {
 }
 
 config_update() {
-	local filter_type="${1-patches}"
-	local filter_value="${2-}"
 	if [ ! -f build.md ]; then abort "build.md not available"; fi
 	declare -A sources
 	: >"$TEMP_DIR"/skipped
 	local upped=()
 	local prcfg=false
-	
-	matches_filter() {
-		local value="$1" filter="$2"
-		[ -z "$filter" ] && return 0
-		local value_lower="${value,,}"
-		for f in $filter; do
-			[[ "$value_lower" == "${f,,}" ]] && return 0
-		done
-		return 1
-	}
-	
 	for table_name in $(toml_get_table_names); do
 		if [ -z "$table_name" ]; then continue; fi
 		t=$(toml_get_table "$table_name")
@@ -177,31 +166,10 @@ config_update() {
 		if [ "$enabled" = false ]; then continue; fi
 		PATCHES_SRC=$(toml_get "$t" patches-source) || PATCHES_SRC=$DEF_PATCHES_SRC
 		PATCHES_VER=$(toml_get "$t" patches-version) || PATCHES_VER=$DEF_PATCHES_VER
-		
-		# Check filters - skip and add to skipped if not matched
-		local matched=true
-		local patches_owner="${PATCHES_SRC%%/*}"
-		if [ -n "$filter_value" ]; then
-			if [ "$filter_type" = "app" ]; then
-				matches_filter "$table_name" "$filter_value" || matched=false
-			else
-				matches_filter "$patches_owner" "$filter_value" || matched=false
-			fi
-		fi
-		if [ "$matched" = false ]; then
-			local old_patches=$(grep -i "^Patches: ${patches_owner}/" build.md | head -1 || :)
-			if [ -n "$old_patches" ] && ! grep -qF "$old_patches" "$TEMP_DIR"/skipped 2>/dev/null; then
-				echo "$old_patches" >>"$TEMP_DIR"/skipped
-			fi
-			continue
-		fi
-		
-		# Check if this patches source has been processed
 		if [[ -v sources["$PATCHES_SRC/$PATCHES_VER"] ]]; then
 			if [ "${sources["$PATCHES_SRC/$PATCHES_VER"]}" = 1 ]; then upped+=("$table_name"); fi
 		else
 			sources["$PATCHES_SRC/$PATCHES_VER"]=0
-			
 			local rv_rel="https://api.github.com/repos/${PATCHES_SRC}/releases"
 			if [ "$PATCHES_VER" = "dev" ]; then
 				last_patches=$(gh_req "$rv_rel" - | jq -e -r '.[0]')
@@ -499,10 +467,13 @@ patch_apk() {
 --keystore-entry-password=ReVanced --keystore-password=ReVanced --signer=ReVanced --keystore-entry-alias=ReVanced $patcher_args"
 	if [ "$OS" = Android ]; then cmd+=" --custom-aapt2-binary='${AAPT2}'"; fi
 	pr "$cmd"
-	if eval "$cmd"; then [ -f "$patched_apk" ]; else
-		rm "$patched_apk" 2>/dev/null || :
-		return 1
+	local patch_log="${TEMP_DIR}/patch_log.txt"
+	if eval "$cmd" 2>&1 | tee "$patch_log"; then
+		PATCH_OUTPUT=$(cat "$patch_log")
+		[ -f "$patched_apk" ] && return 0
 	fi
+	rm "$patched_apk" 2>/dev/null || :
+	return 1
 }
 
 check_sig() {
@@ -660,15 +631,24 @@ build_rv() {
 			fi
 		fi
 		if [ "$build_mode" = apk ]; then
-			local apk_output
-			if [ "${args[arch_both]}" = "true" ]; then
-				apk_output="${BUILD_DIR}/${app_name_l}-${rv_brand_f}-v${version_f}-${arch_f}.apk"
-			else
-				apk_output="${BUILD_DIR}/${app_name_l}-${rv_brand_f}-v${version_f}.apk"
-			fi
+			local apk_output="${BUILD_DIR}/${app_name_l}-${rv_brand_f}-v${version_f}-${arch_f}.apk"
 			mv -f "$patched_apk" "$apk_output"
 			log "${table}: ${version}"
 			pr "Built ${table} (non-root): '${apk_output}'"
+			# Write build info to build.json
+			local patches_file="${patches_jar##*/}"
+			local patches_src="${args[patches_src]}"
+			local patches_ver="${patches_file#patches-}" && patches_ver="${patches_ver%.*}"
+			local applied_json
+			applied_json=$(echo "$PATCH_OUTPUT" | grep -oP 'INFO: "\K[^"]+(?=" succeeded)' | jq -R -s -c 'split("\n") | map(select(length > 0))')
+			local entry
+			entry=$(jq -n \
+				--arg pd "$(date +'%Y-%m-%d')" \
+				--arg pt "${patches_src%%/*}/${patches_file}" \
+				--arg cl "https://github.com/${patches_src}/releases/tag/v${patches_ver}" \
+				--argjson ap "$applied_json" \
+				'{patch_date: $pd, patches: $pt, changelog: $cl, applied_patches: $ap}')
+				jq --arg key "${args[table]}" --argjson val "$entry" '. + {($key): $val}' "$BUILD_JSON_FILE" > "${BUILD_JSON_FILE}.tmp" && mv "${BUILD_JSON_FILE}.tmp" "$BUILD_JSON_FILE"
 			continue
 		fi
 		local base_template
