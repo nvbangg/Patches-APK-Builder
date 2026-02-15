@@ -592,13 +592,14 @@ Patches: MorpheApp/patches-1.13.0.mpp
 </details>
 
 <details>
-<summary id="Reddit-jkennethcarino">&ensp;<a href="../../releases/download/5/reddit-jkennethcarino-v2026.06.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit_jkennethcarino-v2026.06.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
+<summary id="Reddit-jkennethcarino">&ensp;<a href="../../releases/download/6/reddit-jkennethcarino-v2026.07.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit_jkennethcarino-v2026.07.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-14<br>
-Patches: jkennethcarino/patches-4.5.0.rvp
-[Changelog](https://github.com/jkennethcarino/privacy-revanced-patches/releases/tag/v4.5.0)
+Patch date: 2026-02-15<br>
+Patches: jkennethcarino/patches-4.6.0.rvp
+[Changelog](https://github.com/jkennethcarino/privacy-revanced-patches/releases/tag/v4.6.0)
 - Disable screenshot banner
+- Hide prominent search bar
 - Open external links directly
 - Remove ads and telemetry
 - Sanitize share links
@@ -629,7 +630,7 @@ Patches: ReVanced/patches-5.48.0.rvp
 ### [Gboard:](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
 
 <details>
-<summary id="Gboard">&ensp;<a href="../../releases/download/5/gboard-jkennethcarino-v16.7.4.861137547-release-arm64-v8a-arm64-v8a.apk"><img src="https://img.shields.io/badge/Gboard-v16.7.4.861137547.release.arm64.v8a-gray?labelColor=4285F4&logo=Google&logoColor=white"></a></summary>
+<summary id="Gboard">&ensp;<a href="../../releases/download/6/gboard-jkennethcarino-v16.7.4.861137547-release-arm64-v8a-arm64-v8a.apk"><img src="https://img.shields.io/badge/Gboard-v16.7.4.861137547.release.arm64.v8a-gray?labelColor=4285F4&logo=Google&logoColor=white"></a></summary>
 <blockquote>
 
 Patch date: 2026-02-11<br>
