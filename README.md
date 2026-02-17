@@ -334,12 +334,12 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [Duolingo:](https://play.google.com/store/apps/details?id=com.duolingo)
 
 <details>
-<summary id="Duolingo">&ensp;<a href="../../releases/download/5/duolingo-hoo-dles-v6.66.5-arm64-v8a.apk"><img src="https://img.shields.io/badge/Duolingo-v6.66.5-gray?labelColor=4DC730&logo=Duolingo&logoColor=white"></a></summary>
+<summary id="Duolingo">&ensp;<a href="../../releases/download/9/duolingo-hoo-dles-v6.66.5-arm64-v8a.apk"><img src="https://img.shields.io/badge/Duolingo-v6.66.5-gray?labelColor=4DC730&logo=Duolingo&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-14<br>
-Patches: hoo-dles/patches-1.6.0.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.6.0)
+Patch date: 2026-02-17<br>
+Patches: hoo-dles/patches-1.7.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.7.0)
 - Disable Login Integrity
 - Enable Premium
 </blockquote>
@@ -795,12 +795,12 @@ Patches: Tosox/patches-1.5.1.rvp
 ### [Cake:](https://play.google.com/store/apps/details?id=me.mycake)
 
 <details>
-<summary id="Cake">&ensp;<a href="../../releases/download/5/cake-hoo-dles-v6.4.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Cake-v6.4.0-gray?labelColor=FF6B35&logo=cake&logoColor=white"></a></summary>
+<summary id="Cake">&ensp;<a href="../../releases/download/9/cake-hoo-dles-v6.4.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Cake-v6.4.0-gray?labelColor=FF6B35&logo=cake&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-14<br>
-Patches: hoo-dles/patches-1.6.0.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.6.0)
+Patch date: 2026-02-17<br>
+Patches: hoo-dles/patches-1.7.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.7.0)
 - Enable Plus
 </blockquote>
 </details>
@@ -809,12 +809,12 @@ Patches: hoo-dles/patches-1.6.0.mpp
 ### [Merriam-Webster Dictionary:](https://play.google.com/store/apps/details?id=com.merriamwebster)
 
 <details>
-<summary id="Merriam-Webster-Dictionary">&ensp;<a href="../../releases/download/5/merriam-webster-dictionary-hoo-dles-v5.5.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Merriam_Webster_Dictionary-v5.5.0-gray?labelColor=007AFF&logo=book&logoColor=white"></a></summary>
+<summary id="Merriam-Webster-Dictionary">&ensp;<a href="../../releases/download/9/merriam-webster-dictionary-hoo-dles-v5.5.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Merriam_Webster_Dictionary-v5.5.0-gray?labelColor=007AFF&logo=book&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-14<br>
-Patches: hoo-dles/patches-1.6.0.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.6.0)
+Patch date: 2026-02-17<br>
+Patches: hoo-dles/patches-1.7.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.7.0)
 - Enable Premium
 </blockquote>
 </details>
@@ -979,12 +979,12 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [Smart Launcher 6:](https://play.google.com/store/apps/details?id=ginlemon.flowerfree)
 
 <details>
-<summary id="Smart-Launcher-6">&ensp;<a href="../../releases/download/5/smart-launcher-6-hoo-dles-v6.6build003-arm64-v8a.apk"><img src="https://img.shields.io/badge/Smart_Launcher_6-v6.6build003-gray?labelColor=448AFF&logo=Smart-Launcher&logoColor=white"></a></summary>
+<summary id="Smart-Launcher-6">&ensp;<a href="../../releases/download/9/smart-launcher-6-hoo-dles-v6.6build003-arm64-v8a.apk"><img src="https://img.shields.io/badge/Smart_Launcher_6-v6.6build003-gray?labelColor=448AFF&logo=Smart-Launcher&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-14<br>
-Patches: hoo-dles/patches-1.6.0.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.6.0)
+Patch date: 2026-02-17<br>
+Patches: hoo-dles/patches-1.7.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.7.0)
 - Disable signature check
 - Enable Pro
 </blockquote>
