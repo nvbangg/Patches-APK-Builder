@@ -393,7 +393,7 @@ get_uptodown_resp() {
 	__UPTODOWN_RESP__=$(req "${1}/versions" -)
 	__UPTODOWN_RESP_PKG__=$(req "${1}/download" -)
 }
-get_uptodown_vers() { $HTMLQ --text ".version" <<<"$__UPTODOWN_RESP__"; }
+get_uptodown_vers() { $HTMLQ --text ".version" <<<"$__UPTODOWN_RESP__" | grep '^[0-9]'; }
 dl_uptodown() {
 	local uptodown_dlurl=$1 version=$2 output=$3 arch=$4 _dpi=$5
 	local apparch

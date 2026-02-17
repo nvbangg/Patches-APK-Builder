@@ -196,7 +196,6 @@ uptodown-dlurl = "https://tasker.en.uptodown.com/android"
 patches-source = "indrastorms/Dropped-Patches"
 rv-brand = "indrastorms"
 uptodown-dlurl = "https://fx-file-explorer.en.uptodown.com/android"
-version = "9.1.0.0" 
 
 [Solid-Explorer]
 uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
