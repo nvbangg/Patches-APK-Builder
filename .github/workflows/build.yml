@@ -25,10 +25,17 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Get config
+        if: ${{ !inputs.from_ci }}
+        run: |
+          if git cat-file -e origin/update:config.toml; then
+            git show origin/update:config.toml > config.toml
+          fi
+          
       - name: Update config
         if: ${{ inputs.from_ci }}
         run: |
-          if git checkout origin/update build.md; then
+          if git show origin/update:build.md > build.md; then
             UPDATE_CFG=$(./build.sh config.toml --config-update)
             if [ "$UPDATE_CFG" ]; then
               echo "$UPDATE_CFG" > config.json
@@ -60,13 +67,23 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
 
+      - name: Update README with new versions
+        run: |
+          python update_readme.py ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+
+      - name: Commit updated README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: README.md
+          commit_message: Automated README update for Release No.${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+
       - name: Upload modules to release
         uses: svenstaro/upload-release-action@v2
         with:
           body: ${{ steps.get_output.outputs.BUILD_LOG }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./build/*
-          release_name: ReVanced
+          release_name: Release No.${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           file_glob: true
           overwrite: true

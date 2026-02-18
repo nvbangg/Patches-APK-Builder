@@ -5,6 +5,8 @@ CWD=$(pwd)
 TEMP_DIR="temp"
 BIN_DIR="bin"
 BUILD_DIR="build"
+BUILD_JSON_FILE="build.json"
+PATCH_OUTPUT=""
 
 if [ "${GITHUB_TOKEN-}" ]; then GH_HEADER="Authorization: token ${GITHUB_TOKEN}"; else GH_HEADER=; fi
 NEXT_VER_CODE=${NEXT_VER_CODE:-$(date +'%Y%m%d')}
@@ -94,15 +96,17 @@ get_prebuilts() {
 			matches=$(jq -e '.assets | map(select(.name | endswith("asc") | not))' <<<"$resp")
 			if [ "$(jq 'length' <<<"$matches")" -eq 0 ]; then
 				abort "No asset was found"
-			elif [ "$(jq 'length' <<<"$matches")" -ne 1 ]; then
-				wpr "More than 1 asset was found for this cli release. Falling back to the first one found..."
+			# elif [ "$(jq 'length' <<<"$matches")" -ne 1 ]; then
+			# 	wpr "More than 1 asset was found for this cli release. Falling back to the first one found..."
 			fi
 			asset=$(jq -r ".[0]" <<<"$matches")
 			url=$(jq -r .url <<<"$asset")
 			name=$(jq -r .name <<<"$asset")
 			file="${dir}/${name}"
 			gh_dl "$file" "$url" >&2 || return 1
+			if [ "$tag" = "Patches" ]; then
 			echo "$tag: $(cut -d/ -f1 <<<"$src")/${name}  " >>"${cl_dir}/changelog.md"
+			fi
 		else
 			grab_cl=false
 			local for_err=$file
@@ -398,7 +402,7 @@ get_uptodown_resp() {
 	__UPTODOWN_RESP__=$(req "${1}/versions" -) || return 1
 	__UPTODOWN_RESP_PKG__=$(req "${1}/download" -) || return 1
 }
-get_uptodown_vers() { $HTMLQ --text ".version" <<<"$__UPTODOWN_RESP__"; }
+get_uptodown_vers() { $HTMLQ --text ".version" <<<"$__UPTODOWN_RESP__" | grep '^[0-9]'; }
 dl_uptodown() {
 	local uptodown_dlurl=$1 version=$2 output=$3 arch=$4 _dpi=$5
 	local apparch
@@ -475,13 +479,16 @@ get_archive_pkg_name() { echo "$__ARCHIVE_PKG_NAME__"; }
 patch_apk() {
 	local stock_input=$1 patched_apk=$2 patcher_args=$3 cli_jar=$4 patches_jar=$5
 	local cmd="java -jar '$cli_jar' patch '$stock_input' --purge -o '$patched_apk' -p '$patches_jar' --keystore=ks.keystore \
---keystore-entry-password=123456789 --keystore-password=123456789 --signer=jhc --keystore-entry-alias=jhc $patcher_args"
+--keystore-entry-password=ReVanced --keystore-password=ReVanced --signer=ReVanced --keystore-entry-alias=ReVanced $patcher_args"
 	if [ "$OS" = Android ]; then cmd+=" --custom-aapt2-binary='${AAPT2}'"; fi
 	pr "$cmd"
-	if eval "$cmd"; then [ -f "$patched_apk" ]; else
-		rm "$patched_apk" 2>/dev/null || :
-		return 1
+	local patch_log="${TEMP_DIR}/patch_log.txt"
+	if eval "$cmd" 2>&1 | tee "$patch_log"; then
+		PATCH_OUTPUT=$(cat "$patch_log")
+		[ -f "$patched_apk" ] && return 0
 	fi
+	rm "$patched_apk" 2>/dev/null || :
+	return 1
 }
 
 check_sig() {
@@ -587,7 +594,6 @@ build_rv() {
 		epr "$pkg_name not building, apk signature mismatch '$stock_apk': $OP"
 		return 0
 	fi
-	log "${table}: ${version}"
 
 	local microg_patch
 	microg_patch=$(grep "^Name: " <<<"$list_patches" | grep -i "gmscore\|microg" || :) microg_patch=${microg_patch#*: }
@@ -643,7 +649,22 @@ build_rv() {
 		if [ "$build_mode" = apk ]; then
 			local apk_output="${BUILD_DIR}/${app_name_l}-${rv_brand_f}-v${version_f}-${arch_f}.apk"
 			mv -f "$patched_apk" "$apk_output"
+			log "${table}: ${version}"
 			pr "Built ${table} (non-root): '${apk_output}'"
+			# Write build info to build.json
+			local patches_file="${patches_jar##*/}"
+			local patches_src="${args[patches_src]}"
+			local patches_ver="${patches_file#patches-}" && patches_ver="${patches_ver%.*}"
+			local applied_json
+			applied_json=$(echo "$PATCH_OUTPUT" | grep -oP 'INFO: "\K[^"]+(?=" succeeded)' | jq -R -s -c 'split("\n") | map(select(length > 0))')
+			local entry
+			entry=$(jq -n \
+				--arg pd "$(date +'%Y-%m-%d')" \
+				--arg pt "${patches_src%%/*}/${patches_file}" \
+				--arg cl "https://github.com/${patches_src}/releases/tag/v${patches_ver}" \
+				--argjson ap "$applied_json" \
+				'{patch_date: $pd, patches: $pt, changelog: $cl, applied_patches: $ap}')
+				jq --arg key "${args[table]}" --argjson val "$entry" '. + {($key): $val}' "$BUILD_JSON_FILE" > "${BUILD_JSON_FILE}.tmp" && mv "${BUILD_JSON_FILE}.tmp" "$BUILD_JSON_FILE"
 			continue
 		fi
 		local base_template

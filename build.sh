@@ -10,6 +10,7 @@ if [ "${1-}" = "clean" ]; then
 fi
 
 source utils.sh
+echo '{}' > "$BUILD_JSON_FILE"
 
 jq --version >/dev/null || abort "\`jq\` is not installed. install it with 'apt install jq' or equivalent"
 java --version >/dev/null || abort "\`openjdk 17\` is not installed. install it with 'apt install openjdk-17-jre' or equivalent"
@@ -67,7 +68,7 @@ for table_name in $(toml_get_table_names); do
 	vtf "$enabled" "enabled"
 	if [ "$enabled" = false ]; then continue; fi
 	if ((idx >= PARALLEL_JOBS)); then
-		wait -n
+		wait -n || true
 		idx=$((idx - 1))
 	fi
 
@@ -78,7 +79,8 @@ for table_name in $(toml_get_table_names); do
 	cli_ver=$(toml_get "$t" cli-version) || cli_ver=$DEF_CLI_VER
 
 	if ! PREBUILTS="$(get_prebuilts "$cli_src" "$cli_ver" "$patches_src" "$patches_ver")"; then
-		abort "could not download rv prebuilts"
+		epr "Could not download prebuilts for '$table_name'"
+		continue
 	fi
 	read -r cli_jar patches_jar <<<"$PREBUILTS"
 	app_args[cli]=$cli_jar
@@ -114,7 +116,7 @@ for table_name in $(toml_get_table_names); do
 		app_args[dl_from]=archive
 	} || app_args[archive_dlurl]=""
 	if [ -z "${app_args[dl_from]-}" ]; then abort "ERROR: no 'apkmirror_dlurl', 'uptodown_dlurl' or 'archive_dlurl' option was set for '$table_name'."; fi
-	app_args[arch]=$(toml_get "$t" arch) || app_args[arch]="all"
+	app_args[arch]=$(toml_get "$t" arch) || app_args[arch]="arm64-v8a"
 	if [ "${app_args[arch]}" != "both" ] && [ "${app_args[arch]}" != "all" ] && [[ ${app_args[arch]} != "arm64-v8a"* ]] && [[ ${app_args[arch]} != "arm-v7a"* ]]; then
 		abort "wrong arch '${app_args[arch]}' for '$table_name'"
 	fi
@@ -136,7 +138,7 @@ for table_name in $(toml_get_table_names); do
 		app_args[arch]="arm-v7a"
 		app_args[module_prop_name]="${module_prop_name_b}-arm"
 		if ((idx >= PARALLEL_JOBS)); then
-			wait -n
+			wait -n || true
 			idx=$((idx - 1))
 		fi
 		idx=$((idx + 1))
@@ -151,13 +153,14 @@ for table_name in $(toml_get_table_names); do
 		build_rv "$(declare -p app_args)" &
 	fi
 done
-wait
+wait || true
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 
-log "\nInstall [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs"
-log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store"
-log "\n[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)\n"
+# log "\nInstall [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs"
+# log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store"
+# log "\n[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)\n"
+log "\n"
 log "$(cat "$TEMP_DIR"/*/changelog.md)"
 
 SKIPPED=$(cat "$TEMP_DIR"/skipped 2>/dev/null || :)
