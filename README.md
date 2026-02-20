@@ -23,7 +23,7 @@
 ### [YouTube:](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 
 <details>
-<summary id="YouTube">&ensp;<a href="../../releases/download/7/youtube-nvbangg-v20.40.45-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&logo=YouTube&logoColor=white"></a></summary>
+<summary id="YouTube">&ensp;<a href="../../releases/download/11/youtube-nvbangg-v20.40.45-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube-v20.40.45-gray?labelColor=FF0000&logo=YouTube&logoColor=white"></a></summary>
 <blockquote>
 
 Patch date: 2026-02-15<br>
