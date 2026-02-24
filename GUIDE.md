@@ -11,27 +11,24 @@
 ### In step 3, Enter the expression for the app you want below:
 
 - YouTube: `youtube-nvbangg`
-- YouTube ReVanced: `youtube-revanced`
 - YouTube Morphe: `youtube-morphe`
-- YouTube Music: `youtube-music-nvbangg`
-- YouTube Music ReVanced: `youtube-music-revanced`
+- YouTube ReVanced: `youtube-revanced`
+<!-- - YouTube Music: `youtube-music-nvbangg` -->
 <!-- - YouTube Music Morphe: `youtube-music-morphe` -->
+- YouTube Music ReVanced: `youtube-music-revanced`
 - Google Photos: `google-photos`
 
 - Spotify: `spotify`
 - TikTok: `tiktok`
 - Instagram: `instagram`
-- Duolingo: `duolingo-hoo-dles`
-- Duolingo ReVanced: `duolingo-revanced`
+- Duolingo: `duolingo`
 - Messenger: `messenger`
 - Telegram: `telegram-aunali321`
 - Telegram Web: `telegram-web-aunali321`
 - X (Twitter): `twitter-revanced`
 - X (Twitter) Piko: `twitter-crimera`
 - Twitch: `twitch`
-- Reddit: `reddit-revanced`
-- Reddit Morphe: `reddit-morphe`
-- Reddit jkennethcarino: `reddit-jkennethcarino`
+- Reddit: `reddit`
 - SoundCloud: `soundcloud`
 - Gboard: `gboard`
 - Google Recorder: `google-recorder`

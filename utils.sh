@@ -96,8 +96,6 @@ get_prebuilts() {
 			matches=$(jq -e '.assets | map(select(.name | endswith("asc") | not))' <<<"$resp")
 			if [ "$(jq 'length' <<<"$matches")" -eq 0 ]; then
 				abort "No asset was found"
-			# elif [ "$(jq 'length' <<<"$matches")" -ne 1 ]; then
-			# 	wpr "More than 1 asset was found for this cli release. Falling back to the first one found..."
 			fi
 			asset=$(jq -r ".[0]" <<<"$matches")
 			url=$(jq -r .url <<<"$asset")

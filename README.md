@@ -6,9 +6,9 @@
 > 📱 Easily install and update apps with Obtainium: [See Guide](GUIDE.md)
 
 <div align="center">
-  
-[![Stars](https://img.shields.io/github/stars/nvbangg/Patches-APK-Builder?label=Like%20this%20project%3F%20Star%20it%20⭐&logo=github)](https://github.com/nvbangg/Patches-APK-Builder) &nbsp; [![Followers](https://img.shields.io/github/followers/nvbangg?label=Follow%20me&logo=github)](https://github.com/nvbangg) &nbsp; [![Sponsor](https://img.shields.io/badge/Sponsor%20this%20project-pink?style=social&logo=github-sponsors)](https://nvbangg.github.io/#donate)
 
+[![Stars](https://img.shields.io/github/stars/nvbangg/Patches-APK-Builder?label=Star%20this%20repo%20if%20useful%20⭐&logo=github)](https://github.com/nvbangg/Patches-APK-Builder) &ensp; [![Donate](https://img.shields.io/badge/Support%20this%20project-pink?style=social&logo=github-sponsors)](https://nvbangg.github.io/#donate)
+<br>👉 Other Tools: [nvbangg-tools](https://github.com/nvbangg/nvbangg-tools)
 </div> 
 
 ---
@@ -49,9 +49,8 @@ Patches: nvbangg/patches-1.13.1.mpp
 </blockquote>
 </details>
 
-<details>
-  <summary><b><i>Alternative Versions</i></b></summary>
-<blockquote><br>
+**Alternative Versions:**
+<blockquote>
 
 <details>
 <summary id="YouTube-Morphe">&ensp;<a href="../../releases/download/10/youtube-morphe-v20.40.45-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&logo=YouTube&logoColor=white"></a></summary>
@@ -188,33 +187,9 @@ Patches: ReVanced/patches-5.50.2.rvp
 </details>
 
 </blockquote>
-</details>
 
 ---
 ### [YouTube Music:](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
-
-<details>
-<summary id="YouTube-Music">&ensp;<a href="../../releases/download/8/youtube-music-nvbangg-v8.10.52-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music-v8.10.52-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
-<blockquote>
-
-Patch date: 2026-02-16<br>
-Patches: ReVanced/patches-5.50.2.rvp
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.2)
-- Enable exclusive audio playback
-- GmsCore support
-- Hide 'Get Music Premium'
-- Hide layout components
-- Hide music video ads
-- Navigation bar
-- Remove background playback restrictions
-- Sanitize sharing links
-- Unlock Android Auto Media Browser
-</blockquote>
-</details>
-
-<details>
-  <summary><b><i>Alternative Versions</i></b></summary>
-<blockquote><br>
 
 <details>
 <summary id="YouTube-Music-ReVanced">&ensp;<a href="../../releases/download/8/youtube-music-revanced-v8.10.52-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music_ReVanced-v8.10.52-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
@@ -243,20 +218,6 @@ Patches: ReVanced/patches-5.50.2.rvp
 - Unlock Android Auto Media Browser
 </blockquote>
 </details>
-<!-- 
-<details>
-<summary id="YouTube-Music-Morphe">&ensp;<a href="../../releases/download/1/youtube-music-morphe-v8.40.54-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music_Morphe-v8.40.54-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
-<blockquote>
-
-Patch date: 2026-02-11<br>
-Patches: MorpheApp/patches-1.12.0.mpp
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.12.0)
-
-</blockquote>
-</details> -->
-
-</blockquote>
-</details> 
 
 ---
 ### [Google Photos:](https://play.google.com/store/apps/details?id=com.google.android.apps.photos)
@@ -345,25 +306,6 @@ Patches: hoo-dles/patches-1.7.0.mpp
 </blockquote>
 </details>
 
-<details>
-  <summary><b><i>Alternative Versions</i></b></summary>
-<blockquote><br>
-
-<details>
-<summary id="Duolingo-ReVanced">&ensp;<a href="../../releases/download/8/duolingo-revanced-v6.54.5-arm64-v8a.apk"><img src="https://img.shields.io/badge/Duolingo_ReVanced-v6.54.5-gray?labelColor=4DC730&logo=Duolingo&logoColor=white"></a></summary>
-<blockquote>
-
-Patch date: 2026-02-16<br>
-Patches: ReVanced/patches-5.50.2.rvp
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.2)
-- Disable ads
-- Skip energy recharge ads
-</blockquote>
-</details>
-
-</blockquote>
-</details>
-
 ---
 ### [Messenger:](https://play.google.com/store/apps/details?id=com.facebook.orca)
 
@@ -401,9 +343,9 @@ Patches: Aunali321/patches-1.9.0.rvp
 </blockquote>
 </details>
 
-<details>
-  <summary><b><i>Alternative Versions</i></b></summary>
-<blockquote><br>
+
+[**Alternative Versions**](https://telegram.org/android)
+<blockquote>
 
 <details>
 <summary id="Telegram-Web">&ensp;<a href="../../releases/download/5/telegram-web-aunali321-v12.4.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Telegram_Web-v12.4.1-gray?labelColor=2CA5E0&logo=telegram&logoColor=white"></a></summary>
@@ -422,7 +364,6 @@ Patches: Aunali321/patches-1.9.0.rvp
 </details>
 
 </blockquote>
-</details>  
 
 ---
 ### [X (Twitter):](https://play.google.com/store/apps/details?id=com.twitter.android)
@@ -442,12 +383,11 @@ Patches: ReVanced/patches-5.50.2.rvp
 </blockquote>
 </details>
 
-<details>
-  <summary><b><i>Alternative Versions</i></b></summary>
-<blockquote><br>
+**Alternative Versions:**
+<blockquote>
 
 <details>
-<summary id="Twitter-Piko">&ensp;<a href="../../releases/download/5/twitter-crimera-v11.65.0-release.5-arm64-v8a.apk"><img src="https://img.shields.io/badge/X_(Twitter)_Piko-v11.65.0.release.5-gray?labelColor=0F1419&logo=X&logoColor=white"></a></summary>
+<summary id="Twitter-Piko">&ensp;<a href="../../releases/download/5/twitter-crimera-v11.65.0-release.5-arm64-v8a.apk"><img src="https://img.shields.io/badge/Twitter_Piko-v11.65.0.release.5-gray?labelColor=0F1419&logo=X&logoColor=white"></a></summary>
 <blockquote>
 
 Patch date: 2026-02-14<br>
@@ -521,7 +461,6 @@ Patches: crimera/patches-2.0.0.rvp
 </details>
 
 </blockquote>
-</details>
 
 ---
 ### [Twitch:](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
@@ -546,23 +485,7 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [Reddit:](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
 <details>
-<summary id="Reddit">&ensp;<a href="../../releases/download/8/reddit-revanced-v2026.07.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit-v2026.07.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
-<blockquote>
-
-Patch date: 2026-02-16<br>
-Patches: ReVanced/patches-5.50.2.rvp
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.2)
-- Hide ads
-- Unlock Premium icons
-</blockquote>
-</details>
-
-<details>
-  <summary><b><i>Alternative Versions</i></b></summary>
-<blockquote><br>
-
-<details>
-<summary id="Reddit-Morphe">&ensp;<a href="../../releases/download/10/reddit-morphe-v2026.04.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit_Morphe-v2026.04.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
+<summary id="Reddit">&ensp;<a href="../../releases/download/10/reddit-morphe-v2026.04.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit-v2026.04.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
 <blockquote>
 
 Patch date: 2026-02-14<br>
@@ -580,24 +503,6 @@ Patches: MorpheApp/patches-1.13.0.mpp
 - Sanitize sharing links
 - Settings for Reddit
 - Spoof signature
-</blockquote>
-</details>
-
-<details>
-<summary id="Reddit-jkennethcarino">&ensp;<a href="../../releases/download/6/reddit-jkennethcarino-v2026.07.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit_jkennethcarino-v2026.07.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
-<blockquote>
-
-Patch date: 2026-02-15<br>
-Patches: jkennethcarino/patches-4.6.0.rvp
-[Changelog](https://github.com/jkennethcarino/privacy-revanced-patches/releases/tag/v4.6.0)
-- Disable screenshot banner
-- Hide prominent search bar
-- Open external links directly
-- Remove ads and telemetry
-- Sanitize share links
-</blockquote>
-</details>
-
 </blockquote>
 </details>
 
