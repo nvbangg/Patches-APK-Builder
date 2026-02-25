@@ -53,7 +53,7 @@ Patches: nvbangg/patches-1.13.1.mpp
 <blockquote>
 
 <details>
-<summary id="YouTube-Morphe">&ensp;<a href="../../releases/download/10/youtube-morphe-v20.40.45-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&logo=YouTube&logoColor=white"></a></summary>
+<summary id="YouTube-Morphe">&ensp;<a href="../../releases/download/13/youtube-morphe-v20.40.45-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Morphe-v20.40.45-gray?labelColor=FF0000&logo=YouTube&logoColor=white"></a></summary>
 <blockquote>
 
 Patch date: 2026-02-14<br>
@@ -485,7 +485,7 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [Reddit:](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
 <details>
-<summary id="Reddit">&ensp;<a href="../../releases/download/10/reddit-morphe-v2026.04.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit-v2026.04.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
+<summary id="Reddit">&ensp;<a href="../../releases/download/13/reddit-morphe-v2026.04.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Reddit-v2026.04.0-gray?labelColor=FF4500&logo=Reddit&logoColor=white"></a></summary>
 <blockquote>
 
 Patch date: 2026-02-14<br>
