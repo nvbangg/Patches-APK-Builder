@@ -192,6 +192,23 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [YouTube Music:](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 
 <details>
+<summary id="YouTube-Music">&ensp;<a href="../../releases/download/8/youtube-music-nvbangg-v8.10.52-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music-v8.10.52-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
+<blockquote>
+- Hide ads
+</blockquote>
+</details>
+
+**Alternative Versions:**
+<blockquote>
+
+<details>
+<summary id="YouTube-Music-Morphe">&ensp;<a href="../../releases/download/8/youtube-music-morphe-v8.10.52-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music_Morphe-v8.10.52-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
+<blockquote>
+- Hide ads
+</blockquote>
+</details>
+
+<details>
 <summary id="YouTube-Music-ReVanced">&ensp;<a href="../../releases/download/8/youtube-music-revanced-v8.10.52-arm64-v8a.apk"><img src="https://img.shields.io/badge/YouTube_Music_ReVanced-v8.10.52-gray?labelColor=FF0000&logo=youtube-music&logoColor=white"></a></summary>
 <blockquote>
 
@@ -219,6 +236,8 @@ Patches: ReVanced/patches-5.50.2.rvp
 </blockquote>
 </details>
 
+</blockquote>
+
 ---
 ### [Google Photos:](https://play.google.com/store/apps/details?id=com.google.android.apps.photos)
 
@@ -231,25 +250,6 @@ Patches: ReVanced/patches-5.50.2.rvp
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.2)
 - GmsCore support
 - Spoof features
-</blockquote>
-</details>
-
----
-### [Spotify:](https://play.google.com/store/apps/details?id=com.spotify.music)
-
-<details>
-<summary id="Spotify">&ensp;<a href="../../releases/download/5/spotify-anddea-v9.0.90.1229-arm64-v8a.apk"><img src="https://img.shields.io/badge/Spotify-v9.0.90.1229-gray?labelColor=1DB954&logo=Spotify&logoColor=white"></a></summary>
-<blockquote>
-
-Patch date: 2026-02-14<br>
-Patches: anddea/patches-3.16.0.rvp
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.16.0)
-- Fix Facebook login
-- Fix third party launchers widgets
-- Hide Create button
-- Lyrics search
-- Sanitize sharing links
-- Unlock Premium
 </blockquote>
 </details>
 
@@ -942,6 +942,6 @@ Patches: ReVanced/patches-5.50.2.rvp
 
 ## Patches used in this repository:
 
-[![nvbangg](https://img.shields.io/github/license/nvbangg/nvbangg-patches?label=nvbangg)](https://github.com/nvbangg/nvbangg-patches) [![ReVanced](https://img.shields.io/github/license/ReVanced/revanced-patches?label=ReVanced)](https://github.com/ReVanced/revanced-patches) [![MorpheApp](https://img.shields.io/github/license/MorpheApp/morphe-patches?label=MorpheApp)](https://github.com/MorpheApp/morphe-patches) [![anddea](https://img.shields.io/github/license/anddea/revanced-patches?label=anddea)](https://github.com/anddea/revanced-patches) [![Aunali321](https://img.shields.io/github/license/Aunali321/ReVancedExperiments?label=Aunali321)](https://github.com/Aunali321/ReVancedExperiments) [![hoo-dles](https://img.shields.io/github/license/hoo-dles/morphe-patches?label=hoo-dles)](https://github.com/hoo-dles/morphe-patches) [![crimera](https://img.shields.io/github/license/crimera/piko?label=crimera)](https://github.com/crimera/piko) [![jkennethcarino](https://img.shields.io/github/license/jkennethcarino/privacy-revanced-patches?label=jkennethcarino)](https://github.com/jkennethcarino/privacy-revanced-patches) [![Tosox](https://img.shields.io/github/license/Tosox/revanced-patches?label=Tosox)](https://github.com/Tosox/revanced-patches) [![scrazzz](https://img.shields.io/github/license/scrazzz/revanced-patches-scruz?label=scrazzz)](https://github.com/scrazzz/revanced-patches-scruz) [![indrastorms](https://img.shields.io/github/license/indrastorms/Dropped-Patches?label=indrastorms)](https://github.com/indrastorms/Dropped-Patches)
+[![nvbangg](https://img.shields.io/github/license/nvbangg/nvbangg-patches?label=nvbangg)](https://github.com/nvbangg/nvbangg-patches) [![ReVanced](https://img.shields.io/github/license/ReVanced/revanced-patches?label=ReVanced)](https://github.com/ReVanced/revanced-patches) [![MorpheApp](https://img.shields.io/github/license/MorpheApp/morphe-patches?label=MorpheApp)](https://github.com/MorpheApp/morphe-patches) [![Aunali321](https://img.shields.io/github/license/Aunali321/ReVancedExperiments?label=Aunali321)](https://github.com/Aunali321/ReVancedExperiments) [![hoo-dles](https://img.shields.io/github/license/hoo-dles/morphe-patches?label=hoo-dles)](https://github.com/hoo-dles/morphe-patches) [![crimera](https://img.shields.io/github/license/crimera/piko?label=crimera)](https://github.com/crimera/piko) [![jkennethcarino](https://img.shields.io/github/license/jkennethcarino/privacy-revanced-patches?label=jkennethcarino)](https://github.com/jkennethcarino/privacy-revanced-patches) [![Tosox](https://img.shields.io/github/license/Tosox/revanced-patches?label=Tosox)](https://github.com/Tosox/revanced-patches) [![scrazzz](https://img.shields.io/github/license/scrazzz/revanced-patches-scruz?label=scrazzz)](https://github.com/scrazzz/revanced-patches-scruz) [![indrastorms](https://img.shields.io/github/license/indrastorms/Dropped-Patches?label=indrastorms)](https://github.com/indrastorms/Dropped-Patches)
 
 </details>

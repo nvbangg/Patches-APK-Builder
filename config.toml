@@ -1,15 +1,20 @@
 parallel-jobs = 1
+remove-rv-integrations-checks = false
 # see https://github.com/nvbangg/Patches-APK-Builder/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
 patches-source = "nvbangg/nvbangg-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "nvbangg"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-ReVanced]
 excluded-patches = "'Custom branding'"
 app-name = "youtube"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Morphe]
@@ -18,34 +23,37 @@ excluded-patches = "'Custom branding'"
 cli-source = "MorpheApp/morphe-cli"
 app-name = "youtube"
 rv-brand = "morphe"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
-# [YouTube-Music]
-# patches-source = "nvbangg/nvbangg-patches"
-# cli-source = "MorpheApp/morphe-cli"
-# rv-brand = "nvbangg"
-# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+[YouTube-Music]
+patches-source = "nvbangg/nvbangg-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "nvbangg"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
-# [YouTube-Music-Morphe]
-# patches-source = "MorpheApp/morphe-patches"
-# excluded-patches = "'Custom branding'"
-# cli-source = "MorpheApp/morphe-cli"
-# app-name = "youtube-music"
-# rv-brand = "morphe"
-# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+[YouTube-Music-Morphe]
+patches-source = "MorpheApp/morphe-patches"
+excluded-patches = "'Custom branding'"
+cli-source = "MorpheApp/morphe-cli"
+app-name = "youtube-music"
+rv-brand = "morphe"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [YouTube-Music-ReVanced]
 excluded-patches = "'Custom branding'"
 app-name = "youtube-music"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [Google-Photos]
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-
-[Spotify]
-patches-source = "anddea/revanced-patches"
-rv-brand = "anddea"
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [TikTok]
 uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
