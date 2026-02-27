@@ -18,42 +18,26 @@
 - YouTube Music ReVanced: `youtube-music-revanced`
 - Google Photos: `google-photos`
 
-- TikTok: `tiktok`
 - Instagram: `instagram`
-- Duolingo: `duolingo`
 - Messenger: `messenger`
+- TikTok: `tiktok`
 - Telegram: `telegram-aunali321`
 - Telegram Web: `telegram-web-aunali321`
 - X (Twitter): `twitter-revanced`
 - X (Twitter) Piko: `twitter-crimera`
-- Twitch: `twitch`
-- Reddit: `reddit`
-- SoundCloud: `soundcloud`
-- Gboard: `gboard`
-- Google Recorder: `google-recorder`
 - Prime Video: `prime-video`
 - Disney+: `disney`
-- Tumblr: `tumblr`
-- Photomath: `photomath`
-- Strava: `strava`
-- MyFitnessPal: `myfitnesspal`
-- Crunchyroll: `crunchyroll`
-- Pandora: `pandora`
-- Mega: `mega`
+- WPS-Office: `wps-office`
+- Duolingo: `duolingo`
 - Cake: `cake`
-- Merriam-Webster Dictionary: `merriam-webster-dictionary`
-- Peacock TV: `peacock-tv`
+- Twitch: `twitch`
+- Reddit: `reddit`
+- Photomath: `photomath`
+- Google Recorder: `google-recorder`
+- SoundCloud: `soundcloud`
+- Pandora: `pandora`
+- Tumblr: `tumblr`
 - Cricbuzz: `cricbuzz`
-- Pixiv: `pixiv`
-- RAR: `rar`
-- Proton Mail: `proton-mail`
-- Proton VPN: `proton-vpn`
-- AZ Screen Recorder: `az-screen-recorder`
-- Nova Launcher: `nova-launcher`
-- Tasker: `tasker`
-- FX File Explorer: `fx-file-explorer`
-- Solid Explorer: `solid-explorer`
-- Smart Launcher 6: `smart-launcher`
-- TickTick: `ticktick`
-- Meme Generator: `meme-generator`
-- Icon Pack Studio: `icon-pack-studio`
+- MyFitnessPal: `myfitnesspal`
+- Strava: `strava`
+- Crunchyroll: `crunchyroll`
