@@ -1,17 +1,16 @@
 Cake: 6.4.0  
-Crunchyroll: 3.99.3  
 Duolingo: 6.68.3  
 MyFitnessPal: 26.8.0  
 Pandora: 2601.1  
 WPS-Office: 18.12.1  
 
   
-Patches: hoo-dles/patches-1.9.1.mpp  
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.9.1)  
+Patches: hoo-dles/patches-1.10.0.mpp  
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.10.0)  
 
 Skipped:  
 Patches: ReVanced/patches-5.50.2.rvp  
 Patches: MorpheApp/patches-1.15.0.mpp  
 Patches: Aunali321/patches-1.9.0.rvp  
 Patches: crimera/patches-2.0.0.rvp  
-Patches: nvbangg/patches-1.15.1.mpp    
+Patches: nvbangg/patches-1.15.1.mpp      
