@@ -519,12 +519,12 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [WPS Office](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
 
 <details>
-<summary id="WPS-Office">&ensp;<a href="../../releases/download/15/wps-office-hoo-dles-v18.12.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/WPS_Office-v18.12.1-gray?labelColor=C03426&logo=wpsoffice&logoColor=white"></a></summary>
+<summary id="WPS-Office">&ensp;<a href="../../releases/download/16/wps-office-hoo-dles-v18.12.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/WPS_Office-v18.12.1-gray?labelColor=C03426&logo=wpsoffice&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-28<br>
-Patches: hoo-dles/patches-1.9.1.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.9.1)
+Patch date: 2026-03-01<br>
+Patches: hoo-dles/patches-1.10.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.10.0)
 - Disable anti-tamper checks
 - Enable Pro
 </blockquote>
@@ -534,12 +534,12 @@ Patches: hoo-dles/patches-1.9.1.mpp
 ### [Duolingo:](https://play.google.com/store/apps/details?id=com.duolingo)
 
 <details>
-<summary id="Duolingo">&ensp;<a href="../../releases/download/15/duolingo-hoo-dles-v6.68.3-arm64-v8a.apk"><img src="https://img.shields.io/badge/Duolingo-v6.68.3-gray?labelColor=4DC730&logo=Duolingo&logoColor=white"></a></summary>
+<summary id="Duolingo">&ensp;<a href="../../releases/download/16/duolingo-hoo-dles-v6.68.3-arm64-v8a.apk"><img src="https://img.shields.io/badge/Duolingo-v6.68.3-gray?labelColor=4DC730&logo=Duolingo&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-28<br>
-Patches: hoo-dles/patches-1.9.1.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.9.1)
+Patch date: 2026-03-01<br>
+Patches: hoo-dles/patches-1.10.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.10.0)
 - Disable Login Integrity
 - Enable Premium
 </blockquote>
@@ -549,12 +549,12 @@ Patches: hoo-dles/patches-1.9.1.mpp
 ### [Cake:](https://play.google.com/store/apps/details?id=me.mycake)
 
 <details>
-<summary id="Cake">&ensp;<a href="../../releases/download/15/cake-hoo-dles-v6.4.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Cake-v6.4.0-gray?labelColor=FF6B35&logo=cake&logoColor=white"></a></summary>
+<summary id="Cake">&ensp;<a href="../../releases/download/16/cake-hoo-dles-v6.4.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Cake-v6.4.0-gray?labelColor=FF6B35&logo=cake&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-28<br>
-Patches: hoo-dles/patches-1.9.1.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.9.1)
+Patch date: 2026-03-01<br>
+Patches: hoo-dles/patches-1.10.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.10.0)
 - Enable Plus
 </blockquote>
 </details>
@@ -652,12 +652,12 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [Pandora:](https://play.google.com/store/apps/details?id=com.pandora.android)
 
 <details>
-<summary id="Pandora">&ensp;<a href="../../releases/download/15/pandora-hoo-dles-v2601.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Pandora-v2601.1-gray?labelColor=3668FF&logo=Pandora&logoColor=white"></a></summary>
+<summary id="Pandora">&ensp;<a href="../../releases/download/16/pandora-hoo-dles-v2601.1-arm64-v8a.apk"><img src="https://img.shields.io/badge/Pandora-v2601.1-gray?labelColor=3668FF&logo=Pandora&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-28<br>
-Patches: hoo-dles/patches-1.9.1.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.9.1)
+Patch date: 2026-03-01<br>
+Patches: hoo-dles/patches-1.10.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.10.0)
 - Disable audio ads
 - Enable unlimited skips
 </blockquote>
@@ -700,12 +700,12 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [MyFitnessPal:](https://play.google.com/store/apps/details?id=com.myfitnesspal.android)
 
 <details>
-<summary id="MyFitnessPal">&ensp;<a href="../../releases/download/15/myfitnesspal-hoo-dles-v26.8.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/MyFitnessPal-v26.8.0-gray?labelColor=0066EE&logo=MyFitnessPal&logoColor=white"></a></summary>
+<summary id="MyFitnessPal">&ensp;<a href="../../releases/download/16/myfitnesspal-hoo-dles-v26.8.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/MyFitnessPal-v26.8.0-gray?labelColor=0066EE&logo=MyFitnessPal&logoColor=white"></a></summary>
 <blockquote>
 
-Patch date: 2026-02-28<br>
-Patches: hoo-dles/patches-1.9.1.mpp
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.9.1)
+Patch date: 2026-03-01<br>
+Patches: hoo-dles/patches-1.10.0.mpp
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.10.0)
 - Enable Premium+
 </blockquote>
 </details>
