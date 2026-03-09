@@ -74,9 +74,6 @@ rv-brand = "crimera"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [Prime-Video]
-patches-source = "hoo-dles/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "hoo-dles"
 uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
 
 [Disney]
@@ -141,7 +138,4 @@ uptodown-dlurl = "https://calorie-counter-myfitnesspal.en.uptodown.com/android"
 uptodown-dlurl = "https://strava.en.uptodown.com/android"
 
 [Crunchyroll]
-patches-source = "hoo-dles/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "hoo-dles"
 uptodown-dlurl = "https://crunchyroll.en.uptodown.com/android"

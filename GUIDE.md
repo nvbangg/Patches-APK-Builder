@@ -8,6 +8,9 @@
 
 ### In step 2, Enter `https://github.com/nvbangg/Patches-APK-Builder`
 
+- MicroG-RE: `https://github.com/MorpheApp/MicroG-RE`
+- MicroG: `https://github.com/ReVanced/GmsCore`
+
 ### In step 3, Enter the expression for the app you want below:
 
 - YouTube: `youtube-nvbangg`

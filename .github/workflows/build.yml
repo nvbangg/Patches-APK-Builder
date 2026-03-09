@@ -25,13 +25,6 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - name: Get config
-        if: ${{ !inputs.from_ci }}
-        run: |
-          if git cat-file -e origin/update:config.toml; then
-            git show origin/update:config.toml > config.toml
-          fi
-          
       - name: Update config
         if: ${{ inputs.from_ci }}
         run: |
@@ -69,7 +62,7 @@ jobs:
 
       - name: Update README with new versions
         run: |
-          python update_readme.py ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+          python update-readme.py ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
 
       - name: Commit updated README
         uses: stefanzweifel/git-auto-commit-action@v5

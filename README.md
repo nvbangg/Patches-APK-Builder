@@ -1,9 +1,8 @@
 # Patches APK Builder
 
 > [!NOTE]
-> This repository automatically builds APK apps with Morphe, ReVanced, and many other patches after each patch release.    
-> ⬇️ Download and install the apps you want to use below.  
-> 📱 Easily install and update apps with Obtainium: [See Guide](GUIDE.md)
+> Automated APK builds and README updates for Morphe, ReVanced & many other patches after each release      
+> ⬇️ Easily install and update apps with [**Obtainium**](https://github.com/ImranR98/Obtainium/releases): [See Guide](GUIDE.md)
 
 <div align="center">
 
@@ -496,7 +495,7 @@ Patches: crimera/patches-2.0.0.rvp
 ### [Prime Video:](https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient)
 
 <details>
-<summary id="Prime-Video">&ensp;<a href="../../releases/download/17/prime-video-hoo-dles-v3.0.443.1557-arm64-v8a.apk"><img src="https://img.shields.io/badge/Prime_Video-v3.0.443.1557-gray?labelColor=00A8E1&logo=Prime-Video&logoColor=white"></a></summary>
+<summary id="Prime-Video">&ensp;<a href="../../releases/download/17/prime-video-revanced-v3.0.443.1557-arm64-v8a.apk"><img src="https://img.shields.io/badge/Prime_Video-v3.0.443.1557-gray?labelColor=00A8E1&logo=Prime-Video&logoColor=white"></a></summary>
 <blockquote>
 
 Patch date: 2026-03-02<br>
@@ -742,7 +741,7 @@ Patches: ReVanced/patches-5.50.2.rvp
 ### [Crunchyroll:](https://play.google.com/store/apps/details?id=com.crunchyroll.crunchyroid)
 
 <details>
-<summary id="Crunchyroll">&ensp;<a href="../../releases/download/15/crunchyroll-hoo-dles-v3.99.3-arm64-v8a.apk"><img src="https://img.shields.io/badge/Crunchyroll-v3.99.3-gray?labelColor=F47521&logo=Crunchyroll&logoColor=white"></a></summary>
+<summary id="Crunchyroll">&ensp;<a href="../../releases/download/15/crunchyroll-revanced-v3.99.3-arm64-v8a.apk"><img src="https://img.shields.io/badge/Crunchyroll-v3.99.3-gray?labelColor=F47521&logo=Crunchyroll&logoColor=white"></a></summary>
 <blockquote>
 
 Patch date: 2026-02-28<br>
@@ -754,6 +753,9 @@ Patches: hoo-dles/patches-1.9.1.mpp
 
 ---
 
-## Patches used in this repository:
+## 🙏 Credits
+- Patches used in this repository:
 
 [![nvbangg](https://img.shields.io/github/license/nvbangg/nvbangg-patches?label=nvbangg)](https://github.com/nvbangg/nvbangg-patches) [![ReVanced](https://img.shields.io/github/license/ReVanced/revanced-patches?label=ReVanced)](https://github.com/ReVanced/revanced-patches) [![MorpheApp](https://img.shields.io/github/license/MorpheApp/morphe-patches?label=MorpheApp)](https://github.com/MorpheApp/morphe-patches) [![hoo-dles](https://img.shields.io/github/license/hoo-dles/morphe-patches?label=hoo-dles)](https://github.com/hoo-dles/morphe-patches) [![Aunali321](https://img.shields.io/github/license/Aunali321/ReVancedExperiments?label=Aunali321)](https://github.com/Aunali321/ReVancedExperiments) [![crimera](https://img.shields.io/github/license/crimera/piko?label=crimera)](https://github.com/crimera/piko) 
+
+- Template generated from [j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)

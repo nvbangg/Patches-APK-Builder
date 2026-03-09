@@ -666,12 +666,15 @@ build_rv() {
 			applied_json=$(echo "$PATCH_OUTPUT" | grep -oP 'INFO: "\K[^"]+(?=" succeeded)' | jq -R -s -c 'split("\n") | map(select(length > 0))')
 			local entry
 			entry=$(jq -n \
+				--arg an "$app_name_l" \
+				--arg rb "$rv_brand_f" \
+				--arg vr "$version_f" \
 				--arg pd "$(date +'%Y-%m-%d')" \
 				--arg pt "${patches_src%%/*}/${patches_file}" \
 				--arg cl "https://github.com/${patches_src}/releases/tag/v${patches_ver}" \
 				--argjson ap "$applied_json" \
-				'{patch_date: $pd, patches: $pt, changelog: $cl, applied_patches: $ap}')
-				jq --arg key "${args[table]}" --argjson val "$entry" '. + {($key): $val}' "$BUILD_JSON_FILE" > "${BUILD_JSON_FILE}.tmp" && mv "${BUILD_JSON_FILE}.tmp" "$BUILD_JSON_FILE"
+				'{app_name: $an, rv_brand: $rb, version: $vr, patch_date: $pd, patches: $pt, changelog: $cl, applied_patches: $ap}')
+				jq --arg key "${table% *}" --argjson val "$entry" '. + {($key): $val}' "$BUILD_JSON_FILE" > "${BUILD_JSON_FILE}.tmp" && mv "${BUILD_JSON_FILE}.tmp" "$BUILD_JSON_FILE"
 			continue
 		fi
 		local base_template
