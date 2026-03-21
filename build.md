@@ -42,7 +42,7 @@ Patches: hoo-dles/patches-1.14.0.mpp
 Patches: jkennethcarino/patches-1.0.0.mpp  
 [Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.0.0)
 
-Patches: MorpheApp/patches-1.20.0.mpp  
+Patches: MorpheApp/patches-1.19.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.20.0)
 
 Patches: ReVanced/patches-6.1.0.rvp  
