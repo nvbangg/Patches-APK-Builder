@@ -24,5 +24,5 @@ Patches: MorpheApp/patches-1.21.1.mpp
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.21.1)  
 
 Skipped:  
-Patches: hoo-dles/patches-1.15.0.mpp  
+Patches: hoo-dles/patches-1.14.0.mpp  
 Patches: jkennethcarino/patches-1.0.0.mpp    
