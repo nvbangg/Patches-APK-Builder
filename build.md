@@ -25,5 +25,5 @@ Patches: hoo-dles/patches-1.15.0.mpp
 Skipped:  
 Patches: ReVanced/patches-6.1.0.rvp  
 Patches: jkennethcarino/patches-1.0.0.mpp  
-Patches: MorpheApp/patches-1.21.1.mpp  
-Patches: crimera/patches-3.0.0.mpp        
+Patches: MorpheApp/patches-1.20.1.mpp  
+Patches: crimera/patches-2.0.0.mpp        
