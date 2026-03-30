@@ -867,6 +867,18 @@ Patches: ReVanced/patches-6.1.0.rvp
 </details>
 
 ---
+### [KakaoTalk](https://play.google.com/store/apps/details?id=com.kakao.talk)
+
+<details>
+<summary id="KakaoTalk">&ensp;<a href="../../releases/download/31/kakaotalk-amplerevanced-v3.104.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/KakaoTalk-v0.0-gray?labelColor=FEE500&logo=kakaotalk&logoColor=000000"></a></summary>
+<blockquote>
+
+Patches: AmpleReVanced/revanced-patches
+
+</blockquote>
+</details>
+
+---
 ### [Wallcraft](https://play.google.com/store/apps/details?id=com.wallpaperscraft.wallpaper)
 
 <details>
@@ -1066,30 +1078,6 @@ Patches: hoo-dles/morphe-patches
 
 ---
 
-### [HelloChinese](https://play.google.com/store/apps/details?id=com.hellochinese)
-
-<details>
-<summary id="HelloChinese">&ensp;<a href="../../releases/download/36/hellochinese-hoo-dles-v0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/HelloChinese-v0.0-gray?labelColor=00AFA9&logo=hellochinese&logoColor=white"></a></summary>
-<blockquote>
-
-Patches: hoo-dles/morphe-patches
-</blockquote>
-</details>
-
----
-
-### [Geocaching](https://play.google.com/store/apps/details?id=com.groundspeak.geocaching.intro)
-
-<details>
-<summary id="Geocaching">&ensp;<a href="../../releases/download/36/geocaching-brosssh-v0.0-arm64-v8a.apk"><img src="https://img.shields.io/badge/Geocaching-v0.0-gray?labelColor=4A742C&logo=geocaching&logoColor=white"></a></summary>
-<blockquote>
-
-Patches: brosssh/morphe-patches
-</blockquote>
-</details>
-
----
-
 ### [Komoot](https://play.google.com/store/apps/details?id=de.komoot.android)
 
 <details>
@@ -1117,6 +1105,6 @@ Patches: brosssh/morphe-patches
 ## 🙏 Credits
 - Patches used in this repository:
 
-[![ReVanced](https://img.shields.io/github/license/ReVanced/revanced-patches?label=ReVanced)](https://github.com/ReVanced/revanced-patches) [![MorpheApp](https://img.shields.io/github/license/MorpheApp/morphe-patches?label=MorpheApp)](https://github.com/MorpheApp/morphe-patches) [![hoo-dles](https://img.shields.io/github/license/hoo-dles/morphe-patches?label=hoo-dles)](https://github.com/hoo-dles/morphe-patches) [![RookieEnough](https://img.shields.io/github/license/RookieEnough/De-ReVanced?label=RookieEnough)](https://github.com/RookieEnough/De-ReVanced) [![anddea](https://img.shields.io/github/license/anddea/revanced-patches?label=anddea)](https://github.com/anddea/revanced-patches) [![brosssh](https://img.shields.io/github/license/brosssh/morphe-patches?label=brosssh)](https://github.com/brosssh/morphe-patches) [![Aunali321](https://img.shields.io/github/license/Aunali321/ReVancedExperiments?label=Aunali321)](https://github.com/Aunali321/ReVancedExperiments) [![crimera](https://img.shields.io/github/license/crimera/piko?label=crimera)](https://github.com/crimera/piko) [![jkennethcarino](https://img.shields.io/github/license/jkennethcarino/adobo?label=jkennethcarino)](https://github.com/jkennethcarino/adobo) 
+[![ReVanced](https://img.shields.io/github/license/ReVanced/revanced-patches?label=ReVanced)](https://github.com/ReVanced/revanced-patches) [![MorpheApp](https://img.shields.io/github/license/MorpheApp/morphe-patches?label=MorpheApp)](https://github.com/MorpheApp/morphe-patches) [![hoo-dles](https://img.shields.io/github/license/hoo-dles/morphe-patches?label=hoo-dles)](https://github.com/hoo-dles/morphe-patches) [![RookieEnough](https://img.shields.io/github/license/RookieEnough/De-ReVanced?label=RookieEnough)](https://github.com/RookieEnough/De-ReVanced) [![anddea](https://img.shields.io/github/license/anddea/revanced-patches?label=anddea)](https://github.com/anddea/revanced-patches) [![brosssh](https://img.shields.io/github/license/brosssh/morphe-patches?label=brosssh)](https://github.com/brosssh/morphe-patches) [![Aunali321](https://img.shields.io/github/license/Aunali321/ReVancedExperiments?label=Aunali321)](https://github.com/Aunali321/ReVancedExperiments) [![crimera](https://img.shields.io/github/license/crimera/piko?label=crimera)](https://github.com/crimera/piko) [![jkennethcarino](https://img.shields.io/github/license/jkennethcarino/adobo?label=jkennethcarino)](https://github.com/jkennethcarino/adobo) [![AmpleReVanced](https://img.shields.io/github/license/AmpleReVanced/revanced-patches?label=AmpleReVanced)](https://github.com/AmpleReVanced/revanced-patches) 
 
 - Template generated from [j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)

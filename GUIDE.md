@@ -56,6 +56,7 @@
 - Strava DeReVanced: `strava-rookieenough`
 - Strava ReVanced: `strava-revanced`
 - Crunchyroll: `crunchyroll`
+- KakaoTalk: `kakaotalk`
 - Wallcraft: `wallcraft`
 - ibis Paint X: `ibis-paint-x`
 - RAR: `rar`
@@ -70,7 +71,5 @@
 - Solid Explorer: `solid-explorer`
 - FotMob: `fotmob`
 - Meme Generator: `meme-generator`
-- HelloChinese: `hellochinese`
-- Geocaching: `geocaching`
 - Komoot: `komoot`
 - Mapy: `mapy`
