@@ -1,6 +1,6 @@
 {
-  "version": "v43.8.0.107 (patches 1.0.1.mpp)",
-  "versionCode": 36,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/36/tumblr-rookieenough-module-v43.8.0.107-arm-v7a.zip",
+  "version": "v43.9.0.109 (patches 1.0.3.mpp)",
+  "versionCode": 43,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/43/tumblr-rookieenough-module-v43.9.0.109-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

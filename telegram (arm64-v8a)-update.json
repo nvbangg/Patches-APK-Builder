@@ -1,6 +1,6 @@
 {
-  "version": "v12.5.2 (patches 2.0.0.rvp)",
-  "versionCode": 35,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/35/telegram-aunali321-module-v12.5.2-arm64-v8a.zip",
+  "version": "v12.6.3 (patches 2.0.0.rvp)",
+  "versionCode": 43,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/43/telegram-aunali321-module-v12.6.3-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }

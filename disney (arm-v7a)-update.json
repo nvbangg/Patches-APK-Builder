@@ -1,6 +1,6 @@
 {
-  "version": "v26.3.0+rc4-2026.03.12 (patches 1.0.1.mpp)",
-  "versionCode": 36,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/36/disney-rookieenough-module-v26.3.0+rc4-2026.03.12-arm-v7a.zip",
+  "version": "v26.4.2+rc1-2026.04.02 (patches 1.0.3.mpp)",
+  "versionCode": 43,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/43/disney-rookieenough-module-v26.4.2+rc1-2026.04.02-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }
