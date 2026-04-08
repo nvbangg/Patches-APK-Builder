@@ -1,6 +1,6 @@
 {
-  "version": "v6.66.5 (patches 1.21.0.mpp)",
-  "versionCode": 43,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/43/duolingo-hoo-dles-module-v6.66.5-arm64-v8a.zip",
+  "version": "v6.66.5 (patches 1.22.0.mpp)",
+  "versionCode": 44,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/44/duolingo-hoo-dles-module-v6.66.5-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }
