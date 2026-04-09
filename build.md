@@ -32,6 +32,6 @@ Skipped:
 Patches: RookieEnough/patches-1.0.3.mpp  
 Patches: jkennethcarino/patches-1.0.0.mpp  
 Patches: crimera/patches-3.2.0-dev.3.mpp  
-Patches: anddea/patches-4.0.0.mpp  
-Patches: MorpheApp/patches-1.22.0.mpp  
+Patches: anddea/patches-3.0.0.mpp  
+Patches: MorpheApp/patches-1.21.0.mpp  
 Patches: Aunali321/patches-2.0.0.rvp    
