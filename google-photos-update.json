@@ -1,6 +1,6 @@
 {
-  "version": "v7.68.0.884121604 (patches 6.1.0.rvp)",
-  "versionCode": 31,
-  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/31/google-photos-revanced-module-v7.68.0.884121604-arm64-v8a.zip",
+  "version": "v7.68.0.884121604 (patches 1.0.3.mpp)",
+  "versionCode": 48,
+  "zipUrl": "https://github.com/nvbangg/revanced-morphe-builder/releases/download/48/google-photos-rookieenough-module-v7.68.0.884121604-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/revanced-morphe-builder/update/build.md"
 }
