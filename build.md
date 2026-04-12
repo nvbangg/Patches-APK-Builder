@@ -6,7 +6,7 @@ Patches: crimera/patches-3.2.0-dev.5.mpp
 [Changelog](https://github.com/crimera/piko/releases/tag/v3.2.0-dev.5)  
 
 Skipped:  
-Patches: RookieEnough/patches-1.0.3.mpp  
+Patches: RookieEnough/patches-0.0.3.mpp  
 Patches: hoo-dles/patches-1.22.0.mpp  
 Patches: jkennethcarino/patches-1.0.0.mpp  
 Patches: anddea/patches-4.0.0.mpp  
