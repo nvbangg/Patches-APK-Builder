@@ -12,4 +12,4 @@ Patches: jkennethcarino/patches-1.1.0.mpp
 Patches: AmpleReVanced/patches-1.0.0-dev.11.mpp  
 Patches: anddea/patches-4.0.0.mpp  
 Patches: MorpheApp/patches-1.23.0.mpp  
-Patches: Aunali321/patches-2.0.0.rvp              
+Patches: Aunali321/patches-2.0.0.rvp                
