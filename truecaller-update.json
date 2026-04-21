@@ -1,6 +1,6 @@
 {
-  "version": "v26.10.6 (patches 1.10.0.mpp)",
-  "versionCode": 56,
-  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/56/truecaller-paresh-maheshwari-module-v26.10.6-all.zip",
+  "version": "v26.10.6 (patches 1.11.0.mpp)",
+  "versionCode": 57,
+  "zipUrl": "https://github.com/nvbangg/morphe-builder/releases/download/57/truecaller-paresh-maheshwari-module-v26.10.6-all.zip",
   "changelog": "https://raw.githubusercontent.com/nvbangg/morphe-builder/update/build.md"
 }
